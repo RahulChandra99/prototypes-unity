@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Outline_URP
+  m_Shader: {fileID: 4800000, guid: c394d8274d386984ead1ea2aeb54b61e, type: 3}
+  m_ShaderKeywords: _USEOUTLINEFIRE_ON _USEOUTLINE_ON _USESHADOW_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: bc71c7773309482498ffceff8067a88b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_AD1C18DD: 0.002
+    - _AlphaClip: 0.5
+    - _NoiseTextureScale: 3
+    - _OutlineSize: 0.1
+    - _PowerColor1: 6.7
+    - _PowerColor2: 4.5
+    - _Speed: -0.1
+    - _UseOutline: 1
+    - _UseOutlineFire: 1
+    m_Colors:
+    - Color_5A7EE35A: {r: 0.000019148285, g: 0.000019148285, b: 0.000019148285, a: 1}
+    - _OutlineColor: {r: 0.9529412, g: 1, b: 0, a: 1}
+    - _OutlineColor1: {r: 2, g: 1.0196079, b: 0, a: 1}
+    - _OutlineColor2: {r: 5.340315, g: 0.11183906, b: 0, a: 1}
+  m_BuildTextureStacks: []

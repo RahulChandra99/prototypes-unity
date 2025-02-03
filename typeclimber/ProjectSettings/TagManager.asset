@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - OverlayDialog
+  - RubyBalance
+  - PlayerPlatform
+  - BigPlatform
+  - AI1
+  - AI2
+  - PlayerScore
+  - AiScore1
+  - AiScore2
+  - ProgressBar
+  - RockTop
+  - PlayerTyping
+  - PeopleCanvas
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: MyLineRenderer
+    uniqueID: 4079191425
+    locked: 0
+  - name: UI
+    uniqueID: 2409401001
+    locked: 0
+  - name: UI2
+    uniqueID: 3384533473
+    locked: 0

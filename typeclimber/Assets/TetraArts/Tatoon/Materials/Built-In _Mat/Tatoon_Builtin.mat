@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tatoon_Builtin
+  m_Shader: {fileID: 4800000, guid: 6dcaccd3e4bf1074b842b288947c2f8c, type: 3}
+  m_ShaderKeywords: _USEOUTLINE_ON _USERIM_ON _USESHADOW_ON _USESPECULAR_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureDiffuse:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _GradientPosition: -0.57
+    - _GradientRotation: 0
+    - _GradientSize: 1.05
+    - _NormalStrength: 1
+    - _OutlineSize: 0.01
+    - _RimBlend: 0
+    - _RimIntensity: 0.29
+    - _RimLightColor: 0
+    - _RimSize: 0.95
+    - _RimTextureRotation: 0
+    - _RimTextureTiling: 0
+    - _RimTextureViewProjection: 0
+    - _ShadowBlend: 0
+    - _ShadowSize: 0
+    - _ShadowTextureRotation: 0
+    - _ShadowTextureTiling: 0
+    - _ShadowTextureViewProjection: 0
+    - _SpecLightColor: 0
+    - _SpecularBlend: 0
+    - _SpecularIntensity: 0.27
+    - _SpecularSize: 0
+    - _SpecularTextureRotation: 0
+    - _SpecularTextureTiling: 0
+    - _SpecularTextureViewProjection: 0
+    - _UseGradient: 0
+    - _UseNormalMap: 0
+    - _UseOutline: 1
+    - _UseRim: 1
+    - _UseShadow: 1
+    - _UseSpecular: 1
+    - __dirty: 1
+    m_Colors:
+    - _ColorA: {r: 1, g: 0, b: 0, a: 0}
+    - _ColorB: {r: 0, g: 0.12644666, b: 1, a: 0}
+    - _DiffuseColor: {r: 1, g: 1, b: 1, a: 0}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 1, g: 0.87429243, b: 0.5707547, a: 0}
+    - _ShadowColor: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
+    - _SpecularColor: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 0}

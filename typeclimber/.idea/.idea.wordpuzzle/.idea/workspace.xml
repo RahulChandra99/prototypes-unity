@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a7ebd07-2189-4157-ad6d-38fff9eb1c1a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.wordpuzzle/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.wordpuzzle/.idea/indexLayout.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/SCRIPTS/Climbing Scripts/Type of Games/Trivia-EmoJiTwo/ColnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCRIPTS/Climbing Scripts/QBTrivia.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCRIPTS/Climbing Scripts/TriviaQB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayFabSDK/Client/PlayFabClientModels.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCRIPTS/Climbing Scripts/ShuffleExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCRIPTS/GameScripts/PlayerControls_2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayFabSDK/Client/PlayFabClientAPI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCRIPTS/GENERAL/GM_Climbing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCRIPTS/Climbing Scripts/Type of Games/Trivia-WordOrder/WordOrderManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCRIPTS/Climbing Scripts/RoundManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCRIPTS/Climbing Scripts/Type of Games/Trivia-EmojiOne/EmojiOneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCRIPTS/Climbing Scripts/Type of Games/TriviaEmojiThree/EmojiThreeGM.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCRIPTS/GENERAL/PlayfabManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCRIPTS/GENERAL/LeadboardManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCRIPTS/TriviaScripts/TriviaManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCRIPTS/Climbing Scripts/Type of Games/Trivia-EmoJiTwo/EmojiTwoManager.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/SCRIPTS/GameScripts/PlayerControls_2.cs" />
+        <option value="$PROJECT_DIR$/Assets/SCRIPTS/GENERAL/PlayfabManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/SCRIPTS/Climbing Scripts/TriviaQB.cs" />
+        <option value="$PROJECT_DIR$/Assets/SCRIPTS/TriviaScripts/TriviaManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/SCRIPTS/GENERAL/GM_Climbing.cs" />
+        <option value="$PROJECT_DIR$/Assets/SCRIPTS/Climbing Scripts/Type of Games/Trivia-WordOrder/WordOrderManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/SCRIPTS/Climbing Scripts/Type of Games/Trivia-EmoJiTwo/EmojiTwoManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/SCRIPTS/Climbing Scripts/Type of Games/Trivia-EmojiOne/EmojiOneManager.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1r1KoBi7emDYcgnOzaLZp7OjgAG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a7ebd07-2189-4157-ad6d-38fff9eb1c1a" name="Default Changelist" comment="" />
+      <created>1618138331690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618138331690</updated>
+      <workItem from="1618138404710" duration="770000" />
+      <workItem from="1618204095570" duration="670000" />
+      <workItem from="1618372842144" duration="8522000" />
+      <workItem from="1618390089634" duration="3317000" />
+      <workItem from="1618419560073" duration="1383000" />
+      <workItem from="1618424097994" duration="4096000" />
+      <workItem from="1618456028233" duration="18774000" />
+      <workItem from="1618724140113" duration="7576000" />
+      <workItem from="1618801868801" duration="10244000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="277" y="62" key="SettingsEditor" timestamp="1618401813784">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="62" key="SettingsEditor/-1366.117.1366.730/0.0.1536.834@0.0.1536.834" timestamp="1618401813784" />
+    <state x="277" y="62" key="SettingsEditor/0.0.1536.834/-1366.0.1366.738@0.0.1536.834" timestamp="1618139490132" />
+    <state x="93" y="93" width="1350" height="648" key="VCS.FileHistoryDialog" timestamp="1618732922456">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" key="VCS.FileHistoryDialog/-1366.117.1366.730/0.0.1536.834@0.0.1536.834" timestamp="1618732922456" />
+    <state x="809" y="192" key="run.anything.popup" timestamp="1618808211722">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="809" y="192" key="run.anything.popup/-1366.117.1366.730/0.0.1536.834@0.0.1536.834" timestamp="1618808211722" />
+  </component>
+</project>

@@ -1,0 +1,3383 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6963977154740377859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6963977154740377857}
+  - component: {fileID: 6963977154740377856}
+  m_Layer: 0
+  m_Name: TriviaQB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6963977154740377857
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6963977154740377859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.221008, y: 1.3733659, z: -2.2636905}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6963977154740377856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6963977154740377859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab6f64e0e2d52344ba6db080b3af2b60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelOfDiff:
+  - LevelDiff: EASY
+    MCQCategories:
+    - categoryName: GENERIC
+      categoryMCQ:
+      - Question: 'Local language of Spain? '
+        Answers:
+        - SPANISH
+        - BRAZILIAN
+        - FRENCH
+        - GERMAN
+        correctAns: SPANISH
+      - Question: 'Capital city of Italy? '
+        Answers:
+        - ROME
+        - VENICE
+        - MILAN
+        - REVENNA
+        correctAns: ROME
+      - Question: 'What is energy source of the earth? '
+        Answers:
+        - SUN
+        - MOON
+        - STAR
+        - BLACKHOLE
+        correctAns: SUN
+      - Question: 'Number of sides in pentagon? '
+        Answers:
+        - FIVE
+        - FOUR
+        - THREE
+        - TWO
+        correctAns: FIVE
+      - Question: 'Who invented iPhone? '
+        Answers:
+        - APPLE
+        - MANGO
+        - BANANA
+        - ORANGE
+        correctAns: APPLE
+      - Question: 'Where is Effiel Tower located? '
+        Answers:
+        - PARIS
+        - MICHIGAN
+        - SPAIN
+        - AUSTRIA
+        correctAns: PARIS
+      - Question: 'Ship of the Desert? '
+        Answers:
+        - CAMEL
+        - TIGER
+        - LION
+        - DOG
+        correctAns: CAMEL
+      - Question: 'Least number of days in a month? '
+        Answers:
+        - FEBRUARY
+        - JANUARY
+        - APRIL
+        - MARCH
+        correctAns: FEBRUARY
+      - Question: 'Largest Mammel? '
+        Answers:
+        - BLUE WHALE
+        - SEAHORSE
+        - DOLPHINE
+        - CATFISH
+        correctAns: BLUE WHALE
+      - Question: King of the Jungle?
+        Answers:
+        - LION
+        - TIGER
+        - CHEETAH
+        - ZEBRA
+        correctAns: LION
+      - Question: 'Sun rises from the ________ ? '
+        Answers:
+        - EAST
+        - WEST
+        - NORTH
+        - SOUTH
+        correctAns: EAST
+      - Question: 'The blue planet? '
+        Answers:
+        - EARTH
+        - MARS
+        - JUPITER
+        - VENUS
+        correctAns: EARTH
+      - Question: Colour of the sky
+        Answers:
+        - BLUE
+        - GREEN
+        - RED
+        - YELLOW
+        correctAns: BLUE
+      - Question: Colour of Mango
+        Answers:
+        - YELLOW
+        - ORANGE
+        - GREEN
+        - RED
+        correctAns: YELLOW
+      - Question: Home of the lion is called
+        Answers:
+        - DEN
+        - HOLE
+        - NEST
+        - TREE
+        correctAns: DEN
+      - Question: '50 mulitply by 8? '
+        Answers:
+        - 400
+        - 500
+        - 200
+        - 700
+        correctAns: 400
+      - Question: 'Not a prime number? '
+        Answers:
+        - 27
+        - 11
+        - 7
+        - 19
+        correctAns: 27
+      - Question: How many sides does a decagon have
+        Answers:
+        - 10
+        - 20
+        - 30
+        - 40
+        correctAns: 10
+      - Question: 'Color of brinjal? '
+        Answers:
+        - PURPLE
+        - YELLOW
+        - GREEN
+        - LIGHT PURPLE
+        correctAns: PURPLE
+      - Question: 'Color of peace, purity & innocence? '
+        Answers:
+        - WHITE
+        - BLACK
+        - BLUE
+        - PINK
+        correctAns: WHITE
+      - Question: Color of sunflower?
+        Answers:
+        - YELLOW
+        - GREEN
+        - LIGHT YELLOW
+        - LIGHT GREEN
+        correctAns: YELLOW
+      - Question: Total number of oceans in the world
+        Answers:
+        - 5
+        - 6
+        - 4
+        - 3
+        correctAns: 5
+      - Question: How many legs does a spider have
+        Answers:
+        - 8
+        - 7
+        - 9
+        - 6
+        correctAns: 8
+      - Question: 'Big cat that cannot roar? '
+        Answers:
+        - CHEETAH
+        - TIGER
+        - LION
+        - LEOPARD
+        correctAns: CHEETAH
+    - categoryName: FOOD
+      categoryMCQ:
+      - Question: Which appliance is used for cooking
+        Answers:
+        - MICROWAVE
+        - IRON
+        - DISHWASHER
+        - WASHING MACHINE
+        correctAns: MICROWAVE
+      - Question: 'What usually eat in breakfast? '
+        Answers:
+        - PANCAKES
+        - CALZONE
+        - SPAGHETTI
+        - SUSHI
+        correctAns: PANCAKES
+      - Question: Food which is best when it's sliced
+        Answers:
+        - BREAD
+        - HAM
+        - OLIVES
+        - CHERRIES
+        correctAns: BREAD
+      - Question: What food is often served stuffed
+        Answers:
+        - MUSHROOM
+        - CARROT
+        - WATERCRESS
+        - COLLARD GREENS
+        correctAns: MUSHROOM
+      - Question: 'Most popular Japanese dish? '
+        Answers:
+        - SUSHI
+        - CURRY
+        - RAMEN
+        - SPRING ROLLS
+        correctAns: SUSHI
+      - Question: What should be done to water to make pasta
+        Answers:
+        - BOIL
+        - DRINK
+        - SEASON
+        - COOL
+        correctAns: BOIL
+      - Question: 'Food group of BUTTER? '
+        Answers:
+        - DAIRY
+        - GRAINS
+        - MEATS
+        - VEGETABLES
+        correctAns: DAIRY
+      - Question: 'Mountain ________ ? '
+        Answers:
+        - DEW
+        - RAIN
+        - WATER
+        - SUN
+        correctAns: DEW
+      - Question: ' ______ on the cake. '
+        Answers:
+        - ICING
+        - CHEERIES
+        - WRITING
+        - NUTS
+        correctAns: ICING
+      - Question: Don't cry over spilled________
+        Answers:
+        - MILK
+        - JUICE
+        - EGGS
+        - TEA
+        correctAns: MILK
+      - Question: 'Kitchen utensil would you use to flatten dough? '
+        Answers:
+        - ROLLING PIN
+        - COLANDER
+        - CHOPPER
+        - BAKING TRAY
+        correctAns: ROLLING PIN
+      - Question: 'Tacos originated in? '
+        Answers:
+        - MEXICO
+        - CANADA
+        - ITALY
+        - USA
+        correctAns: MEXICO
+      - Question: Which is not leafy green
+        Answers:
+        - ONION
+        - ROMAINE
+        - KALE
+        - SPINACH
+        correctAns: ONION
+      - Question: 'Common fruit used to produce wine? '
+        Answers:
+        - GRAPE
+        - PEAR
+        - CHERRY
+        - PLUM
+        correctAns: GRAPE
+      - Question: How are chocolate chip cookies made
+        Answers:
+        - BAKED
+        - BOILED
+        - POACHED
+        - FRIED
+        correctAns: BAKED
+      - Question: 'Apple, bananas and oranges are types of? '
+        Answers:
+        - FRUITS
+        - GRAINS
+        - FLOWERS
+        - VEGETABLES
+        correctAns: FRUITS
+      - Question: 'In English, pork is the meat of which animal? '
+        Answers:
+        - PIG
+        - BIRD
+        - ANTELOPE
+        - COW
+        correctAns: PIG
+      - Question: 'Dairy Products are generally made of? '
+        Answers:
+        - MILK
+        - WATER
+        - JUICE
+        - SODA
+        correctAns: MILK
+      - Question: 'What ingredient are used to bake a bread? '
+        Answers:
+        - FLOUR
+        - GRAM
+        - RICE
+        - SUGARCANE
+        correctAns: FLOUR
+      - Question: 'Sauce used with french fries? '
+        Answers:
+        - KETCHUP
+        - SOY SAUCE
+        - WASABI
+        - MUSTARD
+        correctAns: KETCHUP
+      - Question: Nutella is made of chocolate and ...... ?
+        Answers:
+        - HAZELNUT
+        - KIWI
+        - STRAWBERRIES
+        - ACORNS
+        correctAns: HAZELNUT
+      - Question: I'm loving _______"Is which restaurant slogan"
+        Answers:
+        - IT
+        - BIT
+        - CAKES
+        - PIZZA
+        correctAns: IT
+      - Question: 'Finger lickin good is a slogan of? '
+        Answers:
+        - KFC
+        - DAIRY QUEEN
+        - TACO BELL
+        - PIZZA HUT
+        correctAns: KFC
+      - Question: 'Not my cup of________ ? '
+        Answers:
+        - TEA
+        - COFFEE
+        - JOE
+        - MILK
+        correctAns: TEA
+    - categoryName: WORLD CAPITALS
+      categoryMCQ:
+      - Question: 'Cairo is the capital of? '
+        Answers:
+        - EGYPT
+        - ICELAND
+        - HAITI
+        - GEORGIA
+        correctAns: EGYPT
+      - Question: 'Tehran is the capital of? '
+        Answers:
+        - IRAN
+        - IRAQ
+        - KENYA
+        - KOSOVO
+        correctAns: IRAN
+      - Question: Capital of Russia
+        Answers:
+        - MOSCOW
+        - NEW DELHI
+        - HAVANA
+        - PRAGUE
+        correctAns: MOSCOW
+      - Question: Capital of Canada
+        Answers:
+        - OTTAWA
+        - TORONTO
+        - SANTIAGO
+        - NONE OF THESE
+        correctAns: OTTAWA
+      - Question: Capital of Italy
+        Answers:
+        - ROME
+        - TRIPOLI
+        - SKOPJE
+        - WASHINGTON DC
+        correctAns: ROME
+      - Question: Capital of Malaysia
+        Answers:
+        - KUALA LUMPUR
+        - LONDON
+        - MALE
+        - SEOUL
+        correctAns: KUALA LUMPUR
+      - Question: Capital of Athens
+        Answers:
+        - Greece
+        - Germany
+        - Finland
+        - Czech Republic
+        correctAns: Greece
+      - Question: 'Capital of Israel? '
+        Answers:
+        - JERUSALEM
+        - BAGHDAD
+        - ROME
+        - DUBLINE
+        correctAns: JERUSALEM
+      - Question: Capital of Nairobi
+        Answers:
+        - KENYA
+        - JAPAN
+        - IRAQ
+        - IRAN
+        correctAns: KENYA
+      - Question: Capital of Amsterdam
+        Answers:
+        - NETHERLANDS
+        - NEW ZEALAND
+        - NEPAL
+        - MYANMAR
+        correctAns: NETHERLANDS
+      - Question: Capital city of Oman
+        Answers:
+        - MUSCAT
+        - TEHRAN
+        - ISLAMABAD
+        - RIYADH
+        correctAns: MUSCAT
+      - Question: Capital of USA
+        Answers:
+        - WASHINGTON DC
+        - PHILADELPHIA
+        - CHICAGO
+        - NEW YORK
+        correctAns: WASHINGTON DC
+      - Question: Capital of Bangladesh
+        Answers:
+        - DHAKA
+        - KABUL
+        - KARACHI
+        - KATHMANDU
+        correctAns: DHAKA
+      - Question: Capital of China
+        Answers:
+        - BEJING
+        - SHANGHAI
+        - SHENZHEN
+        - XIAMEN
+        correctAns: BEJING
+      - Question: Capital of France
+        Answers:
+        - PARIS
+        - TOULOUSE
+        - BORDEAUX
+        - STRASBOURG
+        correctAns: PARIS
+      - Question: Capital of Thiland
+        Answers:
+        - BANGKOK
+        - SEOL
+        - TOKYO
+        - MOSCOW
+        correctAns: BANGKOK
+      - Question: Capital of Jamaica
+        Answers:
+        - KINGSTON
+        - BRUSSELS
+        - CARACAS
+        - CANBERRA
+        correctAns: KINGSTON
+      - Question: Capital of Sweden
+        Answers:
+        - STOCKHOLM
+        - ROME
+        - ATHENS
+        - SUVA
+        correctAns: STOCKHOLM
+      - Question: Capital of Japan
+        Answers:
+        - TOKYO
+        - SEOUL
+        - CARACAS
+        - XIAMEN
+        correctAns: TOKYO
+      - Question: Capital of Pakistan
+        Answers:
+        - ISLAMABAD
+        - HYDERABAD
+        - PUNJAB
+        - HARYANA
+        correctAns: ISLAMABAD
+      - Question: Capital of Nepal
+        Answers:
+        - KATHMANDU
+        - LISBON
+        - HANOI
+        - DHAKA
+        correctAns: KATHMANDU
+      - Question: Capital of Saudi Arabia
+        Answers:
+        - RIYADH
+        - MUSCAT
+        - DUBAI
+        - BAHRAIN
+        correctAns: RIYADH
+      - Question: Capital of Bahrain
+        Answers:
+        - MANAMA
+        - RIYADH
+        - JANABIYA
+        - AL HIDD
+        correctAns: MANAMA
+      - Question: 'Cairo is the capital of? '
+        Answers:
+        - EGYPT
+        - ICELAND
+        - HAITI
+        - GEORGIA
+        correctAns: EGYPT
+    - categoryName: MATHS/LOGIC
+      categoryMCQ:
+      - Question: 'Killogram is unit of '
+        Answers:
+        - MASS
+        - HEIGHT
+        - TIME
+        - TEMPERATURE
+        correctAns: MASS
+      - Question: One forth of 100
+        Answers:
+        - 25
+        - 20
+        - 50
+        - 10
+        correctAns: 25
+      - Question: '1 meter = ______ millimeters? '
+        Answers:
+        - 1000
+        - 100
+        - 10
+        - 10,000
+        correctAns: 1000
+      - Question: '9 x 10 = '
+        Answers:
+        - 80 + 10
+        - 100 - 20
+        - 50 + 50
+        - '10 - 9 '
+        correctAns: 80 + 10
+      - Question: Weight measures in ______
+        Answers:
+        - POUND
+        - MILES
+        - FEET
+        - KELVIN
+        correctAns: POUND
+      - Question: 2,4,6,8,10,12...... Next number after 12
+        Answers:
+        - 14
+        - 13
+        - 15
+        - 16
+        correctAns: 14
+      - Question: "a\xB2+b\xB2=_______"
+        Answers:
+        - c^2
+        - d^2
+        - e^2
+        - c^22
+        correctAns: c^2
+      - Question: 20% of 2 = _____
+        Answers:
+        - 0.4
+        - 0.04
+        - 0.0004
+        - 0.399
+        correctAns: 0.4
+      - Question: 'What is add, subtract,multiply,divide in maths '
+        Answers:
+        - OPERATIONS
+        - INDICATORS
+        - VARIABLE
+        - NUMBERS
+        correctAns: OPERATIONS
+      - Question: Can "Pi" be written has faction
+        Answers:
+        - NO
+        - YES
+        - BOTH
+        - NONE
+        correctAns: NO
+      - Question: How many sides does square have
+        Answers:
+        - 4
+        - 3
+        - 5
+        - 7
+        correctAns: 4
+    - categoryName: True/False
+      categoryMCQ:
+      - Question: 'Euros is main currency in Germany? '
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: Bitcoin is physical coins
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: Marrakesh is the capital of Morocco
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: Waterloo has the greatest number of tube platforms in London
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: Gin is typically included in a Long Island Iced Tea
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: The unicorn is the national animal of Scotland
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: There are two parts of the body that can't heal themselves
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: '''A'' is the most common letter used in the English language'
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: A lion's roar can be heard up to eight kilometres away
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: Monaco is the smallest country in the world
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: There are five different blood groups
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: Cinderella was the first Disney princess
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: ASOS stands for As Seen On Screen
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: K is worth four points in Scrabble
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: Alaska is the biggest American state in square miles
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+    - categoryName: PHRASE
+      categoryMCQ:
+      - Question: Not my cup of ________
+        Answers:
+        - TEA
+        - COFFEE
+        - WATER
+        - THINGS
+        correctAns: TEA
+      - Question: Life is like a box of ______
+        Answers:
+        - CHOCOLATE
+        - COCO
+        - VANILLA
+        - ICE CREAM
+        correctAns: CHOCOLATE
+      - Question: There is a will, there is a _____________
+        Answers:
+        - WAY
+        - WATER
+        - BAY
+        - WILLIAM
+        correctAns: WAY
+      - Question: Complete the saying " its not rocket ______
+        Answers:
+        - SCIENCE
+        - MATH
+        - ENGLISH
+        - POCKET
+        correctAns: SCIENCE
+      - Question: ' ________of the devil'
+        Answers:
+        - SPEAK
+        - SILENCE
+        - RAGE
+        - ANGER
+        correctAns: SPEAK
+      - Question: Better late then _______
+        Answers:
+        - NEVER
+        - EVER
+        - HOUR
+        - SHOWER
+        correctAns: NEVER
+      - Question: An apple a day keeps __________ away
+        Answers:
+        - DOCTOR
+        - APPLE
+        - MONSTER
+        - DIARRHEA
+        correctAns: DOCTOR
+      - Question: A__________ of cake
+        Answers:
+        - PIECE
+        - SLICE
+        - MEAT
+        - BUNCH
+        correctAns: PIECE
+      - Question: ________ me nuts
+        Answers:
+        - DRIVE
+        - CUT
+        - SLICE
+        - MAKE
+        correctAns: DRIVE
+      - Question: _______ the records
+        Answers:
+        - OFF
+        - IS
+        - ON
+        - MORE
+        correctAns: OFF
+      - Question: _________ the comedy
+        Answers:
+        - CUT
+        - STOP
+        - I LIKE
+        - BAD
+        correctAns: CUT
+      - Question: Hang in_______
+        Answers:
+        - THERE
+        - THIER
+        - HERE
+        - THE TREE
+        correctAns: THERE
+      - Question: _________ your horses
+        Answers:
+        - HOLD
+        - ON
+        - DROP
+        - WIPE
+        correctAns: HOLD
+    wordOrderQs:
+    - name: DO YOU WANT LEMONADE?
+      Options:
+      - WANT
+      - DO
+      - LEMONADE?
+      - YOU
+      correctOrder: ' DO YOU WANT LEMONADE?'
+    - name: ' THE GARDEN IS BIG'
+      Options:
+      - GARDEN
+      - IS
+      - THE
+      - BIG
+      correctOrder: ' THE GARDEN IS BIG'
+    - name: ' SHE LIKES MUSIC AND CHOCOLATE'
+      Options:
+      - MUSIC AND
+      - SHE
+      - CHOCOLATE
+      - LIKES
+      correctOrder: ' SHE LIKES MUSIC AND CHOCOLATE'
+    - name: ' I''M A GIRL AND YOU?'
+      Options:
+      - I'M
+      - A GIRL
+      - AND
+      - YOU?
+      correctOrder: ' I''M A GIRL AND YOU?'
+    - name: ' ARE THERE TWO COMPUTERS IN MY HOUSE'
+      Options:
+      - ARE THERE
+      - TWO
+      - COMPUTERS IN
+      - MY HOUSE
+      correctOrder: ' ARE THERE TWO COMPUTERS IN MY HOUSE'
+    - name: ' WHY DO YOU CRY?'
+      Options:
+      - WHY
+      - DO
+      - YOU
+      - CRY?
+      correctOrder: ' WHY DO YOU CRY?'
+    - name: ' I HAVE A LOT OF MONEY'
+      Options:
+      - I HAVE
+      - A
+      - LOT
+      - OF MONEY
+      correctOrder: ' I HAVE A LOT OF MONEY'
+    - name: ' I WENT TO THE CINEMA'
+      Options:
+      - I WENT
+      - TO
+      - THE
+      - CINEMA
+      correctOrder: ' I WENT TO THE CINEMA'
+    - name: ' I OFTEN PLAY FOOTBALL'
+      Options:
+      - I
+      - OFTEN
+      - PLAY
+      - FOOTBALL
+      correctOrder: ' I OFTEN PLAY FOOTBALL'
+    - name: ' HOW OLD ARE YOU?'
+      Options:
+      - HOW
+      - OLD
+      - ARE
+      - YOU?
+      correctOrder: ' HOW OLD ARE YOU?'
+    emojiLetterQs:
+    - name: MANGO
+      topLetterInputBoxes:
+      - M
+      - 
+      - 
+      - G
+      - 
+      bottomLetterBoxes:
+      - A
+      - C
+      - N
+      - D
+      - F
+      - O
+      - H
+      - I
+      - P
+      - U
+      - V
+      - X
+      correctAnswer:
+      - M
+      - A
+      - N
+      - G
+      - 0
+      CAnswer: MANGO
+      numberOfMissingLetters: 3
+      emos:
+      - {fileID: 21300000, guid: 4c110f7978976b8429c044b35b1614f4, type: 3}
+      - {fileID: 21300000, guid: 27cd3d5eee020454d85801a768535924, type: 3}
+    - name: KIWI
+      topLetterInputBoxes:
+      - K
+      - 
+      - 
+      - I
+      bottomLetterBoxes:
+      - W
+      - I
+      - H
+      - J
+      - K
+      - N
+      - G
+      - V
+      - P
+      - Q
+      - X
+      - Z
+      correctAnswer:
+      - K
+      - I
+      - W
+      - I
+      CAnswer: KIWI
+      numberOfMissingLetters: 2
+      emos:
+      - {fileID: 21300000, guid: 5539f33b87ecf30458a236b38105d44d, type: 3}
+      - {fileID: 21300000, guid: fbc8b143454d8a245abc34911afad11b, type: 3}
+    - name: ICETEA
+      topLetterInputBoxes:
+      - I
+      - 
+      - E
+      - T
+      - 
+      - 
+      bottomLetterBoxes:
+      - C
+      - E
+      - A
+      - O
+      - P
+      - K
+      - N
+      - H
+      - Z
+      - X
+      - M
+      - Q
+      correctAnswer:
+      - I
+      - C
+      - E
+      - T
+      - E
+      - A
+      CAnswer: ICETEA
+      numberOfMissingLetters: 3
+      emos:
+      - {fileID: 21300000, guid: 8c912ca570e808c4cbfd7f0a65450422, type: 3}
+      - {fileID: 21300000, guid: e9a5a3e8c85927d43ba205cfe5eeabb8, type: 3}
+    - name: BATMAN
+      topLetterInputBoxes:
+      - 
+      - 
+      - T
+      - M
+      - A
+      - 
+      bottomLetterBoxes:
+      - B
+      - A
+      - N
+      - Q
+      - X
+      - V
+      - I
+      - U
+      - P
+      - L
+      - T
+      - Y
+      correctAnswer:
+      - B
+      - A
+      - T
+      - M
+      - A
+      - N
+      CAnswer: BATMAN
+      numberOfMissingLetters: 3
+      emos:
+      - {fileID: 21300000, guid: ed1a9721b095e9d44b516e6d6d300c85, type: 3}
+      - {fileID: 21300000, guid: 4c110f7978976b8429c044b35b1614f4, type: 3}
+    - name: LOVEBIRD
+      topLetterInputBoxes:
+      - L
+      - 
+      - V
+      - E
+      - 
+      - I
+      - 
+      - 
+      bottomLetterBoxes:
+      - O
+      - B
+      - R
+      - D
+      - K
+      - V
+      - P
+      - Q
+      - X
+      - Z
+      - I
+      - L
+      correctAnswer:
+      - L
+      - O
+      - V
+      - E
+      - B
+      - I
+      - R
+      - D
+      CAnswer: LOVEBIRD
+      numberOfMissingLetters: 4
+      emos:
+      - {fileID: 21300000, guid: 9503ddbb90c9c8147a814eda0dd2e42f, type: 3}
+      - {fileID: 21300000, guid: da415b2577bc04d4299554de9552473a, type: 3}
+    - name: CHEESECAKE
+      topLetterInputBoxes:
+      - 
+      - 
+      - E
+      - E
+      - 
+      - E
+      - C
+      - 
+      - 
+      - E
+      bottomLetterBoxes:
+      - C
+      - H
+      - S
+      - A
+      - K
+      - O
+      - H
+      - I
+      - P
+      - Z
+      - X
+      - M
+      correctAnswer:
+      - C
+      - H
+      - E
+      - E
+      - S
+      - E
+      - C
+      - A
+      - K
+      - E
+      CAnswer: CHEESECAKE
+      numberOfMissingLetters: 5
+      emos:
+      - {fileID: 21300000, guid: 3c3be7a2a41121649a1a8a91095e5b65, type: 3}
+      - {fileID: 21300000, guid: c2ffd56c8b6389b4488b9cd0683c2e72, type: 3}
+    - name: CHICKENLEG
+      topLetterInputBoxes:
+      - C
+      - 
+      - 
+      - C
+      - 
+      - E
+      - 
+      - 
+      - E
+      - G
+      bottomLetterBoxes:
+      - H
+      - I
+      - K
+      - N
+      - L
+      - O
+      - H
+      - I
+      - P
+      - M
+      - L
+      - Z
+      correctAnswer:
+      - C
+      - H
+      - I
+      - C
+      - K
+      - E
+      - N
+      - L
+      - E
+      - G
+      CAnswer: CHICKENLEG
+      numberOfMissingLetters: 5
+      emos:
+      - {fileID: 21300000, guid: ce3597befa19c8f4e9ec503086e0e5cc, type: 3}
+      - {fileID: 21300000, guid: c202ef35dc83c9b40a46abf80ce64440, type: 3}
+    - name: MEATSALAD
+      topLetterInputBoxes:
+      - M
+      - 
+      - 
+      - T
+      - 
+      - A
+      - 
+      - A
+      - 
+      bottomLetterBoxes:
+      - E
+      - A
+      - S
+      - L
+      - D
+      - V
+      - X
+      - I
+      - P
+      - M
+      - B
+      - C
+      correctAnswer:
+      - M
+      - A
+      - N
+      - G
+      - 0
+      CAnswer: MEATSALAD
+      numberOfMissingLetters: 5
+      emos:
+      - {fileID: 21300000, guid: e9c821d11d2b3e443b8f6dcba5e5d3ae, type: 3}
+      - {fileID: 21300000, guid: c46f2da358e24b341ba7a35bb0b4925a, type: 3}
+    - name: HONEYBEE
+      topLetterInputBoxes:
+      - H
+      - 
+      - 
+      - E
+      - 
+      - 
+      - E
+      - E
+      bottomLetterBoxes:
+      - O
+      - N
+      - Y
+      - B
+      - F
+      - O
+      - H
+      - I
+      - Z
+      - M
+      - K
+      - L
+      correctAnswer:
+      - H
+      - O
+      - N
+      - E
+      - Y
+      - B
+      - E
+      - E
+      CAnswer: HONEYBEE
+      numberOfMissingLetters: 4
+      emos:
+      - {fileID: 21300000, guid: 1cc363f5bfb5cc14bb9488c4132a5a1a, type: 3}
+      - {fileID: 21300000, guid: 9f753c5191ae09b45b7dd6deff57cc27, type: 3}
+    wordEmojiQs:
+    - questionText: HOT DOG
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: e0a49cdef7ca30e4294bfe9f149988af, type: 3}
+      - {fileID: 21300000, guid: 16b8937a7416a344ba009d0c7d2bbd7c, type: 3}
+      - {fileID: 21300000, guid: b575240775b4fe04ba371d8572038691, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: fb4d9ea82ddd44a40ab1f021faa07dc0, type: 3}
+      - {fileID: 21300000, guid: 95a01fd18944f5d49a40056935bb4525, type: 3}
+      - {fileID: 21300000, guid: b04649282756d2e4193b1e5103e9b2cf, type: 3}
+      row3Emos: []
+      correctAnsR1: fire
+      correctAnsR2: dog
+      correctAnsR3: 
+    - questionText: HAUNTED HOUSE
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: 9498ce555c5973e4ba1c89106b858fa4, type: 3}
+      - {fileID: 21300000, guid: d7eee6677cee66849a7a902770de0fce, type: 3}
+      - {fileID: 21300000, guid: 64c89c048f09f8c45a14cf7570ba1291, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: 2b49ff36318214c459ff3533f46ece4f, type: 3}
+      - {fileID: 21300000, guid: 34a4b53d690481947935e5122c387f6a, type: 3}
+      - {fileID: 21300000, guid: 219c9081b705d6248b6fd5c1638e058c, type: 3}
+      row3Emos: []
+      correctAnsR1: Haunted
+      correctAnsR2: House
+      correctAnsR3: 
+    - questionText: MOONLIGHT
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: fb7c873874741594c8b2ebd44e64372c, type: 3}
+      - {fileID: 21300000, guid: eb701fb53982bad4ea1649b5755629d0, type: 3}
+      - {fileID: 21300000, guid: bb2f88ac902984f4eaa8764eae7b37fa, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: 2cce8cd08e2c4b448a01b0e888881504, type: 3}
+      - {fileID: 21300000, guid: 61dbd35b8c5d2a44ba09dfeb4e489c51, type: 3}
+      - {fileID: 21300000, guid: 1549ed1894bee1840854bbc9c17f7535, type: 3}
+      row3Emos: []
+      correctAnsR1: Moon
+      correctAnsR2: light
+      correctAnsR3: 
+    - questionText: RUNAWAY BRIDE
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: 77749263a5e3b364da4894137023b799, type: 3}
+      - {fileID: 21300000, guid: 6245582302c02cc4da505a1577da1e25, type: 3}
+      - {fileID: 21300000, guid: 8674ce08839aabc4da317f30becb3de5, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: 037e47c939731974bb7583a69284b9b2, type: 3}
+      - {fileID: 21300000, guid: 027cff2f6634ab7488b0c6691145e1ca, type: 3}
+      - {fileID: 21300000, guid: 110eabd7d26c09f44a8196a8104cb12d, type: 3}
+      row3Emos: []
+      correctAnsR1: Runaway
+      correctAnsR2: Bride
+      correctAnsR3: 
+    - questionText: AMERICAN EAGLE
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: 8684c971059af28498f8cd2fa6d503b9, type: 3}
+      - {fileID: 21300000, guid: 3850ef569bcf434499fa51146bbcb6e7, type: 3}
+      - {fileID: 21300000, guid: ccd95c0c732de384bbd397665ef8292f, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: d8828d60c1f236e46a3cc853f078b0d4, type: 3}
+      - {fileID: 21300000, guid: 8f8c1584faf239b43b73fa1c2de2ef1e, type: 3}
+      - {fileID: 21300000, guid: 83edf20b43f72b445b8ea3413d38f8da, type: 3}
+      row3Emos: []
+      correctAnsR1: American
+      correctAnsR2: Eagle
+      correctAnsR3: 
+    - questionText: HOLY GHOST
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: d21967b56ea1e104496951cc3bda553b, type: 3}
+      - {fileID: 21300000, guid: 373afc36ffb6b1c449c1b88e78d6fd44, type: 3}
+      - {fileID: 21300000, guid: 2ad107920d5cfa744b33d22249c290fa, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: 740df9ce788b7504794e394e26e3f4ec, type: 3}
+      - {fileID: 21300000, guid: c6d01ae241f4c5f45bc6cc627e0f6b9d, type: 3}
+      - {fileID: 21300000, guid: 9e7e239fc37bd7a4cb46dd7869e939d6, type: 3}
+      row3Emos: []
+      correctAnsR1: Holy
+      correctAnsR2: Ghost
+      correctAnsR3: 
+    - questionText: PUPPY LOVE
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: 8355cc65673e2944b9907d1130f460a0, type: 3}
+      - {fileID: 21300000, guid: b2a9634cd4073cc488bba4ff42bf5bb3, type: 3}
+      - {fileID: 21300000, guid: 7970198a62cb4a542aaae6cea1be0bbe, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: 59586fc39166bc7438a7d37859a3a0fc, type: 3}
+      - {fileID: 21300000, guid: c4b2ed977e7fef34eb8cf3c32f432834, type: 3}
+      - {fileID: 21300000, guid: 81442d61a1d5fa14a99c4fd5841ee2ab, type: 3}
+      row3Emos: []
+      correctAnsR1: Puppy
+      correctAnsR2: Love
+      correctAnsR3: 
+    - questionText: PIZZA BOX
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: a43944c606143f8468c24390441179f9, type: 3}
+      - {fileID: 21300000, guid: 436ff964432aaeb4dafbb325650278b0, type: 3}
+      - {fileID: 21300000, guid: 70cf347901054694b8957a4dc8e692f4, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: d3572c9bdd5370d40be3c17ac202c478, type: 3}
+      - {fileID: 21300000, guid: 6273adf0e3ff298499003fc96d49ef0d, type: 3}
+      - {fileID: 21300000, guid: 7508dbe8f2c02414ab6c8ddde930bef5, type: 3}
+      row3Emos: []
+      correctAnsR1: Pizza
+      correctAnsR2: Box
+      correctAnsR3: 
+    - questionText: COWBOY
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: f3daab223bcad4c478b1c56204de1276, type: 3}
+      - {fileID: 21300000, guid: 1ae4672be60041f47b4686becf9e0940, type: 3}
+      - {fileID: 21300000, guid: 8673e711fb91db34caf48e16cf0181a1, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: befc430648a65454e9142f6844b62414, type: 3}
+      - {fileID: 21300000, guid: 18c79a57346138a44a6bdd2fa903fbf1, type: 3}
+      - {fileID: 21300000, guid: e1403eab14f30384ca9dccf3f4904f91, type: 3}
+      row3Emos: []
+      correctAnsR1: Cow
+      correctAnsR2: Boy
+      correctAnsR3: 
+    emojiEmojiQs: []
+  - LevelDiff: MEDIUM
+    MCQCategories:
+    - categoryName: GENERIC
+      categoryMCQ:
+      - Question: 'H2O is chemical formula of ? '
+        Answers:
+        - WATER
+        - AIR
+        - HYDROGEN
+        - CARBON
+        correctAns: WATER
+      - Question: "What is \xB4Y\xB4 in Vibgyor? "
+        Answers:
+        - YELLOW
+        - YEMEN
+        - YARD
+        - YOLK
+        correctAns: YELLOW
+      - Question: 'House made of Ice? '
+        Answers:
+        - IGLOO
+        - BIGLOO
+        - STIGLOO
+        - GLOO
+        correctAns: IGLOO
+      - Question: 'Tallest animal on earth? '
+        Answers:
+        - GIRAFFE
+        - ELEPHANT
+        - RHINO
+        - HIPPO
+        correctAns: GIRAFFE
+      - Question: 'Bird which lays the largest egg? '
+        Answers:
+        - OSTRICH
+        - SPARROW
+        - PIGEON
+        - WOODPECKER
+        correctAns: OSTRICH
+      - Question: 'How many Zero''s in 100k? '
+        Answers:
+        - 5
+        - 6
+        - 4
+        - 7
+        correctAns: 5
+      - Question: 'Planet known as red planet? '
+        Answers:
+        - MARS
+        - JUPITAR
+        - PLUTO
+        - SATURN
+        correctAns: MARS
+      - Question: 'Country home to kangaroo''s? '
+        Answers:
+        - AUSTRALIA
+        - NEW ZEALAND
+        - AUSTRIA
+        - KAZAKISTAN
+        correctAns: AUSTRALIA
+      - Question: 'WWW stands for......... ? '
+        Answers:
+        - World Wide Web
+        - World Web Wide
+        - Wide World Web
+        - Wide Wide Web
+        correctAns: World Wide Web
+      - Question: Number of wonders in the world
+        Answers:
+        - 7
+        - 2
+        - 6
+        - 8
+        correctAns: 7
+      - Question: 'Capital city of Peru? '
+        Answers:
+        - LIMA
+        - LIME
+        - LAME
+        - LAMI
+        correctAns: LIMA
+      - Question: 'Which bird is universal symbol of peace? '
+        Answers:
+        - DOVE
+        - KIWI
+        - CHARLIE
+        - ANGEL
+        correctAns: DOVE
+      - Question: Lady finger is variety of which fruit
+        Answers:
+        - BANANA
+        - MANGO
+        - APPLE
+        - CUCUMBER
+        correctAns: BANANA
+      - Question: 'Mcdonald''s first introduce as? '
+        Answers:
+        - BIG MAC
+        - SHRIMP FILLET
+        - HAMBURGER
+        - MAC FLURRY
+        correctAns: BIG MAC
+      - Question: 'Animal is said to have nine lives? '
+        Answers:
+        - CATS
+        - DOGS
+        - MONKEY
+        - COW
+        correctAns: CATS
+    - categoryName: FOOD
+      categoryMCQ:
+      - Question: Which of these is a type of rice
+        Answers:
+        - JASMINE
+        - TAN
+        - SCARY
+        - ONION
+        correctAns: JASMINE
+      - Question: 'Breakfast food staple? '
+        Answers:
+        - EGGS
+        - SPAGHETTI
+        - ICE CREAM
+        - GREEN BEANS
+        correctAns: EGGS
+      - Question: 'Where do grapes grow? '
+        Answers:
+        - CAVES
+        - UNDERGROUND
+        - TREES
+        - VINES
+        correctAns: CAVES
+      - Question: Which of these is a staple Thaksgiving dish?
+        Answers:
+        - GREEN BEAN CASSEROLE
+        - COBB SALAD
+        - FAJITAS
+        - MAC 'N' CHEESE
+        correctAns: GREEN BEAN CASSEROLE
+      - Question: 'NOT a type of apple? '
+        Answers:
+        - GOLDEN CRISP
+        - FUJI
+        - GRANNY SMITH
+        - GALA
+        correctAns: GOLDEN CRISP
+      - Question: 'Italian food made by layering flat noodles, sauce, meat and cheese? '
+        Answers:
+        - LASAGNA
+        - PAPPARDELLE
+        - CANNOLI
+        - RIGATONI
+        correctAns: LASAGNA
+      - Question: What food has a larger pit in its center
+        Answers:
+        - AVOCADO
+        - GINGERBREAD COOKIES
+        - ORANGE
+        - ENDIVE
+        correctAns: AVOCADO
+      - Question: 'Which food item contains dairy? '
+        Answers:
+        - YOGURT
+        - BAKED POTATO
+        - HAMBURGER
+        - CHICKEN
+        correctAns: YOGURT
+      - Question: Example of a fungus that you can eat?
+        Answers:
+        - MUSHROOM
+        - HONEY
+        - PEAR
+        - SALMON
+        correctAns: MUSHROOM
+      - Question: 'Chinese appetizer? '
+        Answers:
+        - SPRING ROLL
+        - TACO
+        - CHICKEN POPCORN
+        - KEBAB
+        correctAns: SPRING ROLL
+      - Question: 'Hummus main ingredient is.... '
+        Answers:
+        - CHICKPEAS
+        - RICE
+        - ALMONDS
+        - MARSHMELLOW
+        correctAns: CHICKPEAS
+      - Question: The indian flatbread is called
+        Answers:
+        - NAAN
+        - TORTILLA
+        - PIZZA
+        - ROTI
+        correctAns: NAAN
+      - Question: 'What do you call Cookies in England? '
+        Answers:
+        - BISCUITE
+        - SNACK
+        - PAWPAWNS
+        - CAKE
+        correctAns: BISCUITE
+      - Question: 'Second main ingredient in Irish Coffee? '
+        Answers:
+        - WHISKEY
+        - VANILLA
+        - VODKA
+        - PEPPERMINT
+        correctAns: WHISKEY
+      - Question: Bit O Honey is made by which of the following company
+        Answers:
+        - NESTLE
+        - HERSHEY
+        - WHITEMAN'S
+        - BOYER
+        correctAns: NESTLE
+      - Question: 'The World of Coca Cola Museum is in______ ? '
+        Answers:
+        - ATLANTA
+        - HOUSTEN
+        - TAMPA
+        - LITTLE ROCK
+        correctAns: ATLANTA
+      - Question: Which is NOT an ingredient in coca cola
+        Answers:
+        - BROWN SUGAR
+        - CARBONATED WATER
+        - CARAMEL COLOR
+        - HIGH FRUCTOSE CORN SYRUP
+        correctAns: BROWN SUGAR
+      - Question: 'Softdrink brand is named after a US State? '
+        Answers:
+        - ARIZONA
+        - MARYLAND
+        - OREGON
+        - NEVADA
+        correctAns: ARIZONA
+      - Question: 'What are dried plums called? '
+        Answers:
+        - PRUNES
+        - RAISINS
+        - SUGAR PLUMS
+        - PINE NUTS
+        correctAns: PRUNES
+      - Question: 'Pasta that is shaped like corkscrew? '
+        Answers:
+        - ROTINI
+        - ELBOW
+        - ANGELHAIR
+        - ZITI
+        correctAns: ROTINI
+      - Question: Bao is which chinese food?
+        Answers:
+        - STEAMED DUMPLINGS
+        - CHICKEN FEET
+        - CHICKEN SKEWERS
+        - NOODLES
+        correctAns: STEAMED DUMPLINGS
+      - Question: 'Not a type of bread? '
+        Answers:
+        - SAFFRON
+        - PITA
+        - NAAN
+        - ROTI
+        correctAns: SAFFRON
+      - Question: 'Kitchen utensil would you use to flip pancakes? '
+        Answers:
+        - SPATULA
+        - TRAY
+        - COLANDER
+        - SPOON
+        correctAns: SPATULA
+    - categoryName: WORLD CAPITALS
+      categoryMCQ:
+      - Question: 'Zagreb is the capital of? '
+        Answers:
+        - CROATIA
+        - COSTARICA
+        - ESTONIA
+        - FIJI
+        correctAns: CROATIA
+      - Question: 'Tbilisi is the capital of? '
+        Answers:
+        - GEORGIA
+        - GABON
+        - Guatemala
+        - Indonesia
+        correctAns: GEORGIA
+      - Question: 'Santiago is the capital of? '
+        Answers:
+        - CROATIA
+        - Cuba
+        - Congo
+        - Chile
+        correctAns: CROATIA
+      - Question: 'Capital of Canberra '
+        Answers:
+        - AUSTRALIA
+        - ASIA
+        - NORTH AMERICA
+        - AFRICA
+        correctAns: AUSTRALIA
+      - Question: Capital of Iraq
+        Answers:
+        - BAGHDAD
+        - TEHRAN
+        - NEW YORK
+        - SYDNEY
+        correctAns: BAGHDAD
+      - Question: Capital of India
+        Answers:
+        - NEW DELHI
+        - MUMBAI
+        - CHENNAI
+        - HYDERABAD
+        correctAns: NEW DELHI
+      - Question: Capital of Abu Dhabi
+        Answers:
+        - UAE
+        - UK
+        - USA
+        - NEW ZEALAND
+        correctAns: UAE
+      - Question: Capital of Dublin
+        Answers:
+        - IRELAND
+        - IRAN
+        - SWEDEN
+        - NORWAY
+        correctAns: IRELAND
+      - Question: Capital of Lebanon
+        Answers:
+        - BEIRUT
+        - BISHKEK
+        - PRISTINA
+        - TRIPOLI
+        correctAns: BEIRUT
+      - Question: Capital of Mauritius
+        Answers:
+        - PORT LOUIS
+        - MAJURO
+        - Curepipe
+        - Goodlands
+        correctAns: PORT LOUIS
+      - Question: Capital of Argentina
+        Answers:
+        - BUENOS AIRES
+        - PARIS
+        - WARSAW
+        - QUENZON
+        correctAns: BUENOS AIRES
+      - Question: Capital of Morocco
+        Answers:
+        - RABAT
+        - MAJURO
+        - CUREPIPE
+        - DAVAN CITY
+        correctAns: RABAT
+      - Question: Capital of Vietnam
+        Answers:
+        - HANOI
+        - KIEV
+        - DHAKA
+        - RABAT
+        correctAns: HANOI
+      - Question: Capital of Albania
+        Answers:
+        - TIRANA
+        - KIRANA
+        - ATHENS
+        - WARSAW
+        correctAns: TIRANA
+    - categoryName: MATHS/LOGIC
+      categoryMCQ:
+      - Question: 53, 53, 40, 40, 27, 27.....Next number after 27
+        Answers:
+        - 14
+        - 17
+        - 16
+        - 19
+        correctAns: 14
+      - Question: Normal body tempreture in celcius
+        Answers:
+        - 37
+        - 38
+        - 33
+        - 35
+        correctAns: 37
+      - Question: Normal body tempreture in fahrenheit
+        Answers:
+        - 98.6
+        - 99.99
+        - 94.2
+        - 90.12
+        correctAns: 98.6
+      - Question: 1/infinity
+        Answers:
+        - 0
+        - 1
+        - INFINITY
+        - FINITE
+        correctAns: 0
+      - Question: Area of rectangle
+        Answers:
+        - a*b
+        - aa*bb
+        - a*bb
+        - aa*b
+        correctAns: a*b
+      - Question: 1kg = ___ grams?
+        Answers:
+        - 1000
+        - 100
+        - 10000
+        - 1400
+        correctAns: 1000
+      - Question: 1 day = _____ hours
+        Answers:
+        - 24
+        - 12
+        - 10
+        - 25
+        correctAns: 24
+    - categoryName: True/False
+      categoryMCQ:
+      - Question: Madonna's real name is Madonna
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: Your 'radius' bone is in your leg
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: An octopus has three hearts
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: Spaghetto is the singular word for a piece of spaghetti
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: Venus is the hottest planet in the solar system
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: Hillary Clinton and Celine Dion are related
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: Bananas are curved because they grow upwards towards the sun
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: Prince Harry is taller than Prince William
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: M&M stands for Mars and Moordale
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: Howard Donald is the oldest member of Take That
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: The Great Wall of China is longer than the distance between London
+          and Beijing
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: There are 219 episodes of Friends
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: '''What Do You Mean'' was Justin Bieber''s first UK number one
+          single'
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: The river Seine in Paris is longer than the river Thames in London
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: H&M stands for Hennes & Mauritz
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: Australia is wider than the moon
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+    - categoryName: PHRASE
+      categoryMCQ:
+      - Question: Bite the ______
+        Answers:
+        - BULLET
+        - TOUNGUE
+        - BISCUIT
+        - PLANT
+        correctAns: BULLET
+      - Question: Break the ________
+        Answers:
+        - LEG
+        - HAND
+        - FEET
+        - BRICK
+        correctAns: LEG
+      - Question: ' Call it a _____'
+        Answers:
+        - DAY
+        - NIGHT
+        - EVENING
+        - MORNING
+        correctAns: DAY
+      - Question: ' ________ someones leg'
+        Answers:
+        - PULL
+        - CUT
+        - MAKE
+        - BREAK
+        correctAns: PULL
+      - Question: A _________ on your shoulder
+        Answers:
+        - CHIP
+        - BIRD
+        - BUG
+        - KITTEN
+        correctAns: CHIP
+      - Question: Back to Square ________
+        Answers:
+        - 'ONE '
+        - TWO
+        - THREE
+        - FOUR
+        correctAns: ONE
+      - Question: Cry over a _______ Milk
+        Answers:
+        - SPILLED
+        - NICE
+        - STINKY
+        - STING
+        correctAns: SPILLED
+      - Question: _______ as a cucumber
+        Answers:
+        - 'COOL '
+        - HOT
+        - WARM
+        - AWESOME
+        correctAns: COOL
+      - Question: ____________ as a bee
+        Answers:
+        - BUSY
+        - LIGHT
+        - STINKY
+        - STING
+        correctAns: BUSY
+      - Question: Born with a _______ Spoon
+        Answers:
+        - SILVER
+        - GOLD
+        - PLATINUM
+        - DIAMOND
+        correctAns: SILVER
+      - Question: ________ by the bell
+        Answers:
+        - SAVED
+        - BANG
+        - RANG
+        - ERASED
+        correctAns: SAVED
+      - Question: I can _______ with that
+        Answers:
+        - LIVE
+        - DIE
+        - SAVE
+        - LAY
+        correctAns: LIVE
+    wordOrderQs:
+    - name: ' WHAT TIME DOES THE CONCERT START'
+      Options:
+      - WHAT
+      - TIME DOES
+      - THE
+      - CONCERT START
+      correctOrder: ' WHAT TIME DOES THE CONCERT START'
+    - name: ' WOULD YOU LIKE ANOTHER PIECE OF THE CAKE'
+      Options:
+      - WOULD YOU
+      - LIKE ANOTHER
+      - PIECE OF
+      - THE CAKE
+      correctOrder: ' WOULD YOU LIKE ANOTHER PIECE OF THE CAKE'
+    - name: ' THE PARTICIPANTS WERE WEARING COLORFUL COSTUMES '
+      Options:
+      - THE
+      - PARTICIPANTS WERE
+      - WEARING COLORFUL
+      - COSTUMES
+      correctOrder: ' THE PARTICIPANTS WERE WEARING COLORFUL COSTUMES '
+    - name: ' HARRIS IS A CLEVER TOUR GUIDE'
+      Options:
+      - HARRIS IS
+      - A
+      - CLEVER TOUR
+      - GUIDE
+      correctOrder: ' HARRIS IS A CLEVER TOUR GUIDE'
+    - name: ' MANY TOURISTS LOVE LAKES AND MOUNTAINS'
+      Options:
+      - MANY TOURISTS
+      - LOVE
+      - LAKES
+      - AND MOUNTAINS
+      correctOrder: ' MANY TOURISTS LOVE LAKES AND MOUNTAINS'
+    - name: ' A YOUNG FRENCH LADY ASKED FOR LEMONADE'
+      Options:
+      - A YOUNG
+      - FRENCH
+      - LADY ASKED FOR
+      - LEMONADE
+      correctOrder: ' A YOUNG FRENCH LADY ASKED FOR LEMONADE'
+    - name: ' WE USUALLY DRINK MILK AND COFFEE'
+      Options:
+      - WE USUALLY
+      - DRINK MILK
+      - AND
+      - COFFEE
+      correctOrder: ' WE USUALLY DRINK MILK AND COFFEE'
+    - name: ' OUR VISITORS SPEAK ENGLISH CORRECTLY'
+      Options:
+      - OUR
+      - VISITORS
+      - SPEAK
+      - ENGLISH CORRECTLY
+      correctOrder: ' OUR VISITORS SPEAK ENGLISH CORRECTLY'
+    emojiLetterQs:
+    - name: SNOWMAN
+      topLetterInputBoxes:
+      - 
+      - N
+      - O
+      - 
+      - M
+      - 
+      - 
+      bottomLetterBoxes:
+      - S
+      - W
+      - A
+      - N
+      - F
+      - O
+      - H
+      - I
+      - K
+      - L
+      - M
+      - B
+      correctAnswer:
+      - S
+      - N
+      - O
+      - W
+      - M
+      - A
+      - N
+      CAnswer: SNOWMAN
+      numberOfMissingLetters: 4
+      emos:
+      - {fileID: 21300000, guid: 7ec248a57b552e44fa3c90c60185c949, type: 3}
+      - {fileID: 21300000, guid: 4c110f7978976b8429c044b35b1614f4, type: 3}
+    - name: ONEPUNCH
+      topLetterInputBoxes:
+      - O
+      - N
+      - 
+      - 
+      - U
+      - 
+      - C
+      - 
+      bottomLetterBoxes:
+      - E
+      - P
+      - N
+      - H
+      - K
+      - X
+      - G
+      - V
+      - Z
+      - I
+      - C
+      - U
+      correctAnswer:
+      - O
+      - N
+      - E
+      - P
+      - U
+      - N
+      - C
+      - H
+      CAnswer: ONEPUNCH
+      numberOfMissingLetters: 4
+      emos:
+      - {fileID: 21300000, guid: 2cd1245acd9161841ac8b6ff6558f28b, type: 3}
+      - {fileID: 21300000, guid: bc7aa3cb9e4e46244903c1efdc04297c, type: 3}
+    - name: ONESELFIE
+      topLetterInputBoxes:
+      - O
+      - 
+      - E
+      - 
+      - E
+      - 
+      - F
+      - 
+      - E
+      bottomLetterBoxes:
+      - E
+      - P
+      - N
+      - H
+      - K
+      - X
+      - G
+      - V
+      - O
+      - Z
+      - C
+      - M
+      correctAnswer:
+      - O
+      - N
+      - E
+      - S
+      - E
+      - L
+      - F
+      - I
+      - E
+      CAnswer: ONESELFIE
+      numberOfMissingLetters: 4
+      emos:
+      - {fileID: 21300000, guid: 2cd1245acd9161841ac8b6ff6558f28b, type: 3}
+      - {fileID: 21300000, guid: 706af39f0127d6a43b659c0d73d813e4, type: 3}
+    - name: DEVILKING
+      topLetterInputBoxes:
+      - D
+      - E
+      - 
+      - 
+      - L
+      - 
+      - I
+      - 
+      - 
+      bottomLetterBoxes:
+      - K
+      - G
+      - E
+      - I
+      - M
+      - Z
+      - V
+      - N
+      - Z
+      - P
+      - C
+      - X
+      correctAnswer:
+      - D
+      - E
+      - V
+      - I
+      - L
+      - K
+      - I
+      - N
+      - G
+      CAnswer: DEVILKING
+      numberOfMissingLetters: 5
+      emos:
+      - {fileID: 21300000, guid: 09b9fc7fdc2b1074fad4d4f133fb39e5, type: 3}
+      - {fileID: 21300000, guid: a797757c0ff11a8498056f1a84ca90bf, type: 3}
+    - name: SMOKEBOMB
+      topLetterInputBoxes:
+      - S
+      - 
+      - O
+      - 
+      - E
+      - B
+      - 
+      - M
+      - 
+      bottomLetterBoxes:
+      - B
+      - O
+      - E
+      - M
+      - K
+      - T
+      - N
+      - Y
+      - I
+      - X
+      - Z
+      - P
+      correctAnswer:
+      - S
+      - M
+      - O
+      - K
+      - E
+      - B
+      - O
+      - M
+      - B
+      CAnswer: SMOKEBOMB
+      numberOfMissingLetters: 4
+      emos:
+      - {fileID: 21300000, guid: 60bba6e570282264f9078c12a3a60e5e, type: 3}
+      - {fileID: 21300000, guid: b765fd4cf215ae0459f46ff92dc4ea2a, type: 3}
+    - name: SPIDERMAN
+      topLetterInputBoxes:
+      - L
+      - 
+      - V
+      - E
+      - 
+      - I
+      - 
+      - 
+      bottomLetterBoxes:
+      - O
+      - B
+      - R
+      - D
+      - K
+      - V
+      - P
+      - Q
+      - Z
+      - C
+      - E
+      - W
+      correctAnswer:
+      - S
+      - P
+      - I
+      - D
+      - E
+      - R
+      - M
+      - A
+      - N
+      CAnswer: SPIDERMAN
+      numberOfMissingLetters: 5
+      emos:
+      - {fileID: 21300000, guid: 67eb5020e209ac549ad2414421f440ab, type: 3}
+      - {fileID: 21300000, guid: 4c110f7978976b8429c044b35b1614f4, type: 3}
+    - name: SITDOWN
+      topLetterInputBoxes:
+      - S
+      - 
+      - T
+      - D
+      - 
+      - W
+      - 
+      bottomLetterBoxes:
+      - I
+      - O
+      - N
+      - P
+      - Z
+      - X
+      - V
+      - G
+      - R
+      - Y
+      - U
+      - B
+      correctAnswer:
+      - S
+      - I
+      - T
+      - D
+      - O
+      - W
+      - N
+      CAnswer: SITDOWN
+      numberOfMissingLetters: 3
+      emos:
+      - {fileID: 21300000, guid: 327794ea44337c34cbaa37bbce91ff57, type: 3}
+      - {fileID: 21300000, guid: 7268f779dc44f0f45b1a5d92de7301d6, type: 3}
+    wordEmojiQs:
+    - questionText: HAUNTED HOUSE
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: 9498ce555c5973e4ba1c89106b858fa4, type: 3}
+      - {fileID: 21300000, guid: d7eee6677cee66849a7a902770de0fce, type: 3}
+      - {fileID: 21300000, guid: 64c89c048f09f8c45a14cf7570ba1291, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: 2b49ff36318214c459ff3533f46ece4f, type: 3}
+      - {fileID: 21300000, guid: 34a4b53d690481947935e5122c387f6a, type: 3}
+      - {fileID: 21300000, guid: 219c9081b705d6248b6fd5c1638e058c, type: 3}
+      row3Emos: []
+      correctAnsR1: Haunted
+      correctAnsR2: House
+      correctAnsR3: 
+    - questionText: MOONLIGHT
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: fb7c873874741594c8b2ebd44e64372c, type: 3}
+      - {fileID: 21300000, guid: eb701fb53982bad4ea1649b5755629d0, type: 3}
+      - {fileID: 21300000, guid: bb2f88ac902984f4eaa8764eae7b37fa, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: 2cce8cd08e2c4b448a01b0e888881504, type: 3}
+      - {fileID: 21300000, guid: 61dbd35b8c5d2a44ba09dfeb4e489c51, type: 3}
+      - {fileID: 21300000, guid: 1549ed1894bee1840854bbc9c17f7535, type: 3}
+      row3Emos: []
+      correctAnsR1: Moon
+      correctAnsR2: light
+      correctAnsR3: 
+    - questionText: RUNAWAY BRIDE
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: 77749263a5e3b364da4894137023b799, type: 3}
+      - {fileID: 21300000, guid: 6245582302c02cc4da505a1577da1e25, type: 3}
+      - {fileID: 21300000, guid: 8674ce08839aabc4da317f30becb3de5, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: 037e47c939731974bb7583a69284b9b2, type: 3}
+      - {fileID: 21300000, guid: 027cff2f6634ab7488b0c6691145e1ca, type: 3}
+      - {fileID: 21300000, guid: 110eabd7d26c09f44a8196a8104cb12d, type: 3}
+      row3Emos: []
+      correctAnsR1: Runaway
+      correctAnsR2: Bride
+      correctAnsR3: 
+    - questionText: AMERICAN EAGLE
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: 8684c971059af28498f8cd2fa6d503b9, type: 3}
+      - {fileID: 21300000, guid: 3850ef569bcf434499fa51146bbcb6e7, type: 3}
+      - {fileID: 21300000, guid: ccd95c0c732de384bbd397665ef8292f, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: d8828d60c1f236e46a3cc853f078b0d4, type: 3}
+      - {fileID: 21300000, guid: 8f8c1584faf239b43b73fa1c2de2ef1e, type: 3}
+      - {fileID: 21300000, guid: 83edf20b43f72b445b8ea3413d38f8da, type: 3}
+      row3Emos: []
+      correctAnsR1: American
+      correctAnsR2: Eagle
+      correctAnsR3: 
+    - questionText: HOLY GHOST
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: d21967b56ea1e104496951cc3bda553b, type: 3}
+      - {fileID: 21300000, guid: 373afc36ffb6b1c449c1b88e78d6fd44, type: 3}
+      - {fileID: 21300000, guid: 2ad107920d5cfa744b33d22249c290fa, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: 740df9ce788b7504794e394e26e3f4ec, type: 3}
+      - {fileID: 21300000, guid: c6d01ae241f4c5f45bc6cc627e0f6b9d, type: 3}
+      - {fileID: 21300000, guid: 9e7e239fc37bd7a4cb46dd7869e939d6, type: 3}
+      row3Emos: []
+      correctAnsR1: Holy
+      correctAnsR2: Ghost
+      correctAnsR3: 
+    - questionText: PUPPY LOVE
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: 8355cc65673e2944b9907d1130f460a0, type: 3}
+      - {fileID: 21300000, guid: b2a9634cd4073cc488bba4ff42bf5bb3, type: 3}
+      - {fileID: 21300000, guid: 7970198a62cb4a542aaae6cea1be0bbe, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: 59586fc39166bc7438a7d37859a3a0fc, type: 3}
+      - {fileID: 21300000, guid: c4b2ed977e7fef34eb8cf3c32f432834, type: 3}
+      - {fileID: 21300000, guid: 81442d61a1d5fa14a99c4fd5841ee2ab, type: 3}
+      row3Emos: []
+      correctAnsR1: Puppy
+      correctAnsR2: Love
+      correctAnsR3: 
+    - questionText: PIZZA BOX
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: a43944c606143f8468c24390441179f9, type: 3}
+      - {fileID: 21300000, guid: 436ff964432aaeb4dafbb325650278b0, type: 3}
+      - {fileID: 21300000, guid: 70cf347901054694b8957a4dc8e692f4, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: d3572c9bdd5370d40be3c17ac202c478, type: 3}
+      - {fileID: 21300000, guid: 6273adf0e3ff298499003fc96d49ef0d, type: 3}
+      - {fileID: 21300000, guid: 7508dbe8f2c02414ab6c8ddde930bef5, type: 3}
+      row3Emos: []
+      correctAnsR1: Pizza
+      correctAnsR2: Box
+      correctAnsR3: 
+    - questionText: COWBOY
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: f3daab223bcad4c478b1c56204de1276, type: 3}
+      - {fileID: 21300000, guid: 1ae4672be60041f47b4686becf9e0940, type: 3}
+      - {fileID: 21300000, guid: 8673e711fb91db34caf48e16cf0181a1, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: befc430648a65454e9142f6844b62414, type: 3}
+      - {fileID: 21300000, guid: 18c79a57346138a44a6bdd2fa903fbf1, type: 3}
+      - {fileID: 21300000, guid: e1403eab14f30384ca9dccf3f4904f91, type: 3}
+      row3Emos: []
+      correctAnsR1: Cow
+      correctAnsR2: Boy
+      correctAnsR3: 
+    emojiEmojiQs: []
+  - LevelDiff: HARD
+    MCQCategories:
+    - categoryName: GENERIC
+      categoryMCQ:
+      - Question: Number  of colours in a rainbow?
+        Answers:
+        - 7
+        - 6
+        - 8
+        - 9
+        correctAns: 7
+      - Question: Letters in english alphabet?
+        Answers:
+        - 26
+        - 27
+        - 28
+        - 29
+        correctAns: 26
+      - Question: Largest country in the world by size
+        Answers:
+        - RUSSIA
+        - AFRICA
+        - NORTH AMERICA
+        - CANADA
+        correctAns: RUSSIA
+      - Question: Who is founder of microsoft?
+        Answers:
+        - BILL GATES
+        - GILL GATES
+        - BIL GATES
+        - BIL BILL
+        correctAns: BILL GATES
+      - Question: 'Biggest rain forest in the world? '
+        Answers:
+        - AMAZON
+        - FLIPKART
+        - WALLMART
+        - NETFLIX
+        correctAns: AMAZON
+      - Question: 'Biggest desert in the world? '
+        Answers:
+        - SAHARA
+        - NAMIB
+        - GOBI
+        - ANTARTIC
+        correctAns: SAHARA
+      - Question: Greek god of music
+        Answers:
+        - APOLLO
+        - HERA
+        - APHRODITE
+        - ARTEMIS
+        correctAns: APOLLO
+      - Question: Longest joint in human body
+        Answers:
+        - KNEE
+        - ELBOW
+        - FOOR
+        - BACK
+        correctAns: KNEE
+      - Question: Tallest Mountain
+        Answers:
+        - MOUNT EVEREST
+        - K2
+        - DENALI
+        - MONT BLANC
+        correctAns: MOUNT EVEREST
+      - Question: Country which has highest population
+        Answers:
+        - CHINA
+        - INDIA
+        - AFRICA
+        - RUSSIA
+        correctAns: CHINA
+      - Question: 'Largest Waterfall? '
+        Answers:
+        - VICTORIA FALLS
+        - ANGEL FALL
+        - NIAGARA FALLS
+        - IGUAZU FALLS
+        correctAns: VICTORIA FALLS
+      - Question: 'Coldest Continent? '
+        Answers:
+        - ANTARTICA
+        - NORTH POLE
+        - SOUTH POLE
+        - ICELAND
+        correctAns: ANTARTICA
+      - Question: World's smallest country by population and size
+        Answers:
+        - VATICAN CITY
+        - SAN MARIO
+        - TUVALU
+        - MARSHAL ISLAND
+        correctAns: VATICAN CITY
+      - Question: First color in rainbow?
+        Answers:
+        - RED
+        - YELLOW
+        - GREEN
+        - BLUE
+        correctAns: RED
+      - Question: 'Smallest bird alive? '
+        Answers:
+        - HUMMING BIRD
+        - CORDON BLEU
+        - VERDIN
+        - GOLDCREST
+        correctAns: HUMMING BIRD
+      - Question: 'Largest seabird '
+        Answers:
+        - ALBATROSS
+        - GULL
+        - TERNS
+        - PUFFINS
+        correctAns: ALBATROSS
+      - Question: Smallest dog on earth
+        Answers:
+        - Chihuahua
+        - Bulldog
+        - Poodle
+        - Siberian Husky
+        correctAns: Chihuahua
+      - Question: Country known as Land of the Rising Sun
+        Answers:
+        - JAPAN
+        - CHINA
+        - KOREA
+        - THAILAND
+        correctAns: JAPAN
+      - Question: Country in which white elephant is found
+        Answers:
+        - THAILAND
+        - KOREA
+        - SINGAPORE
+        - MALAYSIA
+        correctAns: THAILAND
+      - Question: Biggest Island in the world?
+        Answers:
+        - GREENLAND
+        - ICELAND
+        - SCOTLAND
+        - MALAYSIA
+        correctAns: GREENLAND
+      - Question: 'Land of tulips?  '
+        Answers:
+        - NETHERLAND
+        - GREENLAND
+        - ICELAND
+        - SCOTLAND
+        correctAns: NETHERLAND
+      - Question: Baby kangaroos are called
+        Answers:
+        - JOEYS
+        - CALF
+        - PUBBY
+        - KITTEN
+        correctAns: JOEYS
+      - Question: Shrims heart is in its _______
+        Answers:
+        - HEAD
+        - FEET
+        - TOE
+        - KNEE
+        correctAns: HEAD
+      - Question: Snail can sleep for how many years
+        Answers:
+        - 3
+        - 2
+        - 4
+        - 5
+        correctAns: 3
+    - categoryName: FOOD
+      categoryMCQ:
+      - Question: 'Which of the Citrus fruit? '
+        Answers:
+        - ORANGE
+        - CHERRY
+        - APPLE
+        - GRAPES
+        correctAns: ORANGE
+      - Question: 'Type of cheese with holes? '
+        Answers:
+        - SWISS
+        - CHEDDAR
+        - GOUDA
+        - AMERICAN
+        correctAns: SWISS
+      - Question: What is tofu made from
+        Answers:
+        - SOYBEANS
+        - ARTICHOKES
+        - EGGS
+        - SOBEANS
+        correctAns: SOYBEANS
+      - Question: 'A french desert? '
+        Answers:
+        - CREME BRULEE
+        - PUDDING
+        - DANISH
+        - OUICHE
+        correctAns: CREME BRULEE
+      - Question: 'Best to describe Croissant? '
+        Answers:
+        - Fluffy light pastry
+        - Variety of slieced meats
+        - Blended fruit beverage
+        - potato based pasta
+        correctAns: Fluffy light pastry
+      - Question: 'Baguette is a .......... ? '
+        Answers:
+        - BREAD
+        - BUN
+        - ROLL
+        - NAAN
+        correctAns: BREAD
+      - Question: 'Softdrink brand that has a sun in the logo? '
+        Answers:
+        - SNAPPLE
+        - PEPSI
+        - GATORADE
+        - MONSTER
+        correctAns: SNAPPLE
+      - Question: Which of the following restaurants does not serve hamburgers
+        Answers:
+        - Chick fil A
+        - Wendy's
+        - Hardee's
+        - McDonald's
+        correctAns: Chick fil A
+      - Question: What is the popular sweet pastry in Turkey
+        Answers:
+        - BAKLAVA
+        - MEMEMEN
+        - AYRAN
+        - BOREK
+        correctAns: BAKLAVA
+      - Question: What is champignon in German food
+        Answers:
+        - MUSHROOM
+        - CHEESE
+        - CARROT
+        - SAUSAGE
+        correctAns: MUSHROOM
+      - Question: What type of dish is considered to be Risotto
+        Answers:
+        - RICE
+        - PUMPKIN
+        - EGG
+        - MILLET
+        correctAns: RICE
+      - Question: 'Hot eats cool treats is the slogan of? '
+        Answers:
+        - DAIRY QUEEN
+        - KFC
+        - WENDY'S
+        - DOMINOS
+        correctAns: DAIRY QUEEN
+      - Question: Peanuts technically aren't nuts but what are they
+        Answers:
+        - LEGUMES
+        - FUNGI
+        - VEGETABLES
+        - CHICKEN
+        correctAns: LEGUMES
+      - Question: Which nut is used to make marzipan
+        Answers:
+        - ALMOND
+        - WALNUT
+        - PEANUT
+        - HAZELNUT
+        correctAns: ALMOND
+      - Question: 'When you are here your family is the slogan of? '
+        Answers:
+        - OLIVE GARDEN
+        - APPLEBES'S
+        - ARBY'S
+        - STEAKHOUSE
+        correctAns: OLIVE GARDEN
+      - Question: 'This bud''s for you is the slogan of? '
+        Answers:
+        - BUDWEISER
+        - FTD
+        - CHEVROLET
+        - VAT 99
+        correctAns: BUDWEISER
+      - Question: 'Cereals is NOT produced by Kellogg''s? '
+        Answers:
+        - CHEERIOS
+        - COCO POPS
+        - FROOT LOOPS
+        - CORN FLAKES
+        correctAns: CHEERIOS
+    - categoryName: WORLD CAPITALS
+      categoryMCQ:
+      - Question: 'Cairo is the capital of? '
+        Answers:
+        - EGYPT
+        - ICELAND
+        - HAITI
+        - GEORGIA
+        correctAns: EGYPT
+      - Question: 'Tehran is the capital of? '
+        Answers:
+        - IRAN
+        - IRAQ
+        - KENYA
+        - KOSOVO
+        correctAns: IRAN
+      - Question: Capital of Russia
+        Answers:
+        - MOSCOW
+        - NEW DELHI
+        - HAVANA
+        - PRAGUE
+        correctAns: MOSCOW
+      - Question: Capital of Canada
+        Answers:
+        - OTTAWA
+        - TORONTO
+        - SANTIAGO
+        - NONE OF THESE
+        correctAns: OTTAWA
+      - Question: Capital of Italy
+        Answers:
+        - ROME
+        - TRIPOLI
+        - SKOPJE
+        - WASHINGTON DC
+        correctAns: ROME
+      - Question: Capital of Malaysia
+        Answers:
+        - KUALA LUMPUR
+        - LONDON
+        - MALE
+        - SEOUL
+        correctAns: KUALA LUMPUR
+      - Question: Capital of Athens
+        Answers:
+        - Greece
+        - Germany
+        - Finland
+        - Czech Republic
+        correctAns: Greece
+      - Question: 'Capital of Israel? '
+        Answers:
+        - JERUSALEM
+        - BAGHDAD
+        - ROME
+        - DUBLINE
+        correctAns: JERUSALEM
+      - Question: Capital of Nairobi
+        Answers:
+        - KENYA
+        - JAPAN
+        - IRAQ
+        - IRAN
+        correctAns: KENYA
+      - Question: Capital of Amsterdam
+        Answers:
+        - NETHERLANDS
+        - NEW ZEALAND
+        - NEPAL
+        - MYANMAR
+        correctAns: NETHERLANDS
+      - Question: Capital city of Oman
+        Answers:
+        - MUSCAT
+        - TEHRAN
+        - ISLAMABAD
+        - RIYADH
+        correctAns: MUSCAT
+      - Question: Capital of USA
+        Answers:
+        - WASHINGTON DC
+        - PHILADELPHIA
+        - CHICAGO
+        - NEW YORK
+        correctAns: WASHINGTON DC
+      - Question: Capital of Bangladesh
+        Answers:
+        - DHAKA
+        - KABUL
+        - KARACHI
+        - KATHMANDU
+        correctAns: DHAKA
+      - Question: Capital of China
+        Answers:
+        - BEJING
+        - SHANGHAI
+        - SHENZHEN
+        - XIAMEN
+        correctAns: BEJING
+      - Question: Capital of France
+        Answers:
+        - PARIS
+        - TOULOUSE
+        - BORDEAUX
+        - STRASBOURG
+        correctAns: PARIS
+      - Question: Capital of Thiland
+        Answers:
+        - BANGKOK
+        - SEOL
+        - TOKYO
+        - MOSCOW
+        correctAns: BANGKOK
+      - Question: Capital of Jamaica
+        Answers:
+        - KINGSTON
+        - BRUSSELS
+        - CARACAS
+        - CANBERRA
+        correctAns: KINGSTON
+      - Question: Capital of Sweden
+        Answers:
+        - STOCKHOLM
+        - ROME
+        - ATHENS
+        - SUVA
+        correctAns: STOCKHOLM
+      - Question: Capital of Japan
+        Answers:
+        - TOKYO
+        - SEOUL
+        - CARACAS
+        - XIAMEN
+        correctAns: TOKYO
+      - Question: Capital of Pakistan
+        Answers:
+        - ISLAMABAD
+        - HYDERABAD
+        - PUNJAB
+        - HARYANA
+        correctAns: ISLAMABAD
+      - Question: Capital of Nepal
+        Answers:
+        - KATHMANDU
+        - LISBON
+        - HANOI
+        - DHAKA
+        correctAns: KATHMANDU
+      - Question: Capital of Saudi Arabia
+        Answers:
+        - RIYADH
+        - MUSCAT
+        - DUBAI
+        - BAHRAIN
+        correctAns: RIYADH
+      - Question: Capital of Bahrain
+        Answers:
+        - MANAMA
+        - RIYADH
+        - JANABIYA
+        - AL HIDD
+        correctAns: MANAMA
+      - Question: 'Cairo is the capital of? '
+        Answers:
+        - EGYPT
+        - ICELAND
+        - HAITI
+        - GEORGIA
+        correctAns: EGYPT
+    - categoryName: MATHS/LOGIC
+      categoryMCQ:
+      - Question: 1 ton = _____ Pounds
+        Answers:
+        - 2000
+        - 20000
+        - 200000
+        - 200
+        correctAns: 2000
+      - Question: 1 Pound = _____ Ounces
+        Answers:
+        - 16
+        - 15
+        - 20
+        - 10
+        correctAns: 16
+      - Question: In BODMAS rule what does D mean?
+        Answers:
+        - DIVISION
+        - DEAD
+        - DYE
+        - DONE
+        correctAns: DIVISION
+      - Question: 1/0 is
+        Answers:
+        - UNDEFINED
+        - DEFINED
+        - BOTH
+        - NONE
+        correctAns: UNDEFINED
+      - Question: infinity/infinity
+        Answers:
+        - INDETERMINATE
+        - DETERMINATE
+        - INFINITY
+        - ALL
+        correctAns: INDETERMINATE
+      - Question: '"Pi" is what number'
+        Answers:
+        - IRRATIONAL
+        - RATIONAL
+        - BOTH
+        - NONE
+        correctAns: IRRATIONAL
+      - Question: Area of triangle is =____
+        Answers:
+        - (a*b)/2
+        - (a+b)/2
+        - (a-b)/2
+        - (a2b2)/2
+        correctAns: (a*b)/2
+    - categoryName: True/False
+      categoryMCQ:
+      - Question: Serena Williams has one more singles tennis Grand Slam titles than
+          sister Venus
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: Alexander Fleming discovered penicillin
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: Harry Styles' middle name is Edward
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: Coffee is made from berries
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: The only letter not in the periodic table is the letter J
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: The small intestine is about three-and-a-half times the length
+          of your body
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: Thomas Edison discovered gravity
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: Walt Disney holds the record for the most Oscars
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: Cardi B's real name is Cardigan Backyardigan
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: The star sign Aquarius is represented by a tiger
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: Meryl Streep has won two Academy Awards
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: Idina Menzel sings 'let it go' 20 times in 'Let It Go' from Frozen
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: In Harry Potter, Draco Malfoy has no siblings
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: Louis Walsh is older than Simon Cowell
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: A cara cara navel is a type of orange
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: The Battle Of Hastings took place in 1066
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: TRUE
+      - Question: Canis lupur is the scientific name for a wolf
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: Queen Elizabeth II is currently the second longest reigning British
+          monarch
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: Drag Race's Michelle Visage is older than RuPaul
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+      - Question: Jordan North won I'm A Celebrity... Get Me Out Of Here! in 2020
+        Answers:
+        - TRUE
+        - FALSE
+        correctAns: FALSE
+    - categoryName: PHRASE
+      categoryMCQ:
+      - Question: Beating around the _________
+        Answers:
+        - BUSH
+        - TREE
+        - LAKE
+        - SEA
+        correctAns: BUSH
+      - Question: Barking up the wrong _________
+        Answers:
+        - TREE
+        - HOUSE
+        - BUILDING
+        - PORT
+        correctAns: TREE
+      - Question: Cut to the _______
+        Answers:
+        - CHASE
+        - TREE
+        - PLANT
+        - CAKE
+        correctAns: CHASE
+      - Question: _________ your Bubble
+        Answers:
+        - BURST
+        - LEARN
+        - SLICE
+        - NONE
+        correctAns: SCIENCE
+      - Question: I read you ________ and clear
+        Answers:
+        - LOUD
+        - QUITE
+        - SMART
+        - DUMB
+        correctAns: LOUD
+      - Question: FOMO is Fear of _____ Out
+        Answers:
+        - MISSING
+        - MAKING
+        - MASKING
+        - MISTING
+        correctAns: MISSING
+    wordOrderQs:
+    - name: ' BEN WILL VISIT THE ART MUSEUM'
+      Options:
+      - BEN WILL
+      - VISIT THE
+      - ART
+      - MUSEUM
+      correctOrder: ' BEN WILL VISIT THE ART MUSEUM'
+    - name: ' YOU MUST VISIT THE PANAMA CANAL'
+      Options:
+      - YOU
+      - MUST
+      - VISIT THE
+      - PANAMA CANAL
+      correctOrder: ' YOU MUST VISIT THE PANAMA CANAL'
+    - name: ' YOUR FATHER NEEDS TWO DOLLARS NOW'
+      Options:
+      - YOUR FATHER
+      - NEEDS
+      - TWO DOLLARS
+      - NOW
+      correctOrder: ' YOUR FATHER NEEDS TWO DOLLARS NOW'
+    - name: ' THERE IS A TRIP TO ANDAMAN ISLAND'
+      Options:
+      - THERE IS
+      - A TRIP
+      - TO ANDAMAN
+      - ISLAND
+      correctOrder: ' THERE IS A TRIP TO ANDAMAN ISLAND'
+    - name: ' SOME CARS CROSSED THE BARROW BRIDGE'
+      Options:
+      - SOME CARS
+      - CROSSED
+      - THE BARROW
+      - BRIDGE
+      correctOrder: ' SOME CARS CROSSED THE BARROW BRIDGE'
+    - name: ' IS THAT A DOCTOR''S NUMBER'
+      Options:
+      - IS THAT
+      - A
+      - DOCTOR'S
+      - NUMBER
+      correctOrder: ' IS THAT A DOCTOR''S NUMBER'
+    - name: ' I COME FROM BELGIUM'
+      Options:
+      - I
+      - COME
+      - FROM
+      - BELGIUM
+      correctOrder: ' I COME FROM BELGIUM'
+    emojiLetterQs:
+    - name: WATERMELON
+      topLetterInputBoxes:
+      - 
+      - A
+      - 
+      - E
+      - 
+      - 
+      - 
+      - L
+      - O
+      - 
+      bottomLetterBoxes:
+      - W
+      - T
+      - R
+      - M
+      - E
+      - N
+      - C
+      - V
+      - S
+      - O
+      - P
+      - Y
+      correctAnswer:
+      - W
+      - A
+      - T
+      - E
+      - R
+      - M
+      - E
+      - L
+      - O
+      - N
+      CAnswer: WATERMELON
+      numberOfMissingLetters: 6
+      emos:
+      - {fileID: 21300000, guid: 4b37df6147515864b88bc6a062c91b68, type: 3}
+      - {fileID: 21300000, guid: bb5d166cdaf039d49986b6ae23e2953c, type: 3}
+    - name: MUSKMELON
+      topLetterInputBoxes:
+      - M
+      - 
+      - 
+      - K
+      - M
+      - 
+      - L
+      - 
+      - 
+      bottomLetterBoxes:
+      - U
+      - S
+      - E
+      - O
+      - N
+      - P
+      - K
+      - Z
+      - A
+      - C
+      - Q
+      - R
+      correctAnswer:
+      - M
+      - U
+      - S
+      - K
+      - M
+      - E
+      - L
+      - O
+      - N
+      CAnswer: MUSKMELON
+      numberOfMissingLetters: 5
+      emos:
+      - {fileID: 21300000, guid: 4b98b506529fb224d9ecd69db81363ed, type: 3}
+      - {fileID: 21300000, guid: bb5d166cdaf039d49986b6ae23e2953c, type: 3}
+    - name: PUKING
+      topLetterInputBoxes:
+      - 
+      - U
+      - 
+      - I
+      - 
+      - 
+      bottomLetterBoxes:
+      - P
+      - K
+      - N
+      - G
+      - Y
+      - F
+      - T
+      - Z
+      - S
+      - T
+      - Z
+      - X
+      correctAnswer:
+      - P
+      - U
+      - K
+      - I
+      - N
+      - G
+      CAnswer: PUKING
+      numberOfMissingLetters: 4
+      emos:
+      - {fileID: 21300000, guid: 3117dc96a8700094fa174c7e8806e046, type: 3}
+      - {fileID: 21300000, guid: a797757c0ff11a8498056f1a84ca90bf, type: 3}
+    - name: DRAGONKING
+      topLetterInputBoxes:
+      - D
+      - R
+      - 
+      - 
+      - 
+      - N
+      - 
+      - I
+      - 
+      - G
+      bottomLetterBoxes:
+      - A
+      - G
+      - O
+      - K
+      - N
+      - I
+      - U
+      - Y
+      - E
+      - Z
+      - X
+      - Y
+      correctAnswer:
+      - D
+      - R
+      - A
+      - G
+      - O
+      - N
+      - K
+      - I
+      - N
+      - G
+      CAnswer: DRAGONKING
+      numberOfMissingLetters: 5
+      emos:
+      - {fileID: 21300000, guid: fbdfb29a279262f4b85d4bbd820c2bc7, type: 3}
+      - {fileID: 21300000, guid: a797757c0ff11a8498056f1a84ca90bf, type: 3}
+    - name: MAILBOX
+      topLetterInputBoxes:
+      - M
+      - A
+      - 
+      - L
+      - 
+      - 
+      - 
+      bottomLetterBoxes:
+      - I
+      - B
+      - O
+      - X
+      - Z
+      - W
+      - E
+      - R
+      - U
+      - Y
+      - P
+      - N
+      correctAnswer:
+      - M
+      - A
+      - I
+      - L
+      - B
+      - O
+      - X
+      CAnswer: MAILBOX
+      numberOfMissingLetters: 4
+      emos:
+      - {fileID: 21300000, guid: 0eaf2a821aea30445b38c152c5023855, type: 3}
+      - {fileID: 21300000, guid: c7c16708cc77e714d9a31e83419ce6d9, type: 3}
+    wordEmojiQs:
+    - questionText: HOT DOG
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: e0a49cdef7ca30e4294bfe9f149988af, type: 3}
+      - {fileID: 21300000, guid: 16b8937a7416a344ba009d0c7d2bbd7c, type: 3}
+      - {fileID: 21300000, guid: b575240775b4fe04ba371d8572038691, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: fb4d9ea82ddd44a40ab1f021faa07dc0, type: 3}
+      - {fileID: 21300000, guid: 95a01fd18944f5d49a40056935bb4525, type: 3}
+      - {fileID: 21300000, guid: b04649282756d2e4193b1e5103e9b2cf, type: 3}
+      row3Emos: []
+      correctAnsR1: fire
+      correctAnsR2: dog
+      correctAnsR3: 
+    - questionText: HAUNTED HOUSE
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: 9498ce555c5973e4ba1c89106b858fa4, type: 3}
+      - {fileID: 21300000, guid: d7eee6677cee66849a7a902770de0fce, type: 3}
+      - {fileID: 21300000, guid: 64c89c048f09f8c45a14cf7570ba1291, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: 2b49ff36318214c459ff3533f46ece4f, type: 3}
+      - {fileID: 21300000, guid: 34a4b53d690481947935e5122c387f6a, type: 3}
+      - {fileID: 21300000, guid: 219c9081b705d6248b6fd5c1638e058c, type: 3}
+      row3Emos: []
+      correctAnsR1: Haunted
+      correctAnsR2: House
+      correctAnsR3: 
+    - questionText: MOONLIGHT
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: fb7c873874741594c8b2ebd44e64372c, type: 3}
+      - {fileID: 21300000, guid: eb701fb53982bad4ea1649b5755629d0, type: 3}
+      - {fileID: 21300000, guid: bb2f88ac902984f4eaa8764eae7b37fa, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: 2cce8cd08e2c4b448a01b0e888881504, type: 3}
+      - {fileID: 21300000, guid: 61dbd35b8c5d2a44ba09dfeb4e489c51, type: 3}
+      - {fileID: 21300000, guid: 1549ed1894bee1840854bbc9c17f7535, type: 3}
+      row3Emos: []
+      correctAnsR1: Moon
+      correctAnsR2: light
+      correctAnsR3: 
+    - questionText: RUNAWAY BRIDE
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: 77749263a5e3b364da4894137023b799, type: 3}
+      - {fileID: 21300000, guid: 6245582302c02cc4da505a1577da1e25, type: 3}
+      - {fileID: 21300000, guid: 8674ce08839aabc4da317f30becb3de5, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: 037e47c939731974bb7583a69284b9b2, type: 3}
+      - {fileID: 21300000, guid: 027cff2f6634ab7488b0c6691145e1ca, type: 3}
+      - {fileID: 21300000, guid: 110eabd7d26c09f44a8196a8104cb12d, type: 3}
+      row3Emos: []
+      correctAnsR1: Runaway
+      correctAnsR2: Bride
+      correctAnsR3: 
+    - questionText: AMERICAN EAGLE
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: 8684c971059af28498f8cd2fa6d503b9, type: 3}
+      - {fileID: 21300000, guid: 3850ef569bcf434499fa51146bbcb6e7, type: 3}
+      - {fileID: 21300000, guid: ccd95c0c732de384bbd397665ef8292f, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: d8828d60c1f236e46a3cc853f078b0d4, type: 3}
+      - {fileID: 21300000, guid: 8f8c1584faf239b43b73fa1c2de2ef1e, type: 3}
+      - {fileID: 21300000, guid: 83edf20b43f72b445b8ea3413d38f8da, type: 3}
+      row3Emos: []
+      correctAnsR1: American
+      correctAnsR2: Eagle
+      correctAnsR3: 
+    - questionText: HOLY GHOST
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: d21967b56ea1e104496951cc3bda553b, type: 3}
+      - {fileID: 21300000, guid: 373afc36ffb6b1c449c1b88e78d6fd44, type: 3}
+      - {fileID: 21300000, guid: 2ad107920d5cfa744b33d22249c290fa, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: 740df9ce788b7504794e394e26e3f4ec, type: 3}
+      - {fileID: 21300000, guid: c6d01ae241f4c5f45bc6cc627e0f6b9d, type: 3}
+      - {fileID: 21300000, guid: 9e7e239fc37bd7a4cb46dd7869e939d6, type: 3}
+      row3Emos: []
+      correctAnsR1: Holy
+      correctAnsR2: Ghost
+      correctAnsR3: 
+    - questionText: PUPPY LOVE
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: 8355cc65673e2944b9907d1130f460a0, type: 3}
+      - {fileID: 21300000, guid: b2a9634cd4073cc488bba4ff42bf5bb3, type: 3}
+      - {fileID: 21300000, guid: 7970198a62cb4a542aaae6cea1be0bbe, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: 59586fc39166bc7438a7d37859a3a0fc, type: 3}
+      - {fileID: 21300000, guid: c4b2ed977e7fef34eb8cf3c32f432834, type: 3}
+      - {fileID: 21300000, guid: 81442d61a1d5fa14a99c4fd5841ee2ab, type: 3}
+      row3Emos: []
+      correctAnsR1: Puppy
+      correctAnsR2: Love
+      correctAnsR3: 
+    - questionText: PIZZA BOX
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: a43944c606143f8468c24390441179f9, type: 3}
+      - {fileID: 21300000, guid: 436ff964432aaeb4dafbb325650278b0, type: 3}
+      - {fileID: 21300000, guid: 70cf347901054694b8957a4dc8e692f4, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: d3572c9bdd5370d40be3c17ac202c478, type: 3}
+      - {fileID: 21300000, guid: 6273adf0e3ff298499003fc96d49ef0d, type: 3}
+      - {fileID: 21300000, guid: 7508dbe8f2c02414ab6c8ddde930bef5, type: 3}
+      row3Emos: []
+      correctAnsR1: Pizza
+      correctAnsR2: Box
+      correctAnsR3: 
+    - questionText: COWBOY
+      numberOfRows: 2
+      row1Emos:
+      - {fileID: 21300000, guid: f3daab223bcad4c478b1c56204de1276, type: 3}
+      - {fileID: 21300000, guid: 1ae4672be60041f47b4686becf9e0940, type: 3}
+      - {fileID: 21300000, guid: 8673e711fb91db34caf48e16cf0181a1, type: 3}
+      row2Emos:
+      - {fileID: 21300000, guid: befc430648a65454e9142f6844b62414, type: 3}
+      - {fileID: 21300000, guid: 18c79a57346138a44a6bdd2fa903fbf1, type: 3}
+      - {fileID: 21300000, guid: e1403eab14f30384ca9dccf3f4904f91, type: 3}
+      row3Emos: []
+      correctAnsR1: Cow
+      correctAnsR2: Boy
+      correctAnsR3: 
+    emojiEmojiQs: []
+  categoryNumber: 0

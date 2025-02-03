@@ -1,0 +1,469 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Avatar Mask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Boxer
+    m_Weight: 0
+  - m_Path: Boxer/Boxing_gloves_07
+    m_Weight: 0
+  - m_Path: Boxer/Helment_07
+    m_Weight: 0
+  - m_Path: Boxer/Shorts_07
+    m_Weight: 0
+  - m_Path: Boxer/Stickman_face_07
+    m_Weight: 0
+  - m_Path: Boxer/Stickman_heads_sphere_07
+    m_Weight: 0
+  - m_Path: Casual_01
+    m_Weight: 0
+  - m_Path: Casual_01/Helment_15
+    m_Weight: 0
+  - m_Path: Casual_01/Shirt_15
+    m_Weight: 0
+  - m_Path: Casual_01/Shoes_15
+    m_Weight: 0
+  - m_Path: Casual_01/Stickman_face_15
+    m_Weight: 0
+  - m_Path: Casual_01/Stickman_heads_sphere_15
+    m_Weight: 0
+  - m_Path: Casual_01/Trousers_15
+    m_Weight: 0
+  - m_Path: Casual_02
+    m_Weight: 0
+  - m_Path: Casual_02/Shirt_16
+    m_Weight: 0
+  - m_Path: Casual_02/Shoes_16
+    m_Weight: 0
+  - m_Path: Casual_02/Stickman_face_16
+    m_Weight: 0
+  - m_Path: Casual_02/Stickman_heads_sphere_16
+    m_Weight: 0
+  - m_Path: Casual_02/Sunglasses_16
+    m_Weight: 0
+  - m_Path: Casual_02/Trousers_16
+    m_Weight: 0
+  - m_Path: Casual_F
+    m_Weight: 0
+  - m_Path: Casual_F/hair_22
+    m_Weight: 0
+  - m_Path: Casual_F/Shirt_22
+    m_Weight: 0
+  - m_Path: Casual_F/Shoes_22
+    m_Weight: 0
+  - m_Path: Casual_F/Stickman_face_22
+    m_Weight: 0
+  - m_Path: Casual_F/Stickman_heads_sphere_22
+    m_Weight: 0
+  - m_Path: Casual_F/Trousers_22
+    m_Weight: 0
+  - m_Path: Cowboy
+    m_Weight: 0
+  - m_Path: Cowboy/Belt_20
+    m_Weight: 0
+  - m_Path: Cowboy/Hat_20
+    m_Weight: 0
+  - m_Path: Cowboy/Holster1_20
+    m_Weight: 0
+  - m_Path: Cowboy/Holster_20
+    m_Weight: 0
+  - m_Path: Cowboy/Shirt_20
+    m_Weight: 0
+  - m_Path: Cowboy/Shoes_20
+    m_Weight: 0
+  - m_Path: Cowboy/Stickman_face_20
+    m_Weight: 0
+  - m_Path: Cowboy/Stickman_heads_sphere_20
+    m_Weight: 0
+  - m_Path: Cowboy/Trousers_20
+    m_Weight: 0
+  - m_Path: Criminal_01
+    m_Weight: 0
+  - m_Path: Criminal_01/Cap_08
+    m_Weight: 0
+  - m_Path: Criminal_01/Headband_08
+    m_Weight: 0
+  - m_Path: Criminal_01/Pants_08
+    m_Weight: 0
+  - m_Path: Criminal_01/Shoes_08
+    m_Weight: 0
+  - m_Path: Criminal_01/Stickman_face_08
+    m_Weight: 0
+  - m_Path: Criminal_01/Stickman_heads_sphere_08
+    m_Weight: 0
+  - m_Path: Criminal_01/Sweater_08
+    m_Weight: 0
+  - m_Path: Criminal_02
+    m_Weight: 0
+  - m_Path: Criminal_02/Belt_09
+    m_Weight: 0
+  - m_Path: Criminal_02/Hat_09
+    m_Weight: 0
+  - m_Path: Criminal_02/Holster1_09
+    m_Weight: 0
+  - m_Path: Criminal_02/Holster_09
+    m_Weight: 0
+  - m_Path: Criminal_02/Pants_09
+    m_Weight: 0
+  - m_Path: Criminal_02/Shirt_09
+    m_Weight: 0
+  - m_Path: Criminal_02/Sneakers_09
+    m_Weight: 0
+  - m_Path: Criminal_02/Stickman_face_09
+    m_Weight: 0
+  - m_Path: Criminal_02/Stickman_heads_sphere_09
+    m_Weight: 0
+  - m_Path: Dancer
+    m_Weight: 0
+  - m_Path: Dancer/Hat_01
+    m_Weight: 0
+  - m_Path: Dancer/Shirt_01
+    m_Weight: 0
+  - m_Path: Dancer/Shoes_01
+    m_Weight: 0
+  - m_Path: Dancer/Stickman_face_01
+    m_Weight: 0
+  - m_Path: Dancer/Stickman_heads_sphere_01
+    m_Weight: 0
+  - m_Path: Dancer/Trousers_01
+    m_Weight: 0
+  - m_Path: Dating_F
+    m_Weight: 0
+  - m_Path: Dating_F/Belt_23
+    m_Weight: 0
+  - m_Path: Dating_F/hair_23
+    m_Weight: 0
+  - m_Path: Dating_F/Shirt_23
+    m_Weight: 0
+  - m_Path: Dating_F/Shoes_23
+    m_Weight: 0
+  - m_Path: Dating_F/Stickman_face_23
+    m_Weight: 0
+  - m_Path: Dating_F/Stickman_heads_sphere_23
+    m_Weight: 0
+  - m_Path: Dating_F/Trousers_23
+    m_Weight: 0
+  - m_Path: Dating_M
+    m_Weight: 0
+  - m_Path: Dating_M/hair_24
+    m_Weight: 0
+  - m_Path: Dating_M/Pants_24
+    m_Weight: 0
+  - m_Path: Dating_M/Shirt_24
+    m_Weight: 0
+  - m_Path: Dating_M/Shoes_24
+    m_Weight: 0
+  - m_Path: Dating_M/Stickman_face_24
+    m_Weight: 0
+  - m_Path: Dating_M/Stickman_heads_sphere_24
+    m_Weight: 0
+  - m_Path: Dating_M/Trousers_24
+    m_Weight: 0
+  - m_Path: Detective
+    m_Weight: 0
+  - m_Path: Detective/Hat_03
+    m_Weight: 0
+  - m_Path: Detective/Jacket_03
+    m_Weight: 0
+  - m_Path: Detective/Shoes_03
+    m_Weight: 0
+  - m_Path: Detective/Stickman_face_03
+    m_Weight: 0
+  - m_Path: Detective/Stickman_heads_sphere_03
+    m_Weight: 0
+  - m_Path: Detective/Sunglasses_03
+    m_Weight: 0
+  - m_Path: Detective/Trousers_03
+    m_Weight: 0
+  - m_Path: Doctor
+    m_Weight: 0
+  - m_Path: Doctor/Glasses_18
+    m_Weight: 0
+  - m_Path: Doctor/hats_18
+    m_Weight: 0
+  - m_Path: Doctor/Shoes_18
+    m_Weight: 0
+  - m_Path: Doctor/Stickman_face_18
+    m_Weight: 0
+  - m_Path: Doctor/Stickman_heads_sphere_138
+    m_Weight: 0
+  - m_Path: Doctor/top_18
+    m_Weight: 0
+  - m_Path: Doctor/top_19
+    m_Weight: 0
+  - m_Path: Doctor/Trousers_18
+    m_Weight: 0
+  - m_Path: FireFighter
+    m_Weight: 0
+  - m_Path: FireFighter/Helment_17
+    m_Weight: 0
+  - m_Path: FireFighter/Shirt_17
+    m_Weight: 0
+  - m_Path: FireFighter/Shoes_17
+    m_Weight: 0
+  - m_Path: FireFighter/Stickman_face_17
+    m_Weight: 0
+  - m_Path: FireFighter/Stickman_heads_sphere_17
+    m_Weight: 0
+  - m_Path: FireFighter/Trousers_17
+    m_Weight: 0
+  - m_Path: Kid_F
+    m_Weight: 0
+  - m_Path: Kid_F/hair_26
+    m_Weight: 0
+  - m_Path: Kid_F/Shirt_26
+    m_Weight: 0
+  - m_Path: Kid_F/Shoes_26
+    m_Weight: 0
+  - m_Path: Kid_F/Stickman_face_26
+    m_Weight: 0
+  - m_Path: Kid_F/Stickman_heads_sphere_26
+    m_Weight: 0
+  - m_Path: Kid_F/Trousers_26
+    m_Weight: 0
+  - m_Path: Kid_M
+    m_Weight: 0
+  - m_Path: Kid_M/hair_25
+    m_Weight: 0
+  - m_Path: Kid_M/Shirt_25
+    m_Weight: 0
+  - m_Path: Kid_M/Shoes_25
+    m_Weight: 0
+  - m_Path: Kid_M/Stickman_face_25
+    m_Weight: 0
+  - m_Path: Kid_M/Stickman_heads_sphere_25
+    m_Weight: 0
+  - m_Path: Kid_M/Trousers_25
+    m_Weight: 0
+  - m_Path: Nerd
+    m_Weight: 0
+  - m_Path: Nerd/Glasses_02
+    m_Weight: 0
+  - m_Path: Nerd/Shoes_02
+    m_Weight: 0
+  - m_Path: Nerd/Stickman_face_02
+    m_Weight: 0
+  - m_Path: Nerd/Stickman_heads_sphere_02
+    m_Weight: 0
+  - m_Path: Nerd/Sweater_02
+    m_Weight: 0
+  - m_Path: Nerd/Trousers_02
+    m_Weight: 0
+  - m_Path: Office
+    m_Weight: 0
+  - m_Path: Office/Shirt_13
+    m_Weight: 0
+  - m_Path: Office/Shoes_13
+    m_Weight: 0
+  - m_Path: Office/Stickman_face_13
+    m_Weight: 0
+  - m_Path: Office/Stickman_heads_sphere_13
+    m_Weight: 0
+  - m_Path: Office/Tie_13
+    m_Weight: 0
+  - m_Path: Office/Trousers_13
+    m_Weight: 0
+  - m_Path: Office_F
+    m_Weight: 0
+  - m_Path: Office_F/hair_21
+    m_Weight: 0
+  - m_Path: Office_F/Shirt_21
+    m_Weight: 0
+  - m_Path: Office_F/Shoes_21
+    m_Weight: 0
+  - m_Path: Office_F/Stickman_face_21
+    m_Weight: 0
+  - m_Path: Office_F/Stickman_heads_sphere_21
+    m_Weight: 0
+  - m_Path: Office_F/Trousers_21
+    m_Weight: 0
+  - m_Path: Police
+    m_Weight: 0
+  - m_Path: Police/Cap_10
+    m_Weight: 0
+  - m_Path: Police/Holster_10
+    m_Weight: 0
+  - m_Path: Police/Police_pants_10
+    m_Weight: 0
+  - m_Path: Police/Shirt_10
+    m_Weight: 0
+  - m_Path: Police/Shoes_10
+    m_Weight: 0
+  - m_Path: Police/Stickman_face_10
+    m_Weight: 0
+  - m_Path: Police/Stickman_heads_sphere_10
+    m_Weight: 0
+  - m_Path: Police/Sunglasses_10
+    m_Weight: 0
+  - m_Path: Prisoner
+    m_Weight: 0
+  - m_Path: Prisoner/bottom_11
+    m_Weight: 0
+  - m_Path: Prisoner/hats_11
+    m_Weight: 0
+  - m_Path: Prisoner/Stickman_face_11
+    m_Weight: 0
+  - m_Path: Prisoner/Stickman_heads_sphere_11
+    m_Weight: 0
+  - m_Path: Prisoner/top_11
+    m_Weight: 0
+  - m_Path: Prisoner2
+    m_Weight: 0
+  - m_Path: Prisoner2/bottom_04
+    m_Weight: 0
+  - m_Path: Prisoner2/Stickman_face_04
+    m_Weight: 0
+  - m_Path: Prisoner2/Stickman_heads_sphere_04
+    m_Weight: 0
+  - m_Path: Prisoner2/top_04
+    m_Weight: 0
+  - m_Path: root
+    m_Weight: 1
+  - m_Path: root/pelvis
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/index_01_l
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/index_01_l/index_02_l
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/thumb_01_l
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/thumb_01_l/thumb_02_l
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/index_01_r
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/index_01_r/index_02_r
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/thumb_01_r
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/thumb_01_r/thumb_02_r
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/neck_01
+    m_Weight: 0
+  - m_Path: root/pelvis/spine_01/spine_02/spine_03/neck_01/head
+    m_Weight: 0
+  - m_Path: root/pelvis/thigh_l
+    m_Weight: 0
+  - m_Path: root/pelvis/thigh_l/calf_l
+    m_Weight: 0
+  - m_Path: root/pelvis/thigh_l/calf_l/foot_l
+    m_Weight: 0
+  - m_Path: root/pelvis/thigh_l/calf_l/foot_l/toe_l
+    m_Weight: 0
+  - m_Path: root/pelvis/thigh_r
+    m_Weight: 0
+  - m_Path: root/pelvis/thigh_r/calf_r
+    m_Weight: 0
+  - m_Path: root/pelvis/thigh_r/calf_r/foot_r
+    m_Weight: 0
+  - m_Path: root/pelvis/thigh_r/calf_r/foot_r/toe_r
+    m_Weight: 0
+  - m_Path: Sheriff
+    m_Weight: 0
+  - m_Path: Sheriff/Hat_05
+    m_Weight: 0
+  - m_Path: Sheriff/Holster_05
+    m_Weight: 0
+  - m_Path: Sheriff/Holster_013
+    m_Weight: 0
+  - m_Path: Sheriff/Police_pants_05
+    m_Weight: 0
+  - m_Path: Sheriff/Shirt_05
+    m_Weight: 0
+  - m_Path: Sheriff/Shoes_05
+    m_Weight: 0
+  - m_Path: Sheriff/Stickman_face_05
+    m_Weight: 0
+  - m_Path: Sheriff/Stickman_heads_sphere_05
+    m_Weight: 0
+  - m_Path: Sheriff/Tie_05
+    m_Weight: 0
+  - m_Path: Soccer
+    m_Weight: 0
+  - m_Path: Soccer/Shirt_19
+    m_Weight: 0
+  - m_Path: Soccer/Shoes_19
+    m_Weight: 0
+  - m_Path: Soccer/Stickman_face_19
+    m_Weight: 0
+  - m_Path: Soccer/Stickman_heads_sphere_19
+    m_Weight: 0
+  - m_Path: Soccer/Trousers_19
+    m_Weight: 0
+  - m_Path: Suit
+    m_Weight: 0
+  - m_Path: Suit/Jacket_12
+    m_Weight: 0
+  - m_Path: Suit/Shoes_12
+    m_Weight: 0
+  - m_Path: Suit/Stickman_face_12
+    m_Weight: 0
+  - m_Path: Suit/Stickman_heads_sphere_12
+    m_Weight: 0
+  - m_Path: Suit/Sunglasses_12
+    m_Weight: 0
+  - m_Path: Suit/Tie_12
+    m_Weight: 0
+  - m_Path: Suit/Trousers_12
+    m_Weight: 0
+  - m_Path: Thug
+    m_Weight: 0
+  - m_Path: Thug/Holster_14
+    m_Weight: 0
+  - m_Path: Thug/Pants_14
+    m_Weight: 0
+  - m_Path: Thug/Shirt_14
+    m_Weight: 0
+  - m_Path: Thug/Shirt_16 1
+    m_Weight: 0
+  - m_Path: Thug/Shoes_14
+    m_Weight: 0
+  - m_Path: Thug/Stickman_face_14
+    m_Weight: 0
+  - m_Path: Thug/Stickman_heads_sphere_14
+    m_Weight: 0
+  - m_Path: Thug/Trousers_14
+    m_Weight: 0
+  - m_Path: Worker
+    m_Weight: 0
+  - m_Path: Worker/Helment_06
+    m_Weight: 0
+  - m_Path: Worker/Stickman_face_06
+    m_Weight: 0
+  - m_Path: Worker/Stickman_heads_sphere_06
+    m_Weight: 0
+  - m_Path: Worker/Tie_06
+    m_Weight: 0
+  - m_Path: Worker/Trousers_06
+    m_Weight: 0
+  - m_Path: Worker/Vest_06
+    m_Weight: 0

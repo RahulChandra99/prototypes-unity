@@ -1,0 +1,483 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4417142577273786204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4417142577273786206}
+  - component: {fileID: 4417142577273786205}
+  m_Layer: 0
+  m_Name: QuestionBank
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4417142577273786206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4417142577273786204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 720, y: 1280, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4417142577273786205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4417142577273786204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f27756343dd361942a16b50b89ce432a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuestionsBank:
+  - MatchName: match1
+    Match:
+    - roundName: round1
+      Questions:
+      - Question: 'Name any colors '
+        Answer:
+        - RED
+        - ORANGE
+        - YELLOW
+        - GREEN
+        - BLUE
+        - INDIGO
+        - VIOLET
+        - PURPLE
+        - PINK
+        - SILVER
+        - GOLD
+        - BROWN
+        - GREY
+        - GRAY
+        - BLACK
+        - WHITE
+      - Question: Name the days in the week
+        Answer:
+        - MONDAY
+        - TUESDAY
+        - WEDNESDAY
+        - THURSDAY
+        - FRIDAY
+        - SATURDAY
+        - SUNDAY
+      - Question: 'Name the months '
+        Answer:
+        - JANUARY
+        - FEBRUARY
+        - MARCH
+        - APRIL
+        - MAY
+        - JUNE
+        - JULY
+        - AUGUST
+        - SEPTEMBER
+        - OCTOBER
+        - NOVEMBER
+        - DECEMBER
+      - Question: 'Where people can swim? '
+        Answer:
+        - SWIMMING POOL
+        - POOL
+        - POND
+        - RIVER
+        - BEACH
+        - LAKE
+        - SEA
+        - STREAMS
+        - OCEAN
+        - WATER
+    - roundName: round2
+      Questions:
+      - Question: Name the solar planets
+        Answer:
+        - MERCURY
+        - VENUS
+        - EARTH
+        - MARS
+        - CERES
+        - JUPITER
+        - SATURN
+        - URANUS
+        - NEPTUNE
+        - PLUTO
+        - 'CHARON '
+        - 2003 UB 313
+      - Question: Name the oceans
+        Answer:
+        - ATLANTIC
+        - SOUTHERN
+        - ARCTIC
+        - INDIAN
+        - PACIFIC
+      - Question: Name prime numbers less than 100
+        Answer:
+        - 2
+        - 3
+        - 5
+        - 7
+        - 11
+        - 13
+        - 17
+        - 19
+        - 23
+        - 29
+        - 31
+        - 37
+        - 41
+        - 43
+        - 53
+        - 61
+        - 67
+        - 71
+        - 73
+        - 79
+        - 83
+        - 89
+        - 97
+      - Question: Name continents of the world
+        Answer:
+        - EUROPE
+        - ASIA
+        - NORTH AMERICA
+        - AFRICA
+        - SOUTH AMERICA
+        - ANTARTICA
+        - OCEANIA
+        - AUSTRALIA
+    - roundName: round3
+      Questions:
+      - Question: Name rainbow colors
+        Answer:
+        - RED
+        - ORANGE
+        - YELLOW
+        - GREEN
+        - BLUE
+        - INDIGO
+        - VIOLET
+      - Question: Name leap years from 2000 to 2020
+        Answer:
+        - 2000
+        - 2004
+        - 2008
+        - 2012
+        - 2016
+        - 2020
+      - Question: Multiplication Table 2
+        Answer:
+        - 2
+        - 4
+        - 6
+        - 8
+        - 10
+        - 12
+        - 14
+        - 16
+  - MatchName: match2
+    Match:
+    - roundName: round1
+      Questions:
+      - Question: Name common pet animals
+        Answer:
+        - DOG
+        - PUPPY
+        - CAT
+        - KITTEN
+        - TURTLE
+        - RABBIT
+        - HAMSTER
+        - MOUSE
+        - PARROT
+        - GOLDFISH
+        - FISH
+        - TROPICAL FISH
+      - Question: Name the seasons
+        Answer:
+        - SPRING
+        - SUMMER
+        - MONSOON
+        - AUTUMN
+        - PREWINTER
+        - WINTER
+        - FALL
+      - Question: Multiplication table of 10
+        Answer:
+        - 10
+        - 20
+        - 30
+        - 40
+        - 50
+        - 60
+        - 70
+        - 80
+        - 90
+        - 100
+      - Question: Name the directions
+        Answer:
+        - EAST
+        - NORTH
+        - SOUTH
+        - WEST
+        - NORTH WEST
+        - NORTH EAST
+        - SOUTH EAST
+        - SOUTH WEST
+    - roundName: round2
+      Questions:
+      - Question: Name most popular superheroes
+        Answer:
+        - BATMAN
+        - SUPERMAN
+        - SPIDERMAN
+        - IRONMAN
+        - WOLVERINE
+        - CAPTAIN AMERICA
+        - HULK
+        - THOR
+        - FLASH
+        - GREEN LANTERN
+        - WONDER WOMEN
+        - AQUAMAN
+        - SCARLET WITCH
+        - JEAN GREY
+      - Question: Name the popular fast food brands
+        Answer:
+        - MACDONALDS
+        - STARBUCKS
+        - SUBWAY
+        - TACOBELL
+        - WENDYS
+        - BURGER KING
+        - DUNKIN DONUTS
+        - DOMINOES
+        - KFC
+        - PIZZA HUT
+      - Question: Name different shapes
+        Answer:
+        - ARROW
+        - CROSS
+        - CRECENT
+        - HEART
+        - STAR
+        - CIRCLE
+        - OVAL
+        - SQUARE
+        - CUBE
+        - CYLINDER
+        - RHOMBUS
+        - PARALELOGRAM
+        - SCALENE TRIANGLE
+        - TRIANGLE
+        - RIGHT TRIANGLE
+        - PENTAGON
+        - HEXAGON
+        - HEPTAGON
+        - OCTAGON
+        - NANAGON
+        - RECTANGLE
+    - roundName: round3
+      Questions:
+      - Question: Name popular smartphone brands
+        Answer:
+        - SAMSUNG
+        - APPLE
+        - XIAOMI
+        - OPPO
+        - ONEPLUS
+        - APPLE
+        - MOTOROLA
+        - MOBICEL
+        - GOOGLE
+        - NOKIA
+        - MICROSOFT
+        - LENOVO
+      - Question: Transport modes that you use to travel
+        Answer:
+        - METRO
+        - SUBWAY
+        - TRAIN
+        - RAIL
+        - AIRPLANE
+        - PLANE
+        - FLIGHT
+        - HELICOPTER
+        - CYCLE
+        - BICYCLE
+        - MOTORBIKE
+        - BIKE
+      - Question: Name the popular sports brand
+        Answer:
+        - NIKE
+        - ADDIDAS
+        - ESPN
+        - UNDER ARMOUR
+        - PUMA
+        - UFC
+        - SKY SPORTS
+        - REEBOK
+  - MatchName: match3
+    Match:
+    - roundName: round1
+      Questions:
+      - Question: Name common pet animals
+        Answer:
+        - DOG
+        - PUPPY
+        - CAT
+        - KITTEN
+        - TURTLE
+        - RABBIT
+        - HAMSTER
+        - MOUSE
+        - PARROT
+        - GOLDFISH
+        - FISH
+        - TROPICAL FISH
+      - Question: Name the seasons
+        Answer:
+        - SPRING
+        - SUMMER
+        - MONSOON
+        - AUTUMN
+        - PREWINTER
+        - WINTER
+        - FALL
+      - Question: Multiplication table of 10
+        Answer:
+        - 10
+        - 20
+        - 30
+        - 40
+        - 50
+        - 60
+        - 70
+        - 80
+        - 90
+        - 100
+      - Question: Name the directions
+        Answer:
+        - EAST
+        - NORTH
+        - SOUTH
+        - WEST
+        - NORTH WEST
+        - NORTH EAST
+        - SOUTH EAST
+        - SOUTH WEST
+    - roundName: round2
+      Questions:
+      - Question: Name most popular superheroes
+        Answer:
+        - BATMAN
+        - SUPERMAN
+        - SPIDERMAN
+        - IRONMAN
+        - WOLVERINE
+        - CAPTAIN AMERICA
+        - HULK
+        - THOR
+        - FLASH
+        - GREEN LANTERN
+        - WONDER WOMEN
+        - AQUAMAN
+        - SCARLET WITCH
+        - JEAN GREY
+      - Question: Name the music scales
+        Answer:
+        - DO
+        - RE
+        - MI
+        - FA
+        - SO
+        - LA
+        - TI
+      - Question: Name the popular fast food brands
+        Answer:
+        - MACDONALDS
+        - STARBUCKS
+        - SUBWAY
+        - TACOBELL
+        - WENDYS
+        - BURGER KING
+        - DUNKIN DONUTS
+        - DOMINOES
+        - KFC
+        - PIZZA HUT
+      - Question: Name different shapes
+        Answer:
+        - ARROW
+        - CROSS
+        - CRECENT
+        - HEART
+        - STAR
+        - CIRCLE
+        - OVAL
+        - SQUARE
+        - CUBE
+        - CYLINDER
+        - RHOMBUS
+        - PARALELOGRAM
+        - SCALENE TRIANGLE
+        - TRIANGLE
+        - RIGHT TRIANGLE
+        - PENTAGON
+        - HEXAGON
+        - HEPTAGON
+        - OCTAGON
+        - NANAGON
+        - RECTANGLE
+    - roundName: round3
+      Questions:
+      - Question: Name popular smartphone brands
+        Answer:
+        - SAMSUNG
+        - APPLE
+        - XIAOMI
+        - OPPO
+        - ONEPLUS
+        - APPLE
+        - MOTOROLA
+        - MOBICEL
+        - GOOGLE
+        - NOKIA
+        - MICROSOFT
+        - LENOVO
+      - Question: Transport modes that you use to travel
+        Answer:
+        - METRO
+        - SUBWAY
+        - TRAIN
+        - RAIL
+        - AIRPLANE
+        - PLANE
+        - FLIGHT
+        - HELICOPTER
+        - CYCLE
+        - BICYCLE
+        - MOTORBIKE
+        - BIKE
+      - Question: Name the popular sports brand
+        Answer:
+        - NIKE
+        - ADDIDAS
+        - ESPN
+        - UNDER ARMOUR
+        - PUMA
+        - UFC
+        - SKY SPORTS
+        - REEBOK
