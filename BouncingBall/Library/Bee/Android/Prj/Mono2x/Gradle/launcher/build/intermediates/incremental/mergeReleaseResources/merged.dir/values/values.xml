@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="al_exo_playback_speeds" translatable="false">
+    <item>0.25x</item>
+    <item>0.5x</item>
+    <item>0.75x</item>
+    <item>@string/al_exo_controls_playback_speed_normal</item>
+    <item>1.25x</item>
+    <item>1.5x</item>
+    <item>2x</item>
+  </string-array>
+    <integer-array name="al_exo_speed_multiplied_by_100">
+    <item>25</item>
+    <item>50</item>
+    <item>75</item>
+    <item>100</item>
+    <item>125</item>
+    <item>150</item>
+    <item>200</item>
+  </integer-array>
+    <attr format="color" name="al_ad_marker_color"/>
+    <attr format="dimension" name="al_ad_marker_width"/>
+    <attr format="boolean" name="al_animation_enabled"/>
+    <attr format="boolean" name="al_auto_show"/>
+    <attr format="color" name="al_backgroundTint"/>
+    <attr format="enum" name="al_bar_gravity">
+    <enum name="center" value="0"/>
+    <enum name="bottom" value="1"/>
+  </attr>
+    <attr format="dimension" name="al_bar_height"/>
+    <attr format="color" name="al_buffered_color"/>
+    <attr format="reference" name="al_controller_layout_id"/>
+    <attr format="reference" name="al_default_artwork"/>
+    <attr format="boolean" name="al_hide_during_ads"/>
+    <attr format="boolean" name="al_hide_on_touch"/>
+    <attr format="boolean" name="al_keep_content_on_player_reset"/>
+    <attr format="color" name="al_played_ad_marker_color"/>
+    <attr format="color" name="al_played_color"/>
+    <attr format="reference" name="al_player_layout_id"/>
+    <attr name="al_repeat_toggle_modes">
+    <flag name="none" value="0"/>
+    <flag name="one" value="1"/>
+    <flag name="all" value="2"/>
+  </attr>
+    <attr format="enum" name="al_resize_mode">
+    <enum name="fit" value="0"/>
+    <enum name="fixed_width" value="1"/>
+    <enum name="fixed_height" value="2"/>
+    <enum name="fill" value="3"/>
+    <enum name="zoom" value="4"/>
+  </attr>
+    <attr format="color" name="al_scrubber_color"/>
+    <attr format="dimension" name="al_scrubber_disabled_size"/>
+    <attr format="dimension" name="al_scrubber_dragged_size"/>
+    <attr format="reference" name="al_scrubber_drawable"/>
+    <attr format="dimension" name="al_scrubber_enabled_size"/>
+    <attr format="enum" name="al_show_buffering">
+    <enum name="never" value="0"/>
+    <enum name="when_playing" value="1"/>
+    <enum name="always" value="2"/>
+  </attr>
+    <attr format="boolean" name="al_show_fastforward_button"/>
+    <attr format="boolean" name="al_show_next_button"/>
+    <attr format="boolean" name="al_show_previous_button"/>
+    <attr format="boolean" name="al_show_rewind_button"/>
+    <attr format="boolean" name="al_show_shuffle_button"/>
+    <attr format="boolean" name="al_show_subtitle_button"/>
+    <attr format="integer" name="al_show_timeout"/>
+    <attr format="boolean" name="al_show_vr_button"/>
+    <attr format="color" name="al_shutter_background_color"/>
+    <attr format="enum" name="al_surface_type">
+    <enum name="none" value="0"/>
+    <enum name="surface_view" value="1"/>
+    <enum name="texture_view" value="2"/>
+    <enum name="spherical_gl_surface_view" value="3"/>
+    <enum name="video_decoder_gl_surface_view" value="4"/>
+  </attr>
+    <attr format="integer" name="al_time_bar_min_update_interval"/>
+    <attr format="dimension" name="al_touch_target_height"/>
+    <attr format="color" name="al_unplayed_color"/>
+    <attr format="boolean" name="al_use_artwork"/>
+    <attr format="boolean" name="al_use_controller"/>
+    <color name="al_exo_black_opacity_60">#98000000</color>
+    <color name="al_exo_black_opacity_70">#B3000000</color>
+    <color name="al_exo_bottom_bar_background">#b0000000</color>
+    <color name="al_exo_edit_mode_background_color">#FFF4F3F0</color>
+    <color name="al_exo_error_message_background_color">#AA000000</color>
+    <color name="al_exo_styled_error_message_background">#80808080</color>
+    <color name="al_exo_white">#ffffff</color>
+    <color name="al_exo_white_opacity_70">#B3ffffff</color>
+    <color name="applovin_sdk_adBadgeTextColor">#0A5B17</color>
+    <color name="applovin_sdk_adControlbutton_brightBlueColor">#1376FF</color>
+    <color name="applovin_sdk_brand_color">#0583aa</color>
+    <color name="applovin_sdk_brand_color_dark">#02627F</color>
+    <color name="applovin_sdk_checkmarkColor">#4CD964</color>
+    <color name="applovin_sdk_ctaButtonColor">#4285F4</color>
+    <color name="applovin_sdk_ctaButtonPressedColor">#0059c1</color>
+    <color name="applovin_sdk_disclosureButtonColor">#C4C4C4</color>
+    <color name="applovin_sdk_grayColor">#808080</color>
+    <color name="applovin_sdk_greenColor">#4CD964</color>
+    <color name="applovin_sdk_highlightListItemColor">#C8C8C8</color>
+    <color name="applovin_sdk_highlightTextColor">#9F9F9F</color>
+    <color name="applovin_sdk_listViewBackground">#EFEFF4</color>
+    <color name="applovin_sdk_listViewSectionTextColor">#97979B</color>
+    <color name="applovin_sdk_starColor">#ffc922</color>
+    <color name="applovin_sdk_switchThumbColor">#fffefe</color>
+    <color name="applovin_sdk_switchTrackDisabledColor">#cbcccc</color>
+    <color name="applovin_sdk_textColorPrimary">@android:color/white</color>
+    <color name="applovin_sdk_textColorPrimaryDark">@android:color/black</color>
+    <color name="applovin_sdk_textColorSecondaryDark">@android:color/darker_gray</color>
+    <color name="applovin_sdk_warningColor">#FFCC00</color>
+    <color name="applovin_sdk_xmarkColor">#FF3B30</color>
+    <color name="browser_actions_bg_grey">#F5F5F5</color>
+    <color name="browser_actions_divider_color">#1E000000</color>
+    <color name="browser_actions_text_color">#DE000000</color>
+    <color name="browser_actions_title_color">#646464</color>
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <dimen name="al_exo_error_message_height">32dp</dimen>
+    <dimen name="al_exo_error_message_margin_bottom">64dp</dimen>
+    <dimen name="al_exo_error_message_text_padding_horizontal">12dp</dimen>
+    <dimen name="al_exo_error_message_text_padding_vertical">4dp</dimen>
+    <dimen name="al_exo_error_message_text_size">14sp</dimen>
+    <dimen name="al_exo_icon_horizontal_margin">5dp</dimen>
+    <dimen name="al_exo_icon_padding">2dp</dimen>
+    <dimen name="al_exo_icon_padding_bottom">18dp</dimen>
+    <dimen name="al_exo_icon_size">52dp</dimen>
+    <dimen name="al_exo_icon_text_size">9dp</dimen>
+    <dimen name="al_exo_media_button_height">52dp</dimen>
+    <dimen name="al_exo_media_button_width">71dp</dimen>
+    <dimen name="al_exo_setting_width">150dp</dimen>
+    <dimen name="al_exo_settings_height">52dp</dimen>
+    <dimen name="al_exo_settings_icon_size">24dp</dimen>
+    <dimen name="al_exo_settings_main_text_size">14sp</dimen>
+    <dimen name="al_exo_settings_offset">8dp</dimen>
+    <dimen name="al_exo_settings_sub_text_size">12sp</dimen>
+    <dimen name="al_exo_settings_text_height">24dp</dimen>
+    <dimen name="al_exo_small_icon_height">48dp</dimen>
+    <dimen name="al_exo_small_icon_horizontal_margin">2dp</dimen>
+    <dimen name="al_exo_small_icon_padding_horizontal">12dp</dimen>
+    <dimen name="al_exo_small_icon_padding_vertical">12dp</dimen>
+    <dimen name="al_exo_small_icon_width">48dp</dimen>
+    <dimen name="al_exo_styled_bottom_bar_height">60dp</dimen>
+    <dimen name="al_exo_styled_bottom_bar_margin_top">10dp</dimen>
+    <dimen name="al_exo_styled_bottom_bar_time_padding">10dp</dimen>
+    <dimen name="al_exo_styled_controls_padding">0dp</dimen>
+    <dimen name="al_exo_styled_minimal_controls_margin_bottom">4dp</dimen>
+    <dimen name="al_exo_styled_progress_bar_height">2dp</dimen>
+    <dimen name="al_exo_styled_progress_dragged_thumb_size">14dp</dimen>
+    <dimen name="al_exo_styled_progress_enabled_thumb_size">10dp</dimen>
+    <dimen name="al_exo_styled_progress_layout_height">48dp</dimen>
+    <dimen name="al_exo_styled_progress_margin_bottom">52dp</dimen>
+    <dimen name="al_exo_styled_progress_touch_target_height">48dp</dimen>
+    <dimen name="applovin_sdk_actionBarHeight">60dp</dimen>
+    <dimen name="applovin_sdk_adControlButton_height">40dp</dimen>
+    <dimen name="applovin_sdk_adControlButton_width">70dp</dimen>
+    <dimen name="applovin_sdk_mediationDebuggerDetailListItemTextSize">15sp</dimen>
+    <dimen name="applovin_sdk_mediationDebuggerSectionHeight">50dp</dimen>
+    <dimen name="applovin_sdk_mediationDebuggerSectionTextSize">13sp</dimen>
+    <dimen name="applovin_sdk_mrec_height">250dp</dimen>
+    <dimen name="applovin_sdk_mrec_width">300dp</dimen>
+    <dimen name="browser_actions_context_menu_max_width">500dp</dimen>
+    <dimen name="browser_actions_context_menu_min_padding">20dp</dimen>
+    <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
+    <dimen name="compat_button_inset_vertical_material">6dp</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="compat_button_padding_vertical_material">4dp</dimen>
+    <dimen name="compat_control_corner_material">2dp</dimen>
+    <dimen name="compat_notification_large_icon_max_height">320dp</dimen>
+    <dimen name="compat_notification_large_icon_max_width">320dp</dimen>
+    <dimen name="default_margin">8dp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_main_column_padding_top">10dp</dimen>
+    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_right_side_padding_top">2dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="text_margin">4dp</dimen>
+    <drawable name="al_exo_controls_fastforward">@drawable/applovin_exo_icon_fastforward</drawable>
+    <drawable name="al_exo_controls_fullscreen_enter">@drawable/applovin_exo_icon_fullscreen_enter</drawable>
+    <drawable name="al_exo_controls_fullscreen_exit">@drawable/applovin_exo_icon_fullscreen_exit</drawable>
+    <drawable name="al_exo_controls_next">@drawable/applovin_exo_icon_next</drawable>
+    <drawable name="al_exo_controls_pause">@drawable/applovin_exo_icon_pause</drawable>
+    <drawable name="al_exo_controls_play">@drawable/applovin_exo_icon_play</drawable>
+    <drawable name="al_exo_controls_previous">@drawable/applovin_exo_icon_previous</drawable>
+    <drawable name="al_exo_controls_repeat_all">@drawable/applovin_exo_icon_repeat_all</drawable>
+    <drawable name="al_exo_controls_repeat_off">@drawable/applovin_exo_icon_repeat_off</drawable>
+    <drawable name="al_exo_controls_repeat_one">@drawable/applovin_exo_icon_repeat_one</drawable>
+    <drawable name="al_exo_controls_rewind">@drawable/applovin_exo_icon_rewind</drawable>
+    <drawable name="al_exo_controls_shuffle_off">@drawable/applovin_exo_icon_shuffle_off</drawable>
+    <drawable name="al_exo_controls_shuffle_on">@drawable/applovin_exo_icon_shuffle_on</drawable>
+    <drawable name="al_exo_controls_vr">@drawable/applovin_exo_icon_vr</drawable>
+    <drawable name="al_exo_notification_fastforward">@drawable/applovin_exo_icon_fastforward</drawable>
+    <drawable name="al_exo_notification_next">@drawable/applovin_exo_icon_next</drawable>
+    <drawable name="al_exo_notification_pause">@drawable/applovin_exo_icon_pause</drawable>
+    <drawable name="al_exo_notification_play">@drawable/applovin_exo_icon_play</drawable>
+    <drawable name="al_exo_notification_previous">@drawable/applovin_exo_icon_previous</drawable>
+    <drawable name="al_exo_notification_rewind">@drawable/applovin_exo_icon_rewind</drawable>
+    <drawable name="al_exo_notification_small_icon">@drawable/applovin_exo_icon_circular_play</drawable>
+    <drawable name="al_exo_notification_stop">@drawable/applovin_exo_icon_stop</drawable>
+    <drawable name="al_exo_styled_controls_audiotrack">@drawable/applovin_exo_ic_audiotrack</drawable>
+    <drawable name="al_exo_styled_controls_check">@drawable/applovin_exo_ic_check</drawable>
+    <drawable name="al_exo_styled_controls_fastforward">@drawable/applovin_exo_ic_forward</drawable>
+    <drawable name="al_exo_styled_controls_fullscreen_enter">@drawable/applovin_exo_ic_fullscreen_enter</drawable>
+    <drawable name="al_exo_styled_controls_fullscreen_exit">@drawable/applovin_exo_ic_fullscreen_exit</drawable>
+    <drawable name="al_exo_styled_controls_next">@drawable/applovin_exo_ic_skip_next</drawable>
+    <drawable name="al_exo_styled_controls_overflow_hide">@drawable/applovin_exo_ic_chevron_left</drawable>
+    <drawable name="al_exo_styled_controls_overflow_show">@drawable/applovin_exo_ic_chevron_right</drawable>
+    <drawable name="al_exo_styled_controls_pause">@drawable/applovin_exo_ic_pause_circle_filled</drawable>
+    <drawable name="al_exo_styled_controls_play">@drawable/applovin_exo_ic_play_circle_filled</drawable>
+    <drawable name="al_exo_styled_controls_previous">@drawable/applovin_exo_ic_skip_previous</drawable>
+    <drawable name="al_exo_styled_controls_repeat_all">@drawable/applovin_exo_icon_repeat_all</drawable>
+    <drawable name="al_exo_styled_controls_repeat_off">@drawable/applovin_exo_icon_repeat_off</drawable>
+    <drawable name="al_exo_styled_controls_repeat_one">@drawable/applovin_exo_icon_repeat_one</drawable>
+    <drawable name="al_exo_styled_controls_rewind">@drawable/applovin_exo_ic_rewind</drawable>
+    <drawable name="al_exo_styled_controls_settings">@drawable/applovin_exo_ic_settings</drawable>
+    <drawable name="al_exo_styled_controls_shuffle_off">@drawable/applovin_exo_icon_shuffle_off</drawable>
+    <drawable name="al_exo_styled_controls_shuffle_on">@drawable/applovin_exo_icon_shuffle_on</drawable>
+    <drawable name="al_exo_styled_controls_speed">@drawable/applovin_exo_ic_speed</drawable>
+    <drawable name="al_exo_styled_controls_subtitle_off">@drawable/applovin_exo_ic_subtitle_off</drawable>
+    <drawable name="al_exo_styled_controls_subtitle_on">@drawable/applovin_exo_ic_subtitle_on</drawable>
+    <drawable name="al_exo_styled_controls_vr">@drawable/applovin_exo_icon_vr</drawable>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="accessibility_action_clickable_span" type="id"/>
+    <item name="accessibility_custom_action_0" type="id"/>
+    <item name="accessibility_custom_action_1" type="id"/>
+    <item name="accessibility_custom_action_10" type="id"/>
+    <item name="accessibility_custom_action_11" type="id"/>
+    <item name="accessibility_custom_action_12" type="id"/>
+    <item name="accessibility_custom_action_13" type="id"/>
+    <item name="accessibility_custom_action_14" type="id"/>
+    <item name="accessibility_custom_action_15" type="id"/>
+    <item name="accessibility_custom_action_16" type="id"/>
+    <item name="accessibility_custom_action_17" type="id"/>
+    <item name="accessibility_custom_action_18" type="id"/>
+    <item name="accessibility_custom_action_19" type="id"/>
+    <item name="accessibility_custom_action_2" type="id"/>
+    <item name="accessibility_custom_action_20" type="id"/>
+    <item name="accessibility_custom_action_21" type="id"/>
+    <item name="accessibility_custom_action_22" type="id"/>
+    <item name="accessibility_custom_action_23" type="id"/>
+    <item name="accessibility_custom_action_24" type="id"/>
+    <item name="accessibility_custom_action_25" type="id"/>
+    <item name="accessibility_custom_action_26" type="id"/>
+    <item name="accessibility_custom_action_27" type="id"/>
+    <item name="accessibility_custom_action_28" type="id"/>
+    <item name="accessibility_custom_action_29" type="id"/>
+    <item name="accessibility_custom_action_3" type="id"/>
+    <item name="accessibility_custom_action_30" type="id"/>
+    <item name="accessibility_custom_action_31" type="id"/>
+    <item name="accessibility_custom_action_4" type="id"/>
+    <item name="accessibility_custom_action_5" type="id"/>
+    <item name="accessibility_custom_action_6" type="id"/>
+    <item name="accessibility_custom_action_7" type="id"/>
+    <item name="accessibility_custom_action_8" type="id"/>
+    <item name="accessibility_custom_action_9" type="id"/>
+    <item name="al_exo_ad_overlay" type="id"/>
+    <item name="al_exo_artwork" type="id"/>
+    <item name="al_exo_audio_track" type="id"/>
+    <item name="al_exo_basic_controls" type="id"/>
+    <item name="al_exo_bottom_bar" type="id"/>
+    <item name="al_exo_buffering" type="id"/>
+    <item name="al_exo_center_controls" type="id"/>
+    <item name="al_exo_content_frame" type="id"/>
+    <item name="al_exo_controller" type="id"/>
+    <item name="al_exo_controller_placeholder" type="id"/>
+    <item name="al_exo_controls_background" type="id"/>
+    <item name="al_exo_duration" type="id"/>
+    <item name="al_exo_error_message" type="id"/>
+    <item name="al_exo_extra_controls" type="id"/>
+    <item name="al_exo_extra_controls_scroll_view" type="id"/>
+    <item name="al_exo_ffwd" type="id"/>
+    <item name="al_exo_ffwd_with_amount" type="id"/>
+    <item name="al_exo_fullscreen" type="id"/>
+    <item name="al_exo_minimal_controls" type="id"/>
+    <item name="al_exo_minimal_fullscreen" type="id"/>
+    <item name="al_exo_next" type="id"/>
+    <item name="al_exo_overflow_hide" type="id"/>
+    <item name="al_exo_overflow_show" type="id"/>
+    <item name="al_exo_overlay" type="id"/>
+    <item name="al_exo_pause" type="id"/>
+    <item name="al_exo_play" type="id"/>
+    <item name="al_exo_play_pause" type="id"/>
+    <item name="al_exo_playback_speed" type="id"/>
+    <item name="al_exo_position" type="id"/>
+    <item name="al_exo_prev" type="id"/>
+    <item name="al_exo_progress" type="id"/>
+    <item name="al_exo_progress_placeholder" type="id"/>
+    <item name="al_exo_repeat_toggle" type="id"/>
+    <item name="al_exo_rew" type="id"/>
+    <item name="al_exo_rew_with_amount" type="id"/>
+    <item name="al_exo_settings" type="id"/>
+    <item name="al_exo_shuffle" type="id"/>
+    <item name="al_exo_shutter" type="id"/>
+    <item name="al_exo_subtitle" type="id"/>
+    <item name="al_exo_subtitles" type="id"/>
+    <item name="al_exo_time" type="id"/>
+    <item name="al_exo_vr" type="id"/>
+    <item name="line1" type="id"/>
+    <item name="line3" type="id"/>
+    <item name="privacy_icon_button" type="id"/>
+    <item name="tag_accessibility_actions" type="id"/>
+    <item name="tag_accessibility_clickable_spans" type="id"/>
+    <item name="tag_accessibility_heading" type="id"/>
+    <item name="tag_accessibility_pane_title" type="id"/>
+    <item name="tag_screen_reader_focusable" type="id"/>
+    <item name="tag_transition_group" type="id"/>
+    <item name="tag_unhandled_key_event_manager" type="id"/>
+    <item name="tag_unhandled_key_listeners" type="id"/>
+    <item name="text" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="title" type="id"/>
+    <item name="unitySurfaceView" type="id"/>
+    <integer name="al_exo_media_button_opacity_percentage_disabled">33</integer>
+    <integer name="al_exo_media_button_opacity_percentage_enabled">100</integer>
+    <integer name="google_play_services_version">12451000</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <plurals name="al_exo_controls_fastforward_by_amount_description">
+    <item quantity="one">Fast forward <ns1:g example="1" id="fastforward_amount">%d</ns1:g> second</item>
+    <item quantity="other">Fast forward <ns1:g example="30" id="fastforward_amount">%d</ns1:g> seconds</item>
+  </plurals>
+    <plurals name="al_exo_controls_rewind_by_amount_description">
+    <item quantity="one">Rewind <ns1:g example="1" id="rewind_amount">%d</ns1:g> second</item>
+    <item quantity="other">Rewind <ns1:g example="30" id="rewind_amount">%d</ns1:g> seconds</item>
+  </plurals>
+    <string name="FreeformWindowOrientation_landscape"/>
+    <string name="FreeformWindowOrientation_portrait"/>
+    <string name="FreeformWindowSize_maximize"/>
+    <string name="FreeformWindowSize_phone"/>
+    <string name="FreeformWindowSize_tablet"/>
+    <string name="al_exo_controls_cc_disabled_description">Enable subtitles</string>
+    <string name="al_exo_controls_cc_enabled_description">Disable subtitles</string>
+    <string name="al_exo_controls_custom_playback_speed" translatable="false"><ns1:g example="1.05" id="playback_speed">%1$.2f</ns1:g>x</string>
+    <string name="al_exo_controls_fastforward_description">Fast forward</string>
+    <string name="al_exo_controls_fullscreen_enter_description">Enter fullscreen</string>
+    <string name="al_exo_controls_fullscreen_exit_description">Exit fullscreen</string>
+    <string name="al_exo_controls_hide">Hide player controls</string>
+    <string name="al_exo_controls_next_description">Next</string>
+    <string name="al_exo_controls_overflow_hide_description">Hide additional settings</string>
+    <string name="al_exo_controls_overflow_show_description">Show additional settings</string>
+    <string name="al_exo_controls_pause_description">Pause</string>
+    <string name="al_exo_controls_play_description">Play</string>
+    <string name="al_exo_controls_playback_speed">Speed</string>
+    <string name="al_exo_controls_playback_speed_normal">Normal</string>
+    <string name="al_exo_controls_previous_description">Previous</string>
+    <string name="al_exo_controls_repeat_all_description">Repeat all</string>
+    <string name="al_exo_controls_repeat_off_description">Repeat none</string>
+    <string name="al_exo_controls_repeat_one_description">Repeat one</string>
+    <string name="al_exo_controls_rewind_description">Rewind</string>
+    <string name="al_exo_controls_seek_bar_description">Playback progress</string>
+    <string name="al_exo_controls_settings_description">Settings</string>
+    <string name="al_exo_controls_show">Show player controls</string>
+    <string name="al_exo_controls_shuffle_off_description">Shuffle off</string>
+    <string name="al_exo_controls_shuffle_on_description">Shuffle on</string>
+    <string name="al_exo_controls_stop_description">Stop</string>
+    <string name="al_exo_controls_time_placeholder" translatable="false">00:00:00</string>
+    <string name="al_exo_controls_vr_description">VR mode</string>
+    <string name="al_exo_download_completed">Download completed</string>
+    <string name="al_exo_download_description">Download</string>
+    <string name="al_exo_download_downloading">Downloading</string>
+    <string name="al_exo_download_failed">Download failed</string>
+    <string name="al_exo_download_notification_channel_name">Downloads</string>
+    <string name="al_exo_download_paused">Downloads paused</string>
+    <string name="al_exo_download_paused_for_network">Downloads waiting for network</string>
+    <string name="al_exo_download_paused_for_wifi">Downloads waiting for WiFi</string>
+    <string name="al_exo_download_removing">Removing downloads</string>
+    <string name="al_exo_item_list"><ns1:g example="apple, pear" id="list">%1$s</ns1:g>, <ns1:g example="banana" id="item">%2$s</ns1:g></string>
+    <string name="al_exo_track_bitrate"><ns1:g example="5.2" id="bitrate">%1$.2f</ns1:g> Mbps</string>
+    <string name="al_exo_track_mono">Mono</string>
+    <string name="al_exo_track_resolution"><ns1:g example="1024" id="width">%1$d</ns1:g> × <ns1:g example="768" id="height">%2$d</ns1:g></string>
+    <string name="al_exo_track_role_alternate">Alternate</string>
+    <string name="al_exo_track_role_closed_captions">CC</string>
+    <string name="al_exo_track_role_commentary">Commentary</string>
+    <string name="al_exo_track_role_supplementary">Supplementary</string>
+    <string name="al_exo_track_selection_auto">Auto</string>
+    <string name="al_exo_track_selection_none">None</string>
+    <string name="al_exo_track_selection_title_audio" translatable="false">Audio</string>
+    <string name="al_exo_track_selection_title_text">Text</string>
+    <string name="al_exo_track_selection_title_video">Video</string>
+    <string name="al_exo_track_stereo">Stereo</string>
+    <string name="al_exo_track_surround">Surround sound</string>
+    <string name="al_exo_track_surround_5_point_1">5.1 surround sound</string>
+    <string name="al_exo_track_surround_7_point_1">7.1 surround sound</string>
+    <string name="al_exo_track_unknown">Unknown</string>
+    <string name="app_name">The Physics-LESS Ball of Excitement</string>
+    <string name="applovin_agree_message">Please press \"Continue\" if you choose to start using our app.</string>
+    <string name="applovin_alt_privacy_policy_text"/>
+    <string name="applovin_continue_button_text">Continue</string>
+    <string name="applovin_creative_debugger_disabled_text" translatable="false">Enable the Creative Debugger SDK settings in order to view recent ads.</string>
+    <string name="applovin_creative_debugger_no_ads_text" translatable="false">No recently displayed ads found.</string>
+    <string name="applovin_list_item_image_description" translatable="false">Displays more info about the list item.</string>
+    <string name="applovin_pp_and_tos_title">To use %s you must agree to our Terms \u0026 Conditions and affirm you have reviewed our Privacy Policy</string>
+    <string name="applovin_pp_title">To use %s you must affirm that you have reviewed and acknowledged our Privacy Policy.</string>
+    <string name="applovin_privacy_policy_text">Privacy Policy</string>
+    <string name="applovin_terms_of_service_text">Terms \u0026 Conditions</string>
+    <string name="applovin_terms_of_use_text">Terms of Use</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your device.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are not supported by your device.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="fallback_menu_item_copy_link">Copy link</string>
+    <string name="fallback_menu_item_open_in_browser">Open in browser</string>
+    <string name="fallback_menu_item_share_link">Share link</string>
+    <string name="game_view_content_description">Game view</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <style name="AppLovinExoMediaButton">
+    <item name="android:background">?android:attr/selectableItemBackground</item>
+    <item name="android:layout_width">@dimen/al_exo_media_button_width</item>
+    <item name="android:layout_height">@dimen/al_exo_media_button_height</item>
+  </style>
+    <style name="AppLovinExoMediaButton.FastForward">
+    <item name="android:src">@drawable/al_exo_controls_fastforward</item>
+    <item name="android:contentDescription">@string/al_exo_controls_fastforward_description</item>
+  </style>
+    <style name="AppLovinExoMediaButton.Next">
+    <item name="android:src">@drawable/al_exo_controls_next</item>
+    <item name="android:contentDescription">@string/al_exo_controls_next_description</item>
+  </style>
+    <style name="AppLovinExoMediaButton.Pause">
+    <item name="android:src">@drawable/al_exo_controls_pause</item>
+    <item name="android:contentDescription">@string/al_exo_controls_pause_description</item>
+  </style>
+    <style name="AppLovinExoMediaButton.Play">
+    <item name="android:src">@drawable/al_exo_controls_play</item>
+    <item name="android:contentDescription">@string/al_exo_controls_play_description</item>
+  </style>
+    <style name="AppLovinExoMediaButton.Previous">
+    <item name="android:src">@drawable/al_exo_controls_previous</item>
+    <item name="android:contentDescription">@string/al_exo_controls_previous_description</item>
+  </style>
+    <style name="AppLovinExoMediaButton.Rewind">
+    <item name="android:src">@drawable/al_exo_controls_rewind</item>
+    <item name="android:contentDescription">@string/al_exo_controls_rewind_description</item>
+  </style>
+    <style name="AppLovinExoMediaButton.VR">
+    <item name="android:src">@drawable/al_exo_controls_vr</item>
+    <item name="android:contentDescription">@string/al_exo_controls_vr_description</item>
+  </style>
+    <style name="AppLovinExoStyledControls"/>
+    <style name="AppLovinExoStyledControls.Button">
+    <item name="android:background">?android:attr/selectableItemBackground</item>
+    <item name="android:scaleType">fitXY</item>
+    <item name="android:layout_marginLeft">@dimen/al_exo_icon_horizontal_margin</item>
+    <item name="android:layout_marginRight">@dimen/al_exo_icon_horizontal_margin</item>
+  </style>
+    <style name="AppLovinExoStyledControls.Button.Bottom">
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:layout_width">@dimen/al_exo_small_icon_width</item>
+    <item name="android:layout_height">@dimen/al_exo_small_icon_height</item>
+    <item name="android:layout_marginLeft">@dimen/al_exo_small_icon_horizontal_margin</item>
+    <item name="android:layout_marginRight">@dimen/al_exo_small_icon_horizontal_margin</item>
+    <item name="android:paddingLeft">@dimen/al_exo_small_icon_padding_horizontal</item>
+    <item name="android:paddingRight">@dimen/al_exo_small_icon_padding_horizontal</item>
+    <item name="android:paddingTop">@dimen/al_exo_small_icon_padding_vertical</item>
+    <item name="android:paddingBottom">@dimen/al_exo_small_icon_padding_vertical</item>
+  </style>
+    <style name="AppLovinExoStyledControls.Button.Bottom.AudioTrack">
+    <item name="android:src">@drawable/al_exo_styled_controls_audiotrack</item>
+    <item name="android:contentDescription">@string/al_exo_track_selection_title_audio</item>
+  </style>
+    <style name="AppLovinExoStyledControls.Button.Bottom.CC">
+    <item name="android:src">@drawable/al_exo_styled_controls_subtitle_off</item>
+    <item name="android:contentDescription">@string/al_exo_controls_cc_disabled_description</item>
+  </style>
+    <style name="AppLovinExoStyledControls.Button.Bottom.FullScreen">
+    <item name="android:src">@drawable/al_exo_styled_controls_fullscreen_enter</item>
+    <item name="android:contentDescription">@string/al_exo_controls_fullscreen_enter_description</item>
+  </style>
+    <style name="AppLovinExoStyledControls.Button.Bottom.OverflowHide">
+    <item name="android:src">@drawable/al_exo_styled_controls_overflow_hide</item>
+    <item name="android:contentDescription">@string/al_exo_controls_overflow_hide_description</item>
+  </style>
+    <style name="AppLovinExoStyledControls.Button.Bottom.OverflowShow">
+    <item name="android:src">@drawable/al_exo_styled_controls_overflow_show</item>
+    <item name="android:contentDescription">@string/al_exo_controls_overflow_show_description</item>
+  </style>
+    <style name="AppLovinExoStyledControls.Button.Bottom.PlaybackSpeed">
+    <item name="android:src">@drawable/al_exo_styled_controls_speed</item>
+    <item name="android:contentDescription">@string/al_exo_controls_playback_speed</item>
+  </style>
+    <style name="AppLovinExoStyledControls.Button.Bottom.RepeatToggle">
+    <item name="android:src">@drawable/al_exo_styled_controls_repeat_off</item>
+    <item name="android:contentDescription">@string/al_exo_controls_repeat_off_description</item>
+  </style>
+    <style name="AppLovinExoStyledControls.Button.Bottom.Settings">
+    <item name="android:src">@drawable/al_exo_styled_controls_settings</item>
+    <item name="android:contentDescription">@string/al_exo_controls_settings_description</item>
+  </style>
+    <style name="AppLovinExoStyledControls.Button.Bottom.Shuffle">
+    <item name="android:src">@drawable/al_exo_styled_controls_shuffle_off</item>
+    <item name="android:contentDescription">@string/al_exo_controls_shuffle_off_description</item>
+  </style>
+    <style name="AppLovinExoStyledControls.Button.Bottom.VR">
+    <item name="android:src">@drawable/al_exo_styled_controls_vr</item>
+    <item name="android:contentDescription">@string/al_exo_controls_vr_description</item>
+  </style>
+    <style name="AppLovinExoStyledControls.Button.Center">
+    <item name="android:layout_width">@dimen/al_exo_icon_size</item>
+    <item name="android:layout_height">@dimen/al_exo_icon_size</item>
+  </style>
+    <style name="AppLovinExoStyledControls.Button.Center.FfwdWithAmount">
+    <item name="android:foreground">@drawable/al_exo_styled_controls_fastforward</item>
+    <item name="android:gravity">center|bottom</item>
+    <item name="android:paddingBottom">@dimen/al_exo_icon_padding_bottom</item>
+    <item name="android:textAppearance">@style/AppLovinExoStyledControls.ButtonText</item>
+    
+    <item name="al_backgroundTint">@android:color/white</item>
+    <item name="android:insetBottom">0dp</item>
+  </style>
+    <style name="AppLovinExoStyledControls.Button.Center.Next">
+    <item name="android:src">@drawable/al_exo_styled_controls_next</item>
+    <item name="android:contentDescription">@string/al_exo_controls_next_description</item>
+    <item name="android:padding">@dimen/al_exo_icon_padding</item>
+  </style>
+    <style name="AppLovinExoStyledControls.Button.Center.PlayPause">
+    <item name="android:src">@drawable/al_exo_styled_controls_play</item>
+    <item name="android:contentDescription">@string/al_exo_controls_play_description</item>
+    <item name="android:padding">@dimen/al_exo_icon_padding</item>
+  </style>
+    <style name="AppLovinExoStyledControls.Button.Center.Previous">
+    <item name="android:src">@drawable/al_exo_styled_controls_previous</item>
+    <item name="android:contentDescription">@string/al_exo_controls_previous_description</item>
+    <item name="android:padding">@dimen/al_exo_icon_padding</item>
+  </style>
+    <style name="AppLovinExoStyledControls.Button.Center.RewWithAmount">
+    <item name="android:foreground">@drawable/al_exo_styled_controls_rewind</item>
+    <item name="android:gravity">center|bottom</item>
+    <item name="android:paddingBottom">@dimen/al_exo_icon_padding_bottom</item>
+    <item name="android:textAppearance">@style/AppLovinExoStyledControls.ButtonText</item>
+    
+    <item name="al_backgroundTint">@android:color/white</item>
+    <item name="android:insetBottom">0dp</item>
+  </style>
+    <style name="AppLovinExoStyledControls.ButtonText">
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">@dimen/al_exo_icon_text_size</item>
+    <item name="android:textColor">@color/al_exo_white</item>
+  </style>
+    <style name="AppLovinExoStyledControls.TimeBar">
+    <item name="al_bar_height">@dimen/al_exo_styled_progress_bar_height</item>
+    <item name="al_bar_gravity">bottom</item>
+    <item name="al_touch_target_height">@dimen/al_exo_styled_progress_touch_target_height</item>
+    <item name="al_scrubber_enabled_size">@dimen/al_exo_styled_progress_enabled_thumb_size</item>
+    <item name="al_scrubber_dragged_size">@dimen/al_exo_styled_progress_dragged_thumb_size</item>
+    <item name="android:layout_height">@dimen/al_exo_styled_progress_layout_height</item>
+  </style>
+    <style name="AppLovinExoStyledControls.TimeText">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_gravity">center_vertical</item>
+    <item name="android:paddingLeft">4dp</item>
+    <item name="android:paddingRight">4dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:gravity">center</item>
+  </style>
+    <style name="AppLovinExoStyledControls.TimeText.Duration">
+    <item name="android:textColor">@color/al_exo_white_opacity_70</item>
+    <item name="android:text">@string/al_exo_controls_time_placeholder</item>
+  </style>
+    <style name="AppLovinExoStyledControls.TimeText.Position">
+    <item name="android:textColor">@color/al_exo_white</item>
+    <item name="android:text">@string/al_exo_controls_time_placeholder</item>
+  </style>
+    <style name="AppLovinExoStyledControls.TimeText.Separator">
+    <item name="android:textColor">@color/al_exo_white_opacity_70</item>
+    <item name="android:text">·</item>
+  </style>
+    <style name="BaseUnityTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
+</style>
+    <style name="LargeIconView">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">90dp</item>
+    </style>
+    <style name="SmallIconView">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="UnityThemeSelector" parent="BaseUnityTheme">
+	<item name="android:windowBackground">@android:color/black</item>
+</style>
+    <style name="UnityThemeSelector.Translucent" parent="@style/UnityThemeSelector">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+</style>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <style name="com.applovin.creative.CreativeDebuggerActivity.ActionBar" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/applovin_sdk_brand_color</item>
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:titleTextStyle">@style/com.applovin.creative.CreativeDebuggerActivity.ActionBar.TitleTextStyle</item>
+    </style>
+    <style name="com.applovin.creative.CreativeDebuggerActivity.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/applovin_sdk_textColorPrimary</item>
+    </style>
+    <style name="com.applovin.creative.CreativeDebuggerActivity.Theme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/com.applovin.creative.CreativeDebuggerActivity.ActionBar</item>
+    </style>
+    <style name="com.applovin.creative.debugger.ui.DisplayedAdActivity.ReportAdButton" parent="android:Widget.Button">
+        <item name="android:background">@drawable/applovin_creative_debugger_report_ad_rounded_button</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="com.applovin.mediation.MaxDebuggerActivity.ActionBar" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/applovin_sdk_brand_color</item>
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:titleTextStyle">@style/com.applovin.mediation.MaxDebuggerActivity.ActionBar.TitleTextStyle</item>
+    </style>
+    <style name="com.applovin.mediation.MaxDebuggerActivity.ActionBar.Live" parent="com.applovin.mediation.MaxDebuggerActivity.ActionBar">
+        <item name="android:background">@color/applovin_sdk_greenColor</item>
+    </style>
+    <style name="com.applovin.mediation.MaxDebuggerActivity.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/applovin_sdk_textColorPrimary</item>
+    </style>
+    <style name="com.applovin.mediation.MaxDebuggerActivity.Theme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/com.applovin.mediation.MaxDebuggerActivity.ActionBar</item>
+    </style>
+    <style name="com.applovin.mediation.MaxDebuggerActivity.Theme.Live" parent="com.applovin.mediation.MaxDebuggerActivity.Theme">
+        <item name="android:actionBarStyle">@style/com.applovin.mediation.MaxDebuggerActivity.ActionBar.Live</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.AdBadgeTextView" parent="android:Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:background">@drawable/applovin_rounded_text_view_border</item>
+        <item name="android:textColor">@color/applovin_sdk_adBadgeTextColor</item>
+        <item name="android:text">Ad</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.AutoScrollingTextView" parent="android:Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/applovin_sdk_grayColor</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.CTAButton" parent="android:Widget.Button">
+        <item name="android:background">@drawable/applovin_rounded_button</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.ExtraSmallAdBadgeTextView" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.AdBadgeTextView">
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.ExtraSmallScrollingBodyTextView" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.AutoScrollingTextView">
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.ExtraSmallScrollingTitleTextView" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.ScrollingTitleTextView">
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.LargeAdBadgeTextView" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.AdBadgeTextView">
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.LargeScrollingBodyTextView" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.AutoScrollingTextView">
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.LargeScrollingTitleTextView" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.ScrollingTitleTextView">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.LargeVerticalBodyTextSize" parent="android:Widget.TextView">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/applovin_sdk_grayColor</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.LargeVerticalTitleTextSize" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.TitleTextStyle">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.ScrollingTitleTextView" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.AutoScrollingTextView">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.SmallAdBadgeTextView" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.AdBadgeTextView">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.SmallScrollingBodyTextView" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.AutoScrollingTextView">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.SmallScrollingTitleTextView" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.ScrollingTitleTextView">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.SmallVerticalBodyTextSize" parent="android:Widget.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/applovin_sdk_grayColor</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.SmallVerticalTitleTextSize" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.TitleTextStyle">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.TitleTextStyle" parent="android:Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/applovin_sdk_grayColor</item>
+    </style>
+    <declare-styleable name="AppLovinAspectRatioFrameLayout">
+    <attr name="al_resize_mode"/>
+  </declare-styleable>
+    <declare-styleable name="AppLovinDefaultTimeBar">
+    <attr name="al_bar_height"/>
+    <attr name="al_bar_gravity"/>
+    <attr name="al_touch_target_height"/>
+    <attr name="al_ad_marker_width"/>
+    <attr name="al_scrubber_enabled_size"/>
+    <attr name="al_scrubber_disabled_size"/>
+    <attr name="al_scrubber_dragged_size"/>
+    <attr name="al_scrubber_drawable"/>
+    <attr name="al_played_color"/>
+    <attr name="al_scrubber_color"/>
+    <attr name="al_buffered_color"/>
+    <attr name="al_unplayed_color"/>
+    <attr name="al_ad_marker_color"/>
+    <attr name="al_played_ad_marker_color"/>
+  </declare-styleable>
+    <declare-styleable name="AppLovinPlayerControlView">
+    <attr name="al_show_timeout"/>
+    <attr name="al_repeat_toggle_modes"/>
+    <attr name="al_show_rewind_button"/>
+    <attr name="al_show_fastforward_button"/>
+    <attr name="al_show_previous_button"/>
+    <attr name="al_show_next_button"/>
+    <attr name="al_show_shuffle_button"/>
+    <attr name="al_time_bar_min_update_interval"/>
+    <attr name="al_controller_layout_id"/>
+    
+    <attr name="al_bar_height"/>
+    <attr name="al_bar_gravity"/>
+    <attr name="al_touch_target_height"/>
+    <attr name="al_ad_marker_width"/>
+    <attr name="al_scrubber_enabled_size"/>
+    <attr name="al_scrubber_disabled_size"/>
+    <attr name="al_scrubber_dragged_size"/>
+    <attr name="al_scrubber_drawable"/>
+    <attr name="al_played_color"/>
+    <attr name="al_scrubber_color"/>
+    <attr name="al_buffered_color"/>
+    <attr name="al_unplayed_color"/>
+    <attr name="al_ad_marker_color"/>
+    <attr name="al_played_ad_marker_color"/>
+  </declare-styleable>
+    <declare-styleable name="AppLovinPlayerView">
+    <attr name="al_use_artwork"/>
+    <attr name="al_shutter_background_color"/>
+    <attr name="al_default_artwork"/>
+    <attr name="al_use_controller"/>
+    <attr name="al_hide_on_touch"/>
+    <attr name="al_hide_during_ads"/>
+    <attr name="al_auto_show"/>
+    <attr name="al_show_buffering"/>
+    <attr name="al_keep_content_on_player_reset"/>
+    <attr name="al_player_layout_id"/>
+    <attr name="al_surface_type"/>
+    
+    <attr name="al_resize_mode"/>
+    
+    <attr name="al_show_timeout"/>
+    <attr name="al_repeat_toggle_modes"/>
+    <attr name="al_show_shuffle_button"/>
+    <attr name="al_time_bar_min_update_interval"/>
+    <attr name="al_controller_layout_id"/>
+    
+    <attr name="al_bar_height"/>
+    <attr name="al_touch_target_height"/>
+    <attr name="al_ad_marker_width"/>
+    <attr name="al_scrubber_enabled_size"/>
+    <attr name="al_scrubber_disabled_size"/>
+    <attr name="al_scrubber_dragged_size"/>
+    <attr name="al_scrubber_drawable"/>
+    <attr name="al_played_color"/>
+    <attr name="al_scrubber_color"/>
+    <attr name="al_buffered_color"/>
+    <attr name="al_unplayed_color"/>
+    <attr name="al_ad_marker_color"/>
+    <attr name="al_played_ad_marker_color"/>
+  </declare-styleable>
+    <declare-styleable name="AppLovinStyledPlayerControlView">
+    <attr name="al_show_timeout"/>
+    <attr name="al_repeat_toggle_modes"/>
+    <attr name="al_show_rewind_button"/>
+    <attr name="al_show_fastforward_button"/>
+    <attr name="al_show_previous_button"/>
+    <attr name="al_show_next_button"/>
+    <attr name="al_show_shuffle_button"/>
+    <attr name="al_show_subtitle_button"/>
+    <attr name="al_show_vr_button"/>
+    <attr name="al_time_bar_min_update_interval"/>
+    <attr name="al_controller_layout_id"/>
+    <attr name="al_animation_enabled"/>
+    
+    <attr name="al_bar_height"/>
+    <attr name="al_bar_gravity"/>
+    <attr name="al_touch_target_height"/>
+    <attr name="al_ad_marker_width"/>
+    <attr name="al_scrubber_enabled_size"/>
+    <attr name="al_scrubber_disabled_size"/>
+    <attr name="al_scrubber_dragged_size"/>
+    <attr name="al_scrubber_drawable"/>
+    <attr name="al_played_color"/>
+    <attr name="al_scrubber_color"/>
+    <attr name="al_buffered_color"/>
+    <attr name="al_unplayed_color"/>
+    <attr name="al_ad_marker_color"/>
+    <attr name="al_played_ad_marker_color"/>
+  </declare-styleable>
+    <declare-styleable name="AppLovinStyledPlayerView">
+    <attr name="al_use_artwork"/>
+    <attr name="al_shutter_background_color"/>
+    <attr name="al_default_artwork"/>
+    <attr name="al_use_controller"/>
+    <attr name="al_hide_on_touch"/>
+    <attr name="al_hide_during_ads"/>
+    <attr name="al_auto_show"/>
+    <attr name="al_show_buffering"/>
+    <attr name="al_keep_content_on_player_reset"/>
+    <attr name="al_player_layout_id"/>
+    <attr name="al_surface_type"/>
+    
+    <attr name="al_resize_mode"/>
+    
+    <attr name="al_show_timeout"/>
+    <attr name="al_repeat_toggle_modes"/>
+    <attr name="al_show_shuffle_button"/>
+    <attr name="al_show_subtitle_button"/>
+    <attr name="al_show_vr_button"/>
+    <attr name="al_time_bar_min_update_interval"/>
+    <attr name="al_controller_layout_id"/>
+    <attr name="al_animation_enabled"/>
+    
+    <attr name="al_bar_height"/>
+    <attr name="al_bar_gravity"/>
+    <attr name="al_touch_target_height"/>
+    <attr name="al_ad_marker_width"/>
+    <attr name="al_scrubber_enabled_size"/>
+    <attr name="al_scrubber_disabled_size"/>
+    <attr name="al_scrubber_dragged_size"/>
+    <attr name="al_scrubber_drawable"/>
+    <attr name="al_played_color"/>
+    <attr name="al_scrubber_color"/>
+    <attr name="al_buffered_color"/>
+    <attr name="al_unplayed_color"/>
+    <attr name="al_ad_marker_color"/>
+    <attr name="al_played_ad_marker_color"/>
+  </declare-styleable>
+    <declare-styleable name="ColorStateListItem">
+        <!-- Base color for this state. -->
+        <attr name="android:color"/>
+        <!-- Alpha multiplier applied to the base color. -->
+        <attr format="float" name="alpha"/>
+        <attr name="android:alpha"/>
+    </declare-styleable>
+    <declare-styleable name="FontFamily">
+        <!-- The authority of the Font Provider to be used for the request. -->
+        <attr format="string" name="fontProviderAuthority"/>
+        <!-- The package for the Font Provider to be used for the request. This is used to verify
+        the identity of the provider. -->
+        <attr format="string" name="fontProviderPackage"/>
+        <!-- The query to be sent over to the provider. Refer to your font provider's documentation
+        on the format of this string. -->
+        <attr format="string" name="fontProviderQuery"/>
+        <!-- The sets of hashes for the certificates the provider should be signed with. This is
+        used to verify the identity of the provider, and is only required if the provider is not
+        part of the system image. This value may point to one list or a list of lists, where each
+        individual list represents one collection of signature hashes. Refer to your font provider's
+        documentation for these values. -->
+        <attr format="reference" name="fontProviderCerts"/>
+        <!-- The strategy to be used when fetching font data from a font provider in XML layouts.
+        This attribute is ignored when the resource is loaded from code, as it is equivalent to the
+        choice of API between {@link
+    androidx.core.content.res.ResourcesCompat#getFont(Context, int)} (blocking) and
+        {@link
+    androidx.core.content.res.ResourcesCompat#getFont(Context, int, FontCallback, Handler)}
+        (async). -->
+        <attr name="fontProviderFetchStrategy">
+            <!-- The blocking font fetch works as follows.
+              First, check the local cache, then if the requested font is not cached, request the
+              font from the provider and wait until it is finished.  You can change the length of
+              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
+              default typeface will be used instead. -->
+            <enum name="blocking" value="0"/>
+            <!-- The async font fetch works as follows.
+              First, check the local cache, then if the requeted font is not cached, trigger a
+              request the font and continue with layout inflation. Once the font fetch succeeds, the
+              target text view will be refreshed with the downloaded font data. The
+              fontProviderFetchTimeout will be ignored if async loading is specified. -->
+            <enum name="async" value="1"/>
+        </attr>
+        <!-- The length of the timeout during fetching. -->
+        <attr format="integer" name="fontProviderFetchTimeout">
+            <!-- A special value for the timeout. In this case, the blocking font fetching will not
+              timeout and wait until a reply is received from the font provider. -->
+            <enum name="forever" value="-1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="FontFamilyFont">
+        <!-- The style of the given font file. This will be used when the font is being loaded into
+         the font stack and will override any style information in the font's header tables. If
+         unspecified, the value in the font's header tables will be used. -->
+        <attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr>
+        <!-- The reference to the font file to be used. This should be a file in the res/font folder
+         and should therefore have an R reference value. E.g. @font/myfont -->
+        <attr format="reference" name="font"/>
+        <!-- The weight of the given font file. This will be used when the font is being loaded into
+         the font stack and will override any weight information in the font's header tables. Must
+         be a positive number, a multiple of 100, and between 100 and 900, inclusive. The most
+         common values are 400 for regular weight and 700 for bold weight. If unspecified, the value
+         in the font's header tables will be used. -->
+        <attr format="integer" name="fontWeight"/>
+        <!-- The variation settings to be applied to the font. The string should be in the following
+         format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
+         used, or the font used does not support variation settings, this attribute needs not be
+         specified. -->
+        <attr format="string" name="fontVariationSettings"/>
+        <!-- The index of the font in the tcc font file. If the font file referenced is not in the
+        tcc format, this attribute needs not be specified. -->
+        <attr format="integer" name="ttcIndex"/>
+        <!-- References to the framework attrs -->
+        <attr name="android:fontStyle"/>
+        <attr name="android:font"/>
+        <attr name="android:fontWeight"/>
+        <attr name="android:fontVariationSettings"/>
+        <attr name="android:ttcIndex"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColor">
+        <!-- Start color of the gradient. -->
+        <attr name="android:startColor"/>
+        <!-- Optional center color. -->
+        <attr name="android:centerColor"/>
+        <!-- End color of the gradient. -->
+        <attr name="android:endColor"/>
+        <!-- Type of gradient. The default type is linear. -->
+        <attr name="android:type"/>
+
+        <!-- Only applied to RadialGradient-->
+        <!-- Radius of the gradient, used only with radial gradient. -->
+        <attr name="android:gradientRadius"/>
+
+        <!-- Only applied to SweepGradient / RadialGradient-->
+        <!-- X coordinate of the center of the gradient within the path. -->
+        <attr name="android:centerX"/>
+        <!-- Y coordinate of the center of the gradient within the path. -->
+        <attr name="android:centerY"/>
+
+        <!-- LinearGradient specific -->
+        <!-- X coordinate of the start point origin of the gradient.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:startX"/>
+        <!-- Y coordinate of the start point of the gradient within the shape.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:startY"/>
+        <!-- X coordinate of the end point origin of the gradient.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:endX"/>
+        <!-- Y coordinate of the end point of the gradient within the shape.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:endY"/>
+
+        <!-- Defines the tile mode of the gradient. SweepGradient doesn't support tiling. -->
+        <attr name="android:tileMode"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColorItem">
+        <!-- The offset (or ratio) of this current color item inside the gradient.
+             The value is only meaningful when it is between 0 and 1. -->
+        <attr name="android:offset"/>
+        <!-- The current color for the offset inside the gradient. -->
+        <attr name="android:color"/>
+    </declare-styleable>
+    <declare-styleable name="LevelPlayBannerAdView">
+        <attr format="string" name="adUnitId"/>
+        <attr format="string" name="adSize"/>
+    </declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr name="imageAspectRatioAdjust">
+<enum name="none" value="0"/>
+
+<enum name="adjust_width" value="1"/>
+
+<enum name="adjust_height" value="2"/>
+
+</attr>
+
+<attr format="float" name="imageAspectRatio"/>
+
+<attr format="boolean" name="circleCrop"/>
+</declare-styleable>
+    <declare-styleable name="SignInButton"><attr format="reference" name="buttonSize">
+<enum name="standard" value="0"/>
+
+<enum name="wide" value="1"/>
+
+<enum name="icon_only" value="2"/>
+
+</attr>
+<attr format="reference" name="colorScheme">
+<enum name="dark" value="0"/>
+
+<enum name="light" value="1"/>
+
+<enum name="auto" value="2"/>
+
+</attr>
+
+<attr format="reference|string" name="scopeUris"/>
+</declare-styleable>
+</resources>

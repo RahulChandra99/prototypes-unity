@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="applovin_agree_message">如果您选择开始使用我们的应用，请点击\"继续\"</string>
+    <string name="applovin_alt_privacy_policy_text"/>
+    <string name="applovin_continue_button_text">继续</string>
+    <string name="applovin_pp_and_tos_title">使用%s之前, 您必须同意我们的服务条款，并确认您已经阅读并知悉我们的隐私政策。</string>
+    <string name="applovin_pp_title">使用%s之前, 您必须确认您已经阅读并知悉我们的隐私政策.</string>
+    <string name="applovin_privacy_policy_text">隐私政策</string>
+    <string name="applovin_terms_of_service_text">服务条款</string>
+    <string name="applovin_terms_of_use_text">使用条款</string>
+</resources>

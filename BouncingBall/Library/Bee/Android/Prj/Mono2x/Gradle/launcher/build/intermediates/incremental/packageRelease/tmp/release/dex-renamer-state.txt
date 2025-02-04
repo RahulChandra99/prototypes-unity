@@ -1,0 +1,4 @@
+#Thu Nov 28 20:32:19 GMT 2024
+base.0=D\:\\GameDevelopment\\Unity\\casual-games-unity\\BouncingBall\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

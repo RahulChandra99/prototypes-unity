@@ -1,0 +1,35 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml:2:1-12:12
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml:2:1-12:12
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml:2:1-12:12
+	package
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml:2:70-100
+		INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml
+		INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml:3:3-65
+	android:name
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml:3:20-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml:4:3-77
+	android:name
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml:4:20-74
+application
+ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml:5:3-11:17
+uses-sdk
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml
+		INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml
+		INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml

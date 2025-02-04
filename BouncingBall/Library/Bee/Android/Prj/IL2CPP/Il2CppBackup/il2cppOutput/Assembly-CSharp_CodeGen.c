@@ -1,0 +1,713 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void LevelPlaySample::Start()
+extern void LevelPlaySample_Start_mF8FEBB5FCF9E647542F23C2DFB42F08431BEFB25 (void);
+// 0x00000002 System.Void LevelPlaySample::EnableAds()
+extern void LevelPlaySample_EnableAds_mD107E91A7162E886A03721C44A3065AD36F0439C (void);
+// 0x00000003 System.Void LevelPlaySample::OnApplicationPause(System.Boolean)
+extern void LevelPlaySample_OnApplicationPause_mEBA3F290D1418F1EC196F7D5C273C2AFE514AD0B (void);
+// 0x00000004 System.Void LevelPlaySample::OnGUI()
+extern void LevelPlaySample_OnGUI_m98229292EFDC32DFCEB00C42615AB7E99AF7C534 (void);
+// 0x00000005 System.Void LevelPlaySample::SdkInitializationCompletedEvent(com.unity3d.mediation.LevelPlayConfiguration)
+extern void LevelPlaySample_SdkInitializationCompletedEvent_m551DFCB7D429E431CB9BF9CE4D5DBC64C9125012 (void);
+// 0x00000006 System.Void LevelPlaySample::SdkInitializationFailedEvent(com.unity3d.mediation.LevelPlayInitError)
+extern void LevelPlaySample_SdkInitializationFailedEvent_mD3AC3E4B9C3179032F4C27579733F0631A8A8BC0 (void);
+// 0x00000007 System.Void LevelPlaySample::RewardedVideoOnAdOpenedEvent(IronSourceAdInfo)
+extern void LevelPlaySample_RewardedVideoOnAdOpenedEvent_m5DD79AD5224EDCAE6235CC255D2F05FF37C0B814 (void);
+// 0x00000008 System.Void LevelPlaySample::RewardedVideoOnAdClosedEvent(IronSourceAdInfo)
+extern void LevelPlaySample_RewardedVideoOnAdClosedEvent_m6ADF79A8A8106996686CDBB8619C36F965EA0A45 (void);
+// 0x00000009 System.Void LevelPlaySample::RewardedVideoOnAdAvailable(IronSourceAdInfo)
+extern void LevelPlaySample_RewardedVideoOnAdAvailable_mCD7E16AF904ECB67AD0AA1F996A2D90FABBC3A00 (void);
+// 0x0000000A System.Void LevelPlaySample::RewardedVideoOnAdUnavailable()
+extern void LevelPlaySample_RewardedVideoOnAdUnavailable_mFC27320B6931998C0041E46084644A98134D9539 (void);
+// 0x0000000B System.Void LevelPlaySample::RewardedVideoOnAdShowFailedEvent(IronSourceError,IronSourceAdInfo)
+extern void LevelPlaySample_RewardedVideoOnAdShowFailedEvent_mE881A3F9D7AEDDF081D72BD8262BD6E064E00EDE (void);
+// 0x0000000C System.Void LevelPlaySample::RewardedVideoOnAdRewardedEvent(IronSourcePlacement,IronSourceAdInfo)
+extern void LevelPlaySample_RewardedVideoOnAdRewardedEvent_mD50357594DCB42B942C662104F16CB59FEED3614 (void);
+// 0x0000000D System.Void LevelPlaySample::RewardedVideoOnAdClickedEvent(IronSourcePlacement,IronSourceAdInfo)
+extern void LevelPlaySample_RewardedVideoOnAdClickedEvent_m15778A45D718C82825A48B0ADA602CE4C2012CDF (void);
+// 0x0000000E System.Void LevelPlaySample::InterstitialOnAdLoadedEvent(com.unity3d.mediation.LevelPlayAdInfo)
+extern void LevelPlaySample_InterstitialOnAdLoadedEvent_mDF83D2E4EBBD2606050368A58F50343CA70C1B28 (void);
+// 0x0000000F System.Void LevelPlaySample::InterstitialOnAdLoadFailedEvent(com.unity3d.mediation.LevelPlayAdError)
+extern void LevelPlaySample_InterstitialOnAdLoadFailedEvent_m2DD8582F9F6EAC1EA5B45BB5BE3CEB32BFF6CC60 (void);
+// 0x00000010 System.Void LevelPlaySample::InterstitialOnAdDisplayedEvent(com.unity3d.mediation.LevelPlayAdInfo)
+extern void LevelPlaySample_InterstitialOnAdDisplayedEvent_mC50AB57BA03315457CB54AD1E86A8A08D39B1B2A (void);
+// 0x00000011 System.Void LevelPlaySample::InterstitialOnAdDisplayFailedEvent(com.unity3d.mediation.LevelPlayAdDisplayInfoError)
+extern void LevelPlaySample_InterstitialOnAdDisplayFailedEvent_m58B2EAFBFEC8FFAADF2AB0F225128331DEBF41A9 (void);
+// 0x00000012 System.Void LevelPlaySample::InterstitialOnAdClickedEvent(com.unity3d.mediation.LevelPlayAdInfo)
+extern void LevelPlaySample_InterstitialOnAdClickedEvent_mCE1C12BED3916D2272C3F3CB81DB446D7CCDBE15 (void);
+// 0x00000013 System.Void LevelPlaySample::InterstitialOnAdClosedEvent(com.unity3d.mediation.LevelPlayAdInfo)
+extern void LevelPlaySample_InterstitialOnAdClosedEvent_mFAF8AA78AAF1ADC063E167501D34E5C51831FB8C (void);
+// 0x00000014 System.Void LevelPlaySample::InterstitialOnAdInfoChangedEvent(com.unity3d.mediation.LevelPlayAdInfo)
+extern void LevelPlaySample_InterstitialOnAdInfoChangedEvent_m8F2E5513C9E394173D197280B777C59512FB10B3 (void);
+// 0x00000015 System.Void LevelPlaySample::BannerOnAdLoadedEvent(com.unity3d.mediation.LevelPlayAdInfo)
+extern void LevelPlaySample_BannerOnAdLoadedEvent_m0953E0539ACA3CCB7E3B92E85A4AFF0DB45843C5 (void);
+// 0x00000016 System.Void LevelPlaySample::BannerOnAdLoadFailedEvent(com.unity3d.mediation.LevelPlayAdError)
+extern void LevelPlaySample_BannerOnAdLoadFailedEvent_m5B302D8D363A2FA149ADA8A7DD17001E3ADC47C4 (void);
+// 0x00000017 System.Void LevelPlaySample::BannerOnAdClickedEvent(com.unity3d.mediation.LevelPlayAdInfo)
+extern void LevelPlaySample_BannerOnAdClickedEvent_mFA5F64D750688E4752817708FA107446FB37EA02 (void);
+// 0x00000018 System.Void LevelPlaySample::BannerOnAdDisplayedEvent(com.unity3d.mediation.LevelPlayAdInfo)
+extern void LevelPlaySample_BannerOnAdDisplayedEvent_mBAB6FCD46178D90D47040A97F0FB986CB3AB6126 (void);
+// 0x00000019 System.Void LevelPlaySample::BannerOnAdDisplayFailedEvent(com.unity3d.mediation.LevelPlayAdDisplayInfoError)
+extern void LevelPlaySample_BannerOnAdDisplayFailedEvent_m0052514491F9C204B44BEF4350914B1E9AE88A8E (void);
+// 0x0000001A System.Void LevelPlaySample::BannerOnAdCollapsedEvent(com.unity3d.mediation.LevelPlayAdInfo)
+extern void LevelPlaySample_BannerOnAdCollapsedEvent_mCAD7FE0561B3E4B3B7EE11F09DF393D8462BBA6D (void);
+// 0x0000001B System.Void LevelPlaySample::BannerOnAdLeftApplicationEvent(com.unity3d.mediation.LevelPlayAdInfo)
+extern void LevelPlaySample_BannerOnAdLeftApplicationEvent_mB12169AF188F5677902D26F79C488AC136E555EE (void);
+// 0x0000001C System.Void LevelPlaySample::BannerOnAdExpandedEvent(com.unity3d.mediation.LevelPlayAdInfo)
+extern void LevelPlaySample_BannerOnAdExpandedEvent_m73C05C8B067316149A2BD773D5FC2FE93035B2FE (void);
+// 0x0000001D System.Void LevelPlaySample::ImpressionDataReadyEvent(IronSourceImpressionData)
+extern void LevelPlaySample_ImpressionDataReadyEvent_m3CC3BA8DAF3A84F91D60C9E41A4E0828B908FF82 (void);
+// 0x0000001E System.Void LevelPlaySample::OnDisable()
+extern void LevelPlaySample_OnDisable_m989FD6F1FA1C8ED9EE5A771D87D66911632DE325 (void);
+// 0x0000001F System.Void LevelPlaySample::.ctor()
+extern void LevelPlaySample__ctor_mC55DD77FAAC44605B746576C01C0C8C6E83C81C4 (void);
+// 0x00000020 System.Void ClickOrTapToExplode::DestroyStuff()
+extern void ClickOrTapToExplode_DestroyStuff_mAFD49DA5140EAC7D5C569FCFD5FE389DDA4957C8 (void);
+// 0x00000021 System.Void ClickOrTapToExplode::StartExplosion()
+extern void ClickOrTapToExplode_StartExplosion_m55794854E12E707F167764617664C6D764B23F85 (void);
+// 0x00000022 System.Void ClickOrTapToExplode::.ctor()
+extern void ClickOrTapToExplode__ctor_mC099D213CF759B4241CFC823EA9D13EA7EEE05E1 (void);
+// 0x00000023 System.Void ReloadScene::OnGUI()
+extern void ReloadScene_OnGUI_mA9EFFB1F8D85DF3E29497ECFFE13D36408C0ACF3 (void);
+// 0x00000024 System.Void ReloadScene::Update()
+extern void ReloadScene_Update_m6EC455F6E6B15F70700CE5D2B615B624AC596F0A (void);
+// 0x00000025 System.Void ReloadScene::Reload()
+extern void ReloadScene_Reload_mD0BEF73D955DC7821525776B0F3FDC1009FE24C8 (void);
+// 0x00000026 System.Void ReloadScene::.ctor()
+extern void ReloadScene__ctor_m43EF5B33E333E89CAB3FC389519ADB87384F4BDC (void);
+// 0x00000027 System.Collections.IEnumerator DestroyAfterTime::Start()
+extern void DestroyAfterTime_Start_m4CB48C5779FADF7F8CA86AEE9914B0377381F615 (void);
+// 0x00000028 System.Void DestroyAfterTime::.ctor()
+extern void DestroyAfterTime__ctor_m08889FB4B66902F3C09C173A148FFFB1A6E723B0 (void);
+// 0x00000029 System.Void DestroyAfterTime/<Start>d__1::.ctor(System.Int32)
+extern void U3CStartU3Ed__1__ctor_m834E95C43021D74C2413D1BD7C01F039FC6730C0 (void);
+// 0x0000002A System.Void DestroyAfterTime/<Start>d__1::System.IDisposable.Dispose()
+extern void U3CStartU3Ed__1_System_IDisposable_Dispose_m130E0E9EB61E7B13B1FA35659030897645070272 (void);
+// 0x0000002B System.Boolean DestroyAfterTime/<Start>d__1::MoveNext()
+extern void U3CStartU3Ed__1_MoveNext_m09D356B93ED5DF7D8ADEFB01D5AEF023B3A271E1 (void);
+// 0x0000002C System.Object DestroyAfterTime/<Start>d__1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CStartU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2F30B0571A5038093CBC97D9CF6181525C900BC2 (void);
+// 0x0000002D System.Void DestroyAfterTime/<Start>d__1::System.Collections.IEnumerator.Reset()
+extern void U3CStartU3Ed__1_System_Collections_IEnumerator_Reset_m97CADE4F2289F2FDE92E62EB7E2854B70E52239A (void);
+// 0x0000002E System.Object DestroyAfterTime/<Start>d__1::System.Collections.IEnumerator.get_Current()
+extern void U3CStartU3Ed__1_System_Collections_IEnumerator_get_Current_mF489067527A6C39A197B4755966FDA9077237D35 (void);
+// 0x0000002F System.Void DestroyOnFadeCompletion::FadeCompleted()
+extern void DestroyOnFadeCompletion_FadeCompleted_mD65220012C7F0C8DB4D4D5B0CDF04487F73D662D (void);
+// 0x00000030 System.Void DestroyOnFadeCompletion::.ctor()
+extern void DestroyOnFadeCompletion__ctor_m9933F79716C6964069E381DF527F7AFB37AD37EE (void);
+// 0x00000031 System.Boolean Fade::IsStandardShader(UnityEngine.Shader)
+extern void Fade_IsStandardShader_mED8C5CEAB595077A6A09A6EDD0E3EA8D4F6FBD19 (void);
+// 0x00000032 System.Boolean Fade::IsURPStandardShader(UnityEngine.Shader)
+extern void Fade_IsURPStandardShader_m9925F42594B9A655458A3BBBBE4811FF220A2844 (void);
+// 0x00000033 System.Boolean Fade::IsHDRPStandardShader(UnityEngine.Shader)
+extern void Fade_IsHDRPStandardShader_m021BBEFB3234EC83F47BC09FF18610227C8D525A (void);
+// 0x00000034 UnityEngine.Shader Fade::GetReplacementFor(UnityEngine.Shader)
+extern void Fade_GetReplacementFor_m93EAD9DD17BBEFA6FC15D75B777EA33F6900C1A9 (void);
+// 0x00000035 System.Collections.IEnumerator Fade::Start()
+extern void Fade_Start_m4212C82FC7911FC29653621A0EEAC137441F37C3 (void);
+// 0x00000036 System.Void Fade::.ctor()
+extern void Fade__ctor_m3B25DDD079B7BA6C55A8EF77DCC22CF01807150F (void);
+// 0x00000037 System.Void Fade::.cctor()
+extern void Fade__cctor_m960C7A06BFE22988645E4C8FCC9E7F10C83B185B (void);
+// 0x00000038 System.Void Fade/<Start>d__13::.ctor(System.Int32)
+extern void U3CStartU3Ed__13__ctor_m84FCA814579CFE92DF1FDB05C6AB8997B3CCAF41 (void);
+// 0x00000039 System.Void Fade/<Start>d__13::System.IDisposable.Dispose()
+extern void U3CStartU3Ed__13_System_IDisposable_Dispose_mD602A3C82381601FC06D295B7C565B6EC5602FC9 (void);
+// 0x0000003A System.Boolean Fade/<Start>d__13::MoveNext()
+extern void U3CStartU3Ed__13_MoveNext_m6AF30C2D3EF8B210A3B8A1310A4998B2635EB1E0 (void);
+// 0x0000003B System.Object Fade/<Start>d__13::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CStartU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0013AD9C90F94CC05381D405B8E62B31BDD12DAB (void);
+// 0x0000003C System.Void Fade/<Start>d__13::System.Collections.IEnumerator.Reset()
+extern void U3CStartU3Ed__13_System_Collections_IEnumerator_Reset_m5F0D1DC20F8F124C2126CED5DE7763E5032E179E (void);
+// 0x0000003D System.Object Fade/<Start>d__13::System.Collections.IEnumerator.get_Current()
+extern void U3CStartU3Ed__13_System_Collections_IEnumerator_get_Current_m7114CFFE4D268D4F5640B50D7F5B55A7C2090AFE (void);
+// 0x0000003E System.Void MeshExplosion::Go(MeshExploder/MeshExplosionPreparation,System.Single,System.Single,System.Single,System.Single,System.Boolean,UnityEngine.Vector3)
+extern void MeshExplosion_Go_mD8BDF0DCCBF5C8186A7EDA13A23DF2DBF7BAFDA6 (void);
+// 0x0000003F System.Void MeshExplosion::Update()
+extern void MeshExplosion_Update_m283FF811B7A07435DDC1C9A849288DD1683CA898 (void);
+// 0x00000040 System.Void MeshExplosion::SetBackTriangleVertices(UnityEngine.Vector3[],UnityEngine.Vector3[],UnityEngine.Vector4[],System.Int32)
+extern void MeshExplosion_SetBackTriangleVertices_mC3E9885879ADF9FB625CBD3801362951FE893FD2 (void);
+// 0x00000041 System.Void MeshExplosion::.ctor()
+extern void MeshExplosion__ctor_m1288084BC2E842C16B20669F3FEA996EDEE13B55 (void);
+// 0x00000042 System.String MeshExploder::get_ComponentName()
+extern void MeshExploder_get_ComponentName_mEEDD3C5C8D0E57232AD6D5AA25CC36765DF40DBF (void);
+// 0x00000043 System.Void MeshExploder::Start()
+extern void MeshExploder_Start_mF7425ACEFAE5C610DDF054F56D6BF4D0331C1AC2 (void);
+// 0x00000044 System.Void MeshExploder::PrepareWithoutCaching(UnityEngine.Mesh)
+extern void MeshExploder_PrepareWithoutCaching_m9F9CC381CF406D1A29B18DCF680E2671B03BCAEC (void);
+// 0x00000045 System.Void MeshExploder::Prepare(UnityEngine.Mesh,System.Boolean)
+extern void MeshExploder_Prepare_m51A0C6EDD858226A14C4173A27ABBB1A031E72A1 (void);
+// 0x00000046 UnityEngine.GameObject MeshExploder::Explode()
+extern void MeshExploder_Explode_mEBCF35838EA5BA9C52EA8A38362FF486E222F370 (void);
+// 0x00000047 UnityEngine.GameObject MeshExploder::SetUpExplosionPiece(System.String,System.Boolean)
+extern void MeshExploder_SetUpExplosionPiece_m33D99B2CD1D491617CFE27B87B5E8BDAE2FCB138 (void);
+// 0x00000048 System.Void MeshExploder::.ctor()
+extern void MeshExploder__ctor_mD2CDDE7D90B04CF764D348AA60F030032073ABF8 (void);
+// 0x00000049 System.Void MeshExploder::.cctor()
+extern void MeshExploder__cctor_mB6644BCB0B97CC1748389D8031F048182D1551AD (void);
+// 0x0000004A System.Void CameraController::Start()
+extern void CameraController_Start_m8EAAC188934ECCBD009EC00751280DCFF4D96C71 (void);
+// 0x0000004B System.Void CameraController::LateUpdate()
+extern void CameraController_LateUpdate_mC14DB0924E6F67288113AA92B3345A9B0ACEA27F (void);
+// 0x0000004C System.Collections.IEnumerator CameraController::CameraShake(System.Single,System.Single)
+extern void CameraController_CameraShake_mA5594F4E04FB9D5299B37702890C1248A7006430 (void);
+// 0x0000004D System.Void CameraController::TriggerCameraShake(System.Single,System.Single)
+extern void CameraController_TriggerCameraShake_m33E948BA1AE5BC4B68D2407AB4354F766799FF79 (void);
+// 0x0000004E System.Collections.IEnumerator CameraController::ShakeCoroutine(System.Single,System.Single)
+extern void CameraController_ShakeCoroutine_mFCF64128BEBB86435802F73472BA04F6DD37D2D5 (void);
+// 0x0000004F System.Void CameraController::.ctor()
+extern void CameraController__ctor_mE196A6332BDDED632D6F9DB6260E424594598950 (void);
+// 0x00000050 System.Void CameraController/<CameraShake>d__7::.ctor(System.Int32)
+extern void U3CCameraShakeU3Ed__7__ctor_m16AB1FF2CC81252CB02E81BFC3340EEEAF904026 (void);
+// 0x00000051 System.Void CameraController/<CameraShake>d__7::System.IDisposable.Dispose()
+extern void U3CCameraShakeU3Ed__7_System_IDisposable_Dispose_m9153DCA1C18863893610DF533E417FACDE81777C (void);
+// 0x00000052 System.Boolean CameraController/<CameraShake>d__7::MoveNext()
+extern void U3CCameraShakeU3Ed__7_MoveNext_mD26F585988A14AC617E03A273706C512868A7CD9 (void);
+// 0x00000053 System.Object CameraController/<CameraShake>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCameraShakeU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEA59AD799D39DE80F62C486A6A41BCE610A51BE3 (void);
+// 0x00000054 System.Void CameraController/<CameraShake>d__7::System.Collections.IEnumerator.Reset()
+extern void U3CCameraShakeU3Ed__7_System_Collections_IEnumerator_Reset_m3B558F67A82BAA4D8F008E3E8C2BE84C08A69506 (void);
+// 0x00000055 System.Object CameraController/<CameraShake>d__7::System.Collections.IEnumerator.get_Current()
+extern void U3CCameraShakeU3Ed__7_System_Collections_IEnumerator_get_Current_m80AAC23D476027A46359619AF5DCDEDCA23324A0 (void);
+// 0x00000056 System.Void CameraController/<ShakeCoroutine>d__9::.ctor(System.Int32)
+extern void U3CShakeCoroutineU3Ed__9__ctor_m47F2559934624EAFA17F9AF79DAC9E18EA19576F (void);
+// 0x00000057 System.Void CameraController/<ShakeCoroutine>d__9::System.IDisposable.Dispose()
+extern void U3CShakeCoroutineU3Ed__9_System_IDisposable_Dispose_mF3D3E3911A4A55D6BF35513657B5AEAB8FCE05B6 (void);
+// 0x00000058 System.Boolean CameraController/<ShakeCoroutine>d__9::MoveNext()
+extern void U3CShakeCoroutineU3Ed__9_MoveNext_m6638EAEF8887E02D10D41E69D2B7B6CD0FDE1F9B (void);
+// 0x00000059 System.Object CameraController/<ShakeCoroutine>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CShakeCoroutineU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m02E1DC01E1604C1A076444E92C1123D35DA596FB (void);
+// 0x0000005A System.Void CameraController/<ShakeCoroutine>d__9::System.Collections.IEnumerator.Reset()
+extern void U3CShakeCoroutineU3Ed__9_System_Collections_IEnumerator_Reset_m024AB8C155CF574E050F3CB4CC574EEA1DBC486B (void);
+// 0x0000005B System.Object CameraController/<ShakeCoroutine>d__9::System.Collections.IEnumerator.get_Current()
+extern void U3CShakeCoroutineU3Ed__9_System_Collections_IEnumerator_get_Current_m4E65F6F53724CC31510424DC15266C98E79C1700 (void);
+// 0x0000005C System.Void CustomBallPhysicsThird::Awake()
+extern void CustomBallPhysicsThird_Awake_m449F3F7CBBDD5EFA80468833B7DA73DC4DC0E0F4 (void);
+// 0x0000005D System.Void CustomBallPhysicsThird::Start()
+extern void CustomBallPhysicsThird_Start_m2D900C8572A2CC37E315D814B7170A73DA3B2C4E (void);
+// 0x0000005E System.Void CustomBallPhysicsThird::Update()
+extern void CustomBallPhysicsThird_Update_m7B052768A3A25DDA2F9A2204404B18DA17287DFE (void);
+// 0x0000005F System.Void CustomBallPhysicsThird::FixedUpdate()
+extern void CustomBallPhysicsThird_FixedUpdate_mCCF0BECA135307A08E101AEE0A702A0A732696BC (void);
+// 0x00000060 System.Void CustomBallPhysicsThird::ResetBall()
+extern void CustomBallPhysicsThird_ResetBall_m03AC6C7A7A706ADD91B9B09A2CFE5D6E54AD2ACD (void);
+// 0x00000061 System.Void CustomBallPhysicsThird::GameOver()
+extern void CustomBallPhysicsThird_GameOver_m43BF448EC85DE79A956A6684BB78B6F0BEF95366 (void);
+// 0x00000062 System.Void CustomBallPhysicsThird::ApplyInputControl()
+extern void CustomBallPhysicsThird_ApplyInputControl_m2AB5DD7ABCDDE569A0E155E757890D3CD326CEF6 (void);
+// 0x00000063 System.Void CustomBallPhysicsThird::HandleCollisions(UnityEngine.Vector3&)
+extern void CustomBallPhysicsThird_HandleCollisions_m8609248D56E8A340AADE45404EEF3708FDCD86BE (void);
+// 0x00000064 System.Boolean CustomBallPhysicsThird::IsTouchInBottomHalf()
+extern void CustomBallPhysicsThird_IsTouchInBottomHalf_m9392C55A91C2A2AA08E6F094D4D43B3F61BCCC4D (void);
+// 0x00000065 System.Boolean CustomBallPhysicsThird::IsTouchLifted()
+extern void CustomBallPhysicsThird_IsTouchLifted_mE180F0E0B1C6FF56006596DC171051492B92B7C8 (void);
+// 0x00000066 System.Boolean CustomBallPhysicsThird::IsBallOutOfScreen()
+extern void CustomBallPhysicsThird_IsBallOutOfScreen_m395561FF601D6013985E6188FD7EBE61EDB04A2B (void);
+// 0x00000067 System.Void CustomBallPhysicsThird::OnTriggerEnter(UnityEngine.Collider)
+extern void CustomBallPhysicsThird_OnTriggerEnter_m542B1422B3EFF37D88046437DD2E84485D15E075 (void);
+// 0x00000068 System.Collections.IEnumerator CustomBallPhysicsThird::AllowInputAfterDelay(System.Single)
+extern void CustomBallPhysicsThird_AllowInputAfterDelay_mC21530CE4927E2AE159DFAD73F60ACAEEF74C359 (void);
+// 0x00000069 System.Void CustomBallPhysicsThird::.ctor()
+extern void CustomBallPhysicsThird__ctor_mB1F8C6EB5DBD777F46D982B9542E70C0BE89CB47 (void);
+// 0x0000006A System.Void CustomBallPhysicsThird/<AllowInputAfterDelay>d__27::.ctor(System.Int32)
+extern void U3CAllowInputAfterDelayU3Ed__27__ctor_m3C8729FB9066C00C9F4666A5F382D317A2035BCC (void);
+// 0x0000006B System.Void CustomBallPhysicsThird/<AllowInputAfterDelay>d__27::System.IDisposable.Dispose()
+extern void U3CAllowInputAfterDelayU3Ed__27_System_IDisposable_Dispose_mF17FE68724075B8648CF2532B95817C2733664FE (void);
+// 0x0000006C System.Boolean CustomBallPhysicsThird/<AllowInputAfterDelay>d__27::MoveNext()
+extern void U3CAllowInputAfterDelayU3Ed__27_MoveNext_m8EE9F9B30BDDABE335D70FF4A1CCF7C77F34C316 (void);
+// 0x0000006D System.Object CustomBallPhysicsThird/<AllowInputAfterDelay>d__27::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAllowInputAfterDelayU3Ed__27_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mFAE329A9E81EA59605B5C853335F00E5A2A8567C (void);
+// 0x0000006E System.Void CustomBallPhysicsThird/<AllowInputAfterDelay>d__27::System.Collections.IEnumerator.Reset()
+extern void U3CAllowInputAfterDelayU3Ed__27_System_Collections_IEnumerator_Reset_m4DC6E2A6693C328437DA697D2AEB38FAD701F3BF (void);
+// 0x0000006F System.Object CustomBallPhysicsThird/<AllowInputAfterDelay>d__27::System.Collections.IEnumerator.get_Current()
+extern void U3CAllowInputAfterDelayU3Ed__27_System_Collections_IEnumerator_get_Current_mC7CEB7FE26A694F94C03F91093375C4D232F6725 (void);
+// 0x00000070 GameManager GameManager::get_Instance()
+extern void GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0 (void);
+// 0x00000071 System.Void GameManager::set_Instance(GameManager)
+extern void GameManager_set_Instance_mCFE1FA9223DC000B8D5535A9B6576264FA4405EF (void);
+// 0x00000072 System.Void GameManager::Awake()
+extern void GameManager_Awake_m4B6E8E2AF58C95C9A2A0C4637A34AE0892CB637F (void);
+// 0x00000073 System.Void GameManager::Start()
+extern void GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2 (void);
+// 0x00000074 System.Void GameManager::GameIni()
+extern void GameManager_GameIni_m7264B961AD2DA0CA072EEC387699D7FD462F2E14 (void);
+// 0x00000075 System.Void GameManager::ResetLevelBtn()
+extern void GameManager_ResetLevelBtn_mA56C3E1D8730D105B5CAC3D563AACEEAE39E28B5 (void);
+// 0x00000076 System.Void GameManager::PauseBtn()
+extern void GameManager_PauseBtn_m67A1EB3D8BE990B355554EF49FB7414DDA2159BD (void);
+// 0x00000077 System.Void GameManager::ResumeBtn()
+extern void GameManager_ResumeBtn_mA8FB233C087EED3C6F45A55971E2B0D2A6B99F77 (void);
+// 0x00000078 System.Void GameManager::GameStarted()
+extern void GameManager_GameStarted_m33F67BEB68EE9B5E0F6AC2BB605E85D7C4A398EF (void);
+// 0x00000079 System.Void GameManager::GameOver()
+extern void GameManager_GameOver_mF1BD400E7F84A0B533A58E80ADA7CCB89C964625 (void);
+// 0x0000007A System.Void GameManager::Error()
+extern void GameManager_Error_m6BDEC18B83EC3474867D117E8F86B28B180FAF81 (void);
+// 0x0000007B System.Collections.IEnumerator GameManager::ErrorCoroutine()
+extern void GameManager_ErrorCoroutine_m1CBE02823D51CBFC2608A857E8567E0570ED22D1 (void);
+// 0x0000007C System.Void GameManager::Update()
+extern void GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41 (void);
+// 0x0000007D System.Void GameManager::SwitchEnvironment(System.Int32)
+extern void GameManager_SwitchEnvironment_m7BE102C47139E66A20C65DF9F6339890FAB05EA4 (void);
+// 0x0000007E System.Void GameManager::SwitchBall(System.Int32)
+extern void GameManager_SwitchBall_m9737273FDAD2A358294E40D1D66B791DFF33E3EC (void);
+// 0x0000007F System.Void GameManager::TriggerVibration(System.Single)
+extern void GameManager_TriggerVibration_mC6A868891F3C4D3841396C04ADB85709D1E29B76 (void);
+// 0x00000080 System.Void GameManager::.ctor()
+extern void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (void);
+// 0x00000081 System.Void GameManager/<ErrorCoroutine>d__29::.ctor(System.Int32)
+extern void U3CErrorCoroutineU3Ed__29__ctor_m1B1B377A10C494FD8673BF027267F7912456ACFB (void);
+// 0x00000082 System.Void GameManager/<ErrorCoroutine>d__29::System.IDisposable.Dispose()
+extern void U3CErrorCoroutineU3Ed__29_System_IDisposable_Dispose_mB8ADB4CE5D09C49F2A29BBE42803CCD43013B815 (void);
+// 0x00000083 System.Boolean GameManager/<ErrorCoroutine>d__29::MoveNext()
+extern void U3CErrorCoroutineU3Ed__29_MoveNext_m3E3889DC055060CEAAA2BAC3A6C90F67540FE891 (void);
+// 0x00000084 System.Object GameManager/<ErrorCoroutine>d__29::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CErrorCoroutineU3Ed__29_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m31BFBBAA78E162E3CC6ED87C8405B7FD6496C2CB (void);
+// 0x00000085 System.Void GameManager/<ErrorCoroutine>d__29::System.Collections.IEnumerator.Reset()
+extern void U3CErrorCoroutineU3Ed__29_System_Collections_IEnumerator_Reset_mCD24536F461D90DF729A6C314743B11DDD7523B0 (void);
+// 0x00000086 System.Object GameManager/<ErrorCoroutine>d__29::System.Collections.IEnumerator.get_Current()
+extern void U3CErrorCoroutineU3Ed__29_System_Collections_IEnumerator_get_Current_m58B46B598591AAF3BD6C8D59F510FC1DB07E2F31 (void);
+// 0x00000087 UIManager UIManager::get_Instance()
+extern void UIManager_get_Instance_mD5973A83306F865002EC4D54E1B18101FE6F23C0 (void);
+// 0x00000088 System.Void UIManager::set_Instance(UIManager)
+extern void UIManager_set_Instance_mFFD306A282EE013D3DD776C88A34ABC1C5557086 (void);
+// 0x00000089 System.Void UIManager::Awake()
+extern void UIManager_Awake_m7EC364BDD53CE056E998BAB28F79998608BB16DF (void);
+// 0x0000008A System.Void UIManager::customDoTweenAnimation(UnityEngine.Transform,System.Single,System.Single,DG.Tweening.Ease)
+extern void UIManager_customDoTweenAnimation_mECE8D0D5FA14A6DD3D22B96F695FACF18F4CCBDF (void);
+// 0x0000008B System.Void UIManager::OpenPanel(UnityEngine.GameObject)
+extern void UIManager_OpenPanel_mD1C79E7197D70E0E27510BE932F7F456B6D4FDFC (void);
+// 0x0000008C System.Void UIManager::ClosePanel(UnityEngine.GameObject)
+extern void UIManager_ClosePanel_mCFED4483D36B393FD8C53C43B9E9706DDC9E8C1F (void);
+// 0x0000008D System.Void UIManager::.ctor()
+extern void UIManager__ctor_mC9DC2B8984E76F424E73C1860AD4BD3DEBF6573F (void);
+// 0x0000008E System.Void UIManager/<>c__DisplayClass14_0::.ctor()
+extern void U3CU3Ec__DisplayClass14_0__ctor_m1CC11FAB462D4BC85144877A8D84ED6EC36883D4 (void);
+// 0x0000008F System.Void UIManager/<>c__DisplayClass14_0::<ClosePanel>b__0()
+extern void U3CU3Ec__DisplayClass14_0_U3CClosePanelU3Eb__0_m01F37F6A13326E75014D6514802A4EACF5B2B2B2 (void);
+// 0x00000090 System.Void Platform::Start()
+extern void Platform_Start_m1E50717E413645B079D75167F0FA7473A887472A (void);
+// 0x00000091 System.Void Platform::Update()
+extern void Platform_Update_m1F1046B74837D34D83EA1C9AAB2F0581B033D645 (void);
+// 0x00000092 System.Void Platform::BreakPlatform()
+extern void Platform_BreakPlatform_m9338DB7AF510BAE8534FEBF540C30932036B93DF (void);
+// 0x00000093 System.Void Platform::.ctor()
+extern void Platform__ctor_m7B49FC4AD80BC236383C1A82204EC91E11369498 (void);
+// 0x00000094 System.Void PlatformManager::Start()
+extern void PlatformManager_Start_m9C692172BA30C3C04AC9B0FCDB6DDC4969017E37 (void);
+// 0x00000095 System.Void PlatformManager::Update()
+extern void PlatformManager_Update_mA04C8D754599148E10CAA8155D798F4AAAC755F6 (void);
+// 0x00000096 System.Void PlatformManager::ReusePlatform(UnityEngine.GameObject)
+extern void PlatformManager_ReusePlatform_mA8E449DD0A54230C2A249DA265B10C418C054C2D (void);
+// 0x00000097 UnityEngine.GameObject PlatformManager::RandomizePlatformPrefab()
+extern void PlatformManager_RandomizePlatformPrefab_mBA6E40E9861F7A4C364D8B24B8D657593A78CDAA (void);
+// 0x00000098 System.Void PlatformManager::.ctor()
+extern void PlatformManager__ctor_mABC844CCDC608A5533694CB66C1F1672AAD6A997 (void);
+// 0x00000099 System.Void Crystal.SafeArea::Awake()
+extern void SafeArea_Awake_mFAAD0518B04FA595839CA89E637D3B695F5E47B5 (void);
+// 0x0000009A System.Void Crystal.SafeArea::Update()
+extern void SafeArea_Update_mAC4051AFEC584503438092855D70BB4D175A12A4 (void);
+// 0x0000009B System.Void Crystal.SafeArea::Refresh()
+extern void SafeArea_Refresh_m2EB186CFFCAB2AB7E5B57A46A2A57D14493FD8EA (void);
+// 0x0000009C UnityEngine.Rect Crystal.SafeArea::GetSafeArea()
+extern void SafeArea_GetSafeArea_m4B6B53C8ED0A4B2F5DBC404E2F208E6A71411815 (void);
+// 0x0000009D System.Void Crystal.SafeArea::ApplySafeArea(UnityEngine.Rect)
+extern void SafeArea_ApplySafeArea_m19691250ABEE5AFFA7F793548BCCE402CCF38548 (void);
+// 0x0000009E System.Void Crystal.SafeArea::.ctor()
+extern void SafeArea__ctor_mC10940463499A1652DEC94CACFCB811ADA5CD6FF (void);
+// 0x0000009F System.Void LayerLab.PanelControlDarkGeo::Start()
+extern void PanelControlDarkGeo_Start_mC8A7B2EA22D2CF106AB0C35AE65293CB0EC83A42 (void);
+// 0x000000A0 System.Void LayerLab.PanelControlDarkGeo::Update()
+extern void PanelControlDarkGeo_Update_mAC75F06B9FDC71B9881AD6BDA0BEFFD758517E4E (void);
+// 0x000000A1 System.Void LayerLab.PanelControlDarkGeo::Click_Prev()
+extern void PanelControlDarkGeo_Click_Prev_mFAA85BBC4B4E78A7E03D2D781091925BEDD9D4A4 (void);
+// 0x000000A2 System.Void LayerLab.PanelControlDarkGeo::Click_Next()
+extern void PanelControlDarkGeo_Click_Next_m4827F18FADA8B28F48C1EB43D00E444D2A29610A (void);
+// 0x000000A3 System.Void LayerLab.PanelControlDarkGeo::SetArrowActive()
+extern void PanelControlDarkGeo_SetArrowActive_m7CABE9B03977BE256569AF123381086DA44ADC9D (void);
+// 0x000000A4 System.Void LayerLab.PanelControlDarkGeo::CheckControl()
+extern void PanelControlDarkGeo_CheckControl_m0D485C3CCE8B5CB35E1FA8F1A7E1E8D9C7DB44EE (void);
+// 0x000000A5 System.Void LayerLab.PanelControlDarkGeo::.ctor()
+extern void PanelControlDarkGeo__ctor_m077E71C05DC9B632FA561E7045F93AE9A1B06259 (void);
+// 0x000000A6 System.Void LayerLab.PanelDarkGeo::OnEnable()
+extern void PanelDarkGeo_OnEnable_m1649EB41AD750C1FF105FCA4980FF12A5425E4EF (void);
+// 0x000000A7 System.Void LayerLab.PanelDarkGeo::OnDisable()
+extern void PanelDarkGeo_OnDisable_m900EE1EC4DBFF139D7A424D0D3506866691760E1 (void);
+// 0x000000A8 System.Void LayerLab.PanelDarkGeo::.ctor()
+extern void PanelDarkGeo__ctor_m4D1FBF71121CE721FE958292C8480BBA51774F62 (void);
+static Il2CppMethodPointer s_methodPointers[168] = 
+{
+	LevelPlaySample_Start_mF8FEBB5FCF9E647542F23C2DFB42F08431BEFB25,
+	LevelPlaySample_EnableAds_mD107E91A7162E886A03721C44A3065AD36F0439C,
+	LevelPlaySample_OnApplicationPause_mEBA3F290D1418F1EC196F7D5C273C2AFE514AD0B,
+	LevelPlaySample_OnGUI_m98229292EFDC32DFCEB00C42615AB7E99AF7C534,
+	LevelPlaySample_SdkInitializationCompletedEvent_m551DFCB7D429E431CB9BF9CE4D5DBC64C9125012,
+	LevelPlaySample_SdkInitializationFailedEvent_mD3AC3E4B9C3179032F4C27579733F0631A8A8BC0,
+	LevelPlaySample_RewardedVideoOnAdOpenedEvent_m5DD79AD5224EDCAE6235CC255D2F05FF37C0B814,
+	LevelPlaySample_RewardedVideoOnAdClosedEvent_m6ADF79A8A8106996686CDBB8619C36F965EA0A45,
+	LevelPlaySample_RewardedVideoOnAdAvailable_mCD7E16AF904ECB67AD0AA1F996A2D90FABBC3A00,
+	LevelPlaySample_RewardedVideoOnAdUnavailable_mFC27320B6931998C0041E46084644A98134D9539,
+	LevelPlaySample_RewardedVideoOnAdShowFailedEvent_mE881A3F9D7AEDDF081D72BD8262BD6E064E00EDE,
+	LevelPlaySample_RewardedVideoOnAdRewardedEvent_mD50357594DCB42B942C662104F16CB59FEED3614,
+	LevelPlaySample_RewardedVideoOnAdClickedEvent_m15778A45D718C82825A48B0ADA602CE4C2012CDF,
+	LevelPlaySample_InterstitialOnAdLoadedEvent_mDF83D2E4EBBD2606050368A58F50343CA70C1B28,
+	LevelPlaySample_InterstitialOnAdLoadFailedEvent_m2DD8582F9F6EAC1EA5B45BB5BE3CEB32BFF6CC60,
+	LevelPlaySample_InterstitialOnAdDisplayedEvent_mC50AB57BA03315457CB54AD1E86A8A08D39B1B2A,
+	LevelPlaySample_InterstitialOnAdDisplayFailedEvent_m58B2EAFBFEC8FFAADF2AB0F225128331DEBF41A9,
+	LevelPlaySample_InterstitialOnAdClickedEvent_mCE1C12BED3916D2272C3F3CB81DB446D7CCDBE15,
+	LevelPlaySample_InterstitialOnAdClosedEvent_mFAF8AA78AAF1ADC063E167501D34E5C51831FB8C,
+	LevelPlaySample_InterstitialOnAdInfoChangedEvent_m8F2E5513C9E394173D197280B777C59512FB10B3,
+	LevelPlaySample_BannerOnAdLoadedEvent_m0953E0539ACA3CCB7E3B92E85A4AFF0DB45843C5,
+	LevelPlaySample_BannerOnAdLoadFailedEvent_m5B302D8D363A2FA149ADA8A7DD17001E3ADC47C4,
+	LevelPlaySample_BannerOnAdClickedEvent_mFA5F64D750688E4752817708FA107446FB37EA02,
+	LevelPlaySample_BannerOnAdDisplayedEvent_mBAB6FCD46178D90D47040A97F0FB986CB3AB6126,
+	LevelPlaySample_BannerOnAdDisplayFailedEvent_m0052514491F9C204B44BEF4350914B1E9AE88A8E,
+	LevelPlaySample_BannerOnAdCollapsedEvent_mCAD7FE0561B3E4B3B7EE11F09DF393D8462BBA6D,
+	LevelPlaySample_BannerOnAdLeftApplicationEvent_mB12169AF188F5677902D26F79C488AC136E555EE,
+	LevelPlaySample_BannerOnAdExpandedEvent_m73C05C8B067316149A2BD773D5FC2FE93035B2FE,
+	LevelPlaySample_ImpressionDataReadyEvent_m3CC3BA8DAF3A84F91D60C9E41A4E0828B908FF82,
+	LevelPlaySample_OnDisable_m989FD6F1FA1C8ED9EE5A771D87D66911632DE325,
+	LevelPlaySample__ctor_mC55DD77FAAC44605B746576C01C0C8C6E83C81C4,
+	ClickOrTapToExplode_DestroyStuff_mAFD49DA5140EAC7D5C569FCFD5FE389DDA4957C8,
+	ClickOrTapToExplode_StartExplosion_m55794854E12E707F167764617664C6D764B23F85,
+	ClickOrTapToExplode__ctor_mC099D213CF759B4241CFC823EA9D13EA7EEE05E1,
+	ReloadScene_OnGUI_mA9EFFB1F8D85DF3E29497ECFFE13D36408C0ACF3,
+	ReloadScene_Update_m6EC455F6E6B15F70700CE5D2B615B624AC596F0A,
+	ReloadScene_Reload_mD0BEF73D955DC7821525776B0F3FDC1009FE24C8,
+	ReloadScene__ctor_m43EF5B33E333E89CAB3FC389519ADB87384F4BDC,
+	DestroyAfterTime_Start_m4CB48C5779FADF7F8CA86AEE9914B0377381F615,
+	DestroyAfterTime__ctor_m08889FB4B66902F3C09C173A148FFFB1A6E723B0,
+	U3CStartU3Ed__1__ctor_m834E95C43021D74C2413D1BD7C01F039FC6730C0,
+	U3CStartU3Ed__1_System_IDisposable_Dispose_m130E0E9EB61E7B13B1FA35659030897645070272,
+	U3CStartU3Ed__1_MoveNext_m09D356B93ED5DF7D8ADEFB01D5AEF023B3A271E1,
+	U3CStartU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2F30B0571A5038093CBC97D9CF6181525C900BC2,
+	U3CStartU3Ed__1_System_Collections_IEnumerator_Reset_m97CADE4F2289F2FDE92E62EB7E2854B70E52239A,
+	U3CStartU3Ed__1_System_Collections_IEnumerator_get_Current_mF489067527A6C39A197B4755966FDA9077237D35,
+	DestroyOnFadeCompletion_FadeCompleted_mD65220012C7F0C8DB4D4D5B0CDF04487F73D662D,
+	DestroyOnFadeCompletion__ctor_m9933F79716C6964069E381DF527F7AFB37AD37EE,
+	Fade_IsStandardShader_mED8C5CEAB595077A6A09A6EDD0E3EA8D4F6FBD19,
+	Fade_IsURPStandardShader_m9925F42594B9A655458A3BBBBE4811FF220A2844,
+	Fade_IsHDRPStandardShader_m021BBEFB3234EC83F47BC09FF18610227C8D525A,
+	Fade_GetReplacementFor_m93EAD9DD17BBEFA6FC15D75B777EA33F6900C1A9,
+	Fade_Start_m4212C82FC7911FC29653621A0EEAC137441F37C3,
+	Fade__ctor_m3B25DDD079B7BA6C55A8EF77DCC22CF01807150F,
+	Fade__cctor_m960C7A06BFE22988645E4C8FCC9E7F10C83B185B,
+	U3CStartU3Ed__13__ctor_m84FCA814579CFE92DF1FDB05C6AB8997B3CCAF41,
+	U3CStartU3Ed__13_System_IDisposable_Dispose_mD602A3C82381601FC06D295B7C565B6EC5602FC9,
+	U3CStartU3Ed__13_MoveNext_m6AF30C2D3EF8B210A3B8A1310A4998B2635EB1E0,
+	U3CStartU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0013AD9C90F94CC05381D405B8E62B31BDD12DAB,
+	U3CStartU3Ed__13_System_Collections_IEnumerator_Reset_m5F0D1DC20F8F124C2126CED5DE7763E5032E179E,
+	U3CStartU3Ed__13_System_Collections_IEnumerator_get_Current_m7114CFFE4D268D4F5640B50D7F5B55A7C2090AFE,
+	MeshExplosion_Go_mD8BDF0DCCBF5C8186A7EDA13A23DF2DBF7BAFDA6,
+	MeshExplosion_Update_m283FF811B7A07435DDC1C9A849288DD1683CA898,
+	MeshExplosion_SetBackTriangleVertices_mC3E9885879ADF9FB625CBD3801362951FE893FD2,
+	MeshExplosion__ctor_m1288084BC2E842C16B20669F3FEA996EDEE13B55,
+	MeshExploder_get_ComponentName_mEEDD3C5C8D0E57232AD6D5AA25CC36765DF40DBF,
+	MeshExploder_Start_mF7425ACEFAE5C610DDF054F56D6BF4D0331C1AC2,
+	MeshExploder_PrepareWithoutCaching_m9F9CC381CF406D1A29B18DCF680E2671B03BCAEC,
+	MeshExploder_Prepare_m51A0C6EDD858226A14C4173A27ABBB1A031E72A1,
+	MeshExploder_Explode_mEBCF35838EA5BA9C52EA8A38362FF486E222F370,
+	MeshExploder_SetUpExplosionPiece_m33D99B2CD1D491617CFE27B87B5E8BDAE2FCB138,
+	MeshExploder__ctor_mD2CDDE7D90B04CF764D348AA60F030032073ABF8,
+	MeshExploder__cctor_mB6644BCB0B97CC1748389D8031F048182D1551AD,
+	CameraController_Start_m8EAAC188934ECCBD009EC00751280DCFF4D96C71,
+	CameraController_LateUpdate_mC14DB0924E6F67288113AA92B3345A9B0ACEA27F,
+	CameraController_CameraShake_mA5594F4E04FB9D5299B37702890C1248A7006430,
+	CameraController_TriggerCameraShake_m33E948BA1AE5BC4B68D2407AB4354F766799FF79,
+	CameraController_ShakeCoroutine_mFCF64128BEBB86435802F73472BA04F6DD37D2D5,
+	CameraController__ctor_mE196A6332BDDED632D6F9DB6260E424594598950,
+	U3CCameraShakeU3Ed__7__ctor_m16AB1FF2CC81252CB02E81BFC3340EEEAF904026,
+	U3CCameraShakeU3Ed__7_System_IDisposable_Dispose_m9153DCA1C18863893610DF533E417FACDE81777C,
+	U3CCameraShakeU3Ed__7_MoveNext_mD26F585988A14AC617E03A273706C512868A7CD9,
+	U3CCameraShakeU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEA59AD799D39DE80F62C486A6A41BCE610A51BE3,
+	U3CCameraShakeU3Ed__7_System_Collections_IEnumerator_Reset_m3B558F67A82BAA4D8F008E3E8C2BE84C08A69506,
+	U3CCameraShakeU3Ed__7_System_Collections_IEnumerator_get_Current_m80AAC23D476027A46359619AF5DCDEDCA23324A0,
+	U3CShakeCoroutineU3Ed__9__ctor_m47F2559934624EAFA17F9AF79DAC9E18EA19576F,
+	U3CShakeCoroutineU3Ed__9_System_IDisposable_Dispose_mF3D3E3911A4A55D6BF35513657B5AEAB8FCE05B6,
+	U3CShakeCoroutineU3Ed__9_MoveNext_m6638EAEF8887E02D10D41E69D2B7B6CD0FDE1F9B,
+	U3CShakeCoroutineU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m02E1DC01E1604C1A076444E92C1123D35DA596FB,
+	U3CShakeCoroutineU3Ed__9_System_Collections_IEnumerator_Reset_m024AB8C155CF574E050F3CB4CC574EEA1DBC486B,
+	U3CShakeCoroutineU3Ed__9_System_Collections_IEnumerator_get_Current_m4E65F6F53724CC31510424DC15266C98E79C1700,
+	CustomBallPhysicsThird_Awake_m449F3F7CBBDD5EFA80468833B7DA73DC4DC0E0F4,
+	CustomBallPhysicsThird_Start_m2D900C8572A2CC37E315D814B7170A73DA3B2C4E,
+	CustomBallPhysicsThird_Update_m7B052768A3A25DDA2F9A2204404B18DA17287DFE,
+	CustomBallPhysicsThird_FixedUpdate_mCCF0BECA135307A08E101AEE0A702A0A732696BC,
+	CustomBallPhysicsThird_ResetBall_m03AC6C7A7A706ADD91B9B09A2CFE5D6E54AD2ACD,
+	CustomBallPhysicsThird_GameOver_m43BF448EC85DE79A956A6684BB78B6F0BEF95366,
+	CustomBallPhysicsThird_ApplyInputControl_m2AB5DD7ABCDDE569A0E155E757890D3CD326CEF6,
+	CustomBallPhysicsThird_HandleCollisions_m8609248D56E8A340AADE45404EEF3708FDCD86BE,
+	CustomBallPhysicsThird_IsTouchInBottomHalf_m9392C55A91C2A2AA08E6F094D4D43B3F61BCCC4D,
+	CustomBallPhysicsThird_IsTouchLifted_mE180F0E0B1C6FF56006596DC171051492B92B7C8,
+	CustomBallPhysicsThird_IsBallOutOfScreen_m395561FF601D6013985E6188FD7EBE61EDB04A2B,
+	CustomBallPhysicsThird_OnTriggerEnter_m542B1422B3EFF37D88046437DD2E84485D15E075,
+	CustomBallPhysicsThird_AllowInputAfterDelay_mC21530CE4927E2AE159DFAD73F60ACAEEF74C359,
+	CustomBallPhysicsThird__ctor_mB1F8C6EB5DBD777F46D982B9542E70C0BE89CB47,
+	U3CAllowInputAfterDelayU3Ed__27__ctor_m3C8729FB9066C00C9F4666A5F382D317A2035BCC,
+	U3CAllowInputAfterDelayU3Ed__27_System_IDisposable_Dispose_mF17FE68724075B8648CF2532B95817C2733664FE,
+	U3CAllowInputAfterDelayU3Ed__27_MoveNext_m8EE9F9B30BDDABE335D70FF4A1CCF7C77F34C316,
+	U3CAllowInputAfterDelayU3Ed__27_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mFAE329A9E81EA59605B5C853335F00E5A2A8567C,
+	U3CAllowInputAfterDelayU3Ed__27_System_Collections_IEnumerator_Reset_m4DC6E2A6693C328437DA697D2AEB38FAD701F3BF,
+	U3CAllowInputAfterDelayU3Ed__27_System_Collections_IEnumerator_get_Current_mC7CEB7FE26A694F94C03F91093375C4D232F6725,
+	GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0,
+	GameManager_set_Instance_mCFE1FA9223DC000B8D5535A9B6576264FA4405EF,
+	GameManager_Awake_m4B6E8E2AF58C95C9A2A0C4637A34AE0892CB637F,
+	GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2,
+	GameManager_GameIni_m7264B961AD2DA0CA072EEC387699D7FD462F2E14,
+	GameManager_ResetLevelBtn_mA56C3E1D8730D105B5CAC3D563AACEEAE39E28B5,
+	GameManager_PauseBtn_m67A1EB3D8BE990B355554EF49FB7414DDA2159BD,
+	GameManager_ResumeBtn_mA8FB233C087EED3C6F45A55971E2B0D2A6B99F77,
+	GameManager_GameStarted_m33F67BEB68EE9B5E0F6AC2BB605E85D7C4A398EF,
+	GameManager_GameOver_mF1BD400E7F84A0B533A58E80ADA7CCB89C964625,
+	GameManager_Error_m6BDEC18B83EC3474867D117E8F86B28B180FAF81,
+	GameManager_ErrorCoroutine_m1CBE02823D51CBFC2608A857E8567E0570ED22D1,
+	GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41,
+	GameManager_SwitchEnvironment_m7BE102C47139E66A20C65DF9F6339890FAB05EA4,
+	GameManager_SwitchBall_m9737273FDAD2A358294E40D1D66B791DFF33E3EC,
+	GameManager_TriggerVibration_mC6A868891F3C4D3841396C04ADB85709D1E29B76,
+	GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368,
+	U3CErrorCoroutineU3Ed__29__ctor_m1B1B377A10C494FD8673BF027267F7912456ACFB,
+	U3CErrorCoroutineU3Ed__29_System_IDisposable_Dispose_mB8ADB4CE5D09C49F2A29BBE42803CCD43013B815,
+	U3CErrorCoroutineU3Ed__29_MoveNext_m3E3889DC055060CEAAA2BAC3A6C90F67540FE891,
+	U3CErrorCoroutineU3Ed__29_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m31BFBBAA78E162E3CC6ED87C8405B7FD6496C2CB,
+	U3CErrorCoroutineU3Ed__29_System_Collections_IEnumerator_Reset_mCD24536F461D90DF729A6C314743B11DDD7523B0,
+	U3CErrorCoroutineU3Ed__29_System_Collections_IEnumerator_get_Current_m58B46B598591AAF3BD6C8D59F510FC1DB07E2F31,
+	UIManager_get_Instance_mD5973A83306F865002EC4D54E1B18101FE6F23C0,
+	UIManager_set_Instance_mFFD306A282EE013D3DD776C88A34ABC1C5557086,
+	UIManager_Awake_m7EC364BDD53CE056E998BAB28F79998608BB16DF,
+	UIManager_customDoTweenAnimation_mECE8D0D5FA14A6DD3D22B96F695FACF18F4CCBDF,
+	UIManager_OpenPanel_mD1C79E7197D70E0E27510BE932F7F456B6D4FDFC,
+	UIManager_ClosePanel_mCFED4483D36B393FD8C53C43B9E9706DDC9E8C1F,
+	UIManager__ctor_mC9DC2B8984E76F424E73C1860AD4BD3DEBF6573F,
+	U3CU3Ec__DisplayClass14_0__ctor_m1CC11FAB462D4BC85144877A8D84ED6EC36883D4,
+	U3CU3Ec__DisplayClass14_0_U3CClosePanelU3Eb__0_m01F37F6A13326E75014D6514802A4EACF5B2B2B2,
+	Platform_Start_m1E50717E413645B079D75167F0FA7473A887472A,
+	Platform_Update_m1F1046B74837D34D83EA1C9AAB2F0581B033D645,
+	Platform_BreakPlatform_m9338DB7AF510BAE8534FEBF540C30932036B93DF,
+	Platform__ctor_m7B49FC4AD80BC236383C1A82204EC91E11369498,
+	PlatformManager_Start_m9C692172BA30C3C04AC9B0FCDB6DDC4969017E37,
+	PlatformManager_Update_mA04C8D754599148E10CAA8155D798F4AAAC755F6,
+	PlatformManager_ReusePlatform_mA8E449DD0A54230C2A249DA265B10C418C054C2D,
+	PlatformManager_RandomizePlatformPrefab_mBA6E40E9861F7A4C364D8B24B8D657593A78CDAA,
+	PlatformManager__ctor_mABC844CCDC608A5533694CB66C1F1672AAD6A997,
+	SafeArea_Awake_mFAAD0518B04FA595839CA89E637D3B695F5E47B5,
+	SafeArea_Update_mAC4051AFEC584503438092855D70BB4D175A12A4,
+	SafeArea_Refresh_m2EB186CFFCAB2AB7E5B57A46A2A57D14493FD8EA,
+	SafeArea_GetSafeArea_m4B6B53C8ED0A4B2F5DBC404E2F208E6A71411815,
+	SafeArea_ApplySafeArea_m19691250ABEE5AFFA7F793548BCCE402CCF38548,
+	SafeArea__ctor_mC10940463499A1652DEC94CACFCB811ADA5CD6FF,
+	PanelControlDarkGeo_Start_mC8A7B2EA22D2CF106AB0C35AE65293CB0EC83A42,
+	PanelControlDarkGeo_Update_mAC75F06B9FDC71B9881AD6BDA0BEFFD758517E4E,
+	PanelControlDarkGeo_Click_Prev_mFAA85BBC4B4E78A7E03D2D781091925BEDD9D4A4,
+	PanelControlDarkGeo_Click_Next_m4827F18FADA8B28F48C1EB43D00E444D2A29610A,
+	PanelControlDarkGeo_SetArrowActive_m7CABE9B03977BE256569AF123381086DA44ADC9D,
+	PanelControlDarkGeo_CheckControl_m0D485C3CCE8B5CB35E1FA8F1A7E1E8D9C7DB44EE,
+	PanelControlDarkGeo__ctor_m077E71C05DC9B632FA561E7045F93AE9A1B06259,
+	PanelDarkGeo_OnEnable_m1649EB41AD750C1FF105FCA4980FF12A5425E4EF,
+	PanelDarkGeo_OnDisable_m900EE1EC4DBFF139D7A424D0D3506866691760E1,
+	PanelDarkGeo__ctor_m4D1FBF71121CE721FE958292C8480BBA51774F62,
+};
+static const int32_t s_InvokerIndices[168] = 
+{
+	3704,
+	3704,
+	2991,
+	3704,
+	3058,
+	3058,
+	3058,
+	3058,
+	3058,
+	3704,
+	1762,
+	1762,
+	1762,
+	3058,
+	3058,
+	3058,
+	3058,
+	3058,
+	3058,
+	3058,
+	3058,
+	3058,
+	3058,
+	3058,
+	3058,
+	3058,
+	3058,
+	3058,
+	3058,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3612,
+	3704,
+	3040,
+	3704,
+	3548,
+	3612,
+	3704,
+	3612,
+	3704,
+	3704,
+	5361,
+	5361,
+	5361,
+	5501,
+	3612,
+	3704,
+	5750,
+	3040,
+	3704,
+	3548,
+	3612,
+	3704,
+	3612,
+	128,
+	3704,
+	4466,
+	3704,
+	3612,
+	3704,
+	3058,
+	1751,
+	3612,
+	1364,
+	3704,
+	5750,
+	3704,
+	3704,
+	1375,
+	1793,
+	1375,
+	3704,
+	3040,
+	3704,
+	3548,
+	3612,
+	3704,
+	3612,
+	3040,
+	3704,
+	3548,
+	3612,
+	3704,
+	3612,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	2984,
+	3548,
+	3548,
+	3548,
+	3058,
+	2715,
+	3704,
+	3040,
+	3704,
+	3548,
+	3612,
+	3704,
+	3612,
+	5722,
+	5644,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3612,
+	3704,
+	3040,
+	3040,
+	3089,
+	3704,
+	3040,
+	3704,
+	3548,
+	3612,
+	3704,
+	3612,
+	5722,
+	5644,
+	3704,
+	645,
+	3058,
+	3058,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3058,
+	3612,
+	3704,
+	3704,
+	3704,
+	3704,
+	3629,
+	3074,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+	3704,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	168,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

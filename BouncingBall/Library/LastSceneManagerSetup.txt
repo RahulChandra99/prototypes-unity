@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/LevelPlay/Samples/UnityLevelPlaySample/Scenes/LevelPlaySample.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

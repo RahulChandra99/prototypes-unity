@@ -1,0 +1,441 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.ThePhysicsLESSBallofExcitement"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+20    <uses-feature
+20-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-15:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-55
+22        android:required="false" />
+22-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-33
+23
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:5-66
+24-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:22-63
+25
+26    <uses-feature
+26-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-21:36
+27        android:name="android.hardware.touchscreen"
+27-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:9-52
+28        android:required="false" />
+28-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-33
+29    <uses-feature
+29-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:5-24:36
+30        android:name="android.hardware.touchscreen.multitouch"
+30-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-63
+31        android:required="false" />
+31-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-33
+32    <uses-feature
+32-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:5-27:36
+33        android:name="android.hardware.touchscreen.multitouch.distinct"
+33-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:9-72
+34        android:required="false" />
+34-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-33
+35
+36    <uses-permission android:name="android.permission.INTERNET" />
+36-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:4:3-65
+36-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:4:20-62
+37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+37-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:5:3-77
+37-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:5:20-74
+38    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+38-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:6:3-86
+38-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:6:20-83
+39
+40    <queries>
+40-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:4:3-11:13
+41        <intent>
+41-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:5:5-7:14
+42            <action android:name="com.applovin.am.intent.action.APPHUB_SERVICE" />
+42-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:6:7-77
+42-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:6:15-74
+43        </intent>
+44        <intent>
+44-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:5:5-7:14
+45            <action android:name="android.support.customtabs.action.CustomTabsService" />
+46        </intent>
+47    </queries>
+48
+49    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+49-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:14:3-77
+49-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:14:20-74
+50    <uses-permission android:name="com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE" /> <!-- Permissions required by Open Measurement SDK -->
+50-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:15:3-94
+50-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:15:20-91
+51    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+51-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:17:3-74
+51-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:17:20-71
+52
+53    <application
+53-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+54        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+54-->[:androidx.core.core-1.2.0:] C:\Users\Rahul\.gradle\caches\transforms-3\c0477e72a261519b5c339d3abedf4599\transformed\androidx.core.core-1.2.0\AndroidManifest.xml:24:18-86
+55        android:extractNativeLibs="true"
+55-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:18-50
+56        android:icon="@mipmap/app_icon"
+56-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+57        android:label="@string/app_name" >
+57-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+58        <activity
+58-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-51:20
+59            android:name="com.unity3d.player.UnityPlayerActivity"
+59-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:13-66
+60            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+60-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-194
+61            android:exported="true"
+61-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-36
+62            android:hardwareAccelerated="false"
+62-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-48
+63            android:launchMode="singleTask"
+63-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-44
+64            android:resizeableActivity="false"
+64-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-47
+65            android:screenOrientation="fullUser"
+65-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-49
+66            android:theme="@style/UnityThemeSelector" >
+66-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-54
+67            <intent-filter>
+67-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-43:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:17-69
+68-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:17-77
+70-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:27-74
+71            </intent-filter>
+72
+73            <meta-data
+73-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-47:40
+74                android:name="unityplayer.UnityActivity"
+74-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:17-57
+75                android:value="true" />
+75-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-37
+76            <meta-data
+76-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-50:40
+77                android:name="android.notch_support"
+77-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:17-53
+78                android:value="true" />
+78-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:17-37
+79        </activity>
+80
+81        <meta-data
+81-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:9-55:33
+82            android:name="unity.splash-mode"
+82-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-45
+83            android:value="0" />
+83-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-30
+84        <meta-data
+84-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:9-58:36
+85            android:name="unity.splash-enable"
+85-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-47
+86            android:value="True" />
+86-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-33
+87        <meta-data
+87-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:9-61:36
+88            android:name="unity.launch-fullscreen"
+88-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-51
+89            android:value="True" />
+89-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-33
+90        <meta-data
+90-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-64:37
+91            android:name="unity.allow-resizable-window"
+91-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-56
+92            android:value="False" />
+92-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-34
+93        <meta-data
+93-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:9-67:50
+94            android:name="notch.config"
+94-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-40
+95            android:value="portrait|landscape" />
+95-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-47
+96        <meta-data
+96-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:9-70:36
+97            android:name="unity.auto-report-fully-drawn"
+97-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-57
+98            android:value="true" />
+98-->[:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-33
+99
+100        <activity
+100-->[:com.google.android.gms.play-services-base-17.6.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2a43a7db229fb22dc10f0f4b42ff6e08\transformed\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+101-->[:com.google.android.gms.play-services-base-17.6.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2a43a7db229fb22dc10f0f4b42ff6e08\transformed\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+102            android:exported="false"
+102-->[:com.google.android.gms.play-services-base-17.6.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2a43a7db229fb22dc10f0f4b42ff6e08\transformed\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[:com.google.android.gms.play-services-base-17.6.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2a43a7db229fb22dc10f0f4b42ff6e08\transformed\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+104        <activity
+104-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:8:5-163
+105            android:name="com.ironsource.sdk.controller.ControllerActivity"
+105-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:8:15-78
+106            android:configChanges="orientation|screenSize"
+106-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:8:79-125
+107            android:hardwareAccelerated="true" />
+107-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:8:126-160
+108        <activity
+108-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:9:5-214
+109            android:name="com.ironsource.sdk.controller.InterstitialActivity"
+109-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:9:15-80
+110            android:configChanges="orientation|screenSize"
+110-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:9:81-127
+111            android:hardwareAccelerated="true"
+111-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:9:128-162
+112            android:theme="@android:style/Theme.Translucent" />
+112-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:9:163-211
+113        <activity
+113-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:10:5-209
+114            android:name="com.ironsource.sdk.controller.OpenUrlActivity"
+114-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:10:15-75
+115            android:configChanges="orientation|screenSize"
+115-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:10:76-122
+116            android:hardwareAccelerated="true"
+116-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:10:123-157
+117            android:theme="@android:style/Theme.Translucent" />
+117-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:10:158-206
+118        <activity
+118-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:11:5-13:16
+119            android:name="com.ironsource.mediationsdk.testSuite.TestSuiteActivity"
+119-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:11:15-85
+120            android:configChanges="orientation|screenSize"
+120-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:11:86-132
+121            android:exported="false"
+121-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:11:133-157
+122            android:hardwareAccelerated="true"
+122-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:11:158-192
+123            android:theme="@android:style/Theme.NoTitleBar" >
+123-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:11:193-240
+124            <meta-data
+124-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:12:7-98
+125                android:name="android.webkit.WebView.EnableSafeBrowsing"
+125-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:12:18-74
+126                android:value="true" />
+126-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:12:75-95
+127        </activity>
+128
+129        <provider
+129-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:14:5-210
+130            android:name="com.ironsource.lifecycle.IronsourceLifecycleProvider"
+130-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:14:15-82
+131            android:authorities="com.DefaultCompany.ThePhysicsLESSBallofExcitement.IronsourceLifecycleProvider"
+131-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:14:83-182
+132            android:exported="false" />
+132-->[:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:14:183-207
+133        <provider
+133-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:19:5-212
+134            android:name="com.applovin.sdk.AppLovinInitProvider"
+134-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:19:15-67
+135            android:authorities="com.DefaultCompany.ThePhysicsLESSBallofExcitement.applovininitprovider"
+135-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:19:68-160
+136            android:exported="false"
+136-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:19:161-185
+137            android:initOrder="101" /> <!-- Init order is 101 so we're before Firebase/Google which uses 100 -->
+137-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:19:186-209
+138        <activity
+138-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:21:5-391
+139            android:name="com.applovin.adview.AppLovinFullscreenActivity"
+139-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:21:15-76
+140            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+140-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:21:77-203
+141            android:exported="false"
+141-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:21:204-228
+142            android:hardwareAccelerated="true"
+142-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:21:229-263
+143            android:launchMode="singleTop"
+143-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:21:264-294
+144            android:screenOrientation="behind"
+144-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:21:295-329
+145            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+145-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:21:330-388
+146        <activity
+146-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:22:5-200
+147            android:name="com.applovin.sdk.AppLovinWebViewActivity"
+147-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:22:15-70
+148            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" /> <!-- Hybrid Ad Activities -->
+148-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:22:71-197
+149        <activity
+149-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:24:5-275
+150            android:name="com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity"
+150-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:24:15-86
+151            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+151-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:24:87-213
+152            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+152-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:24:214-272
+153        <activity
+153-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:25:5-277
+154            android:name="com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity"
+154-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:25:15-88
+155            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+155-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:25:89-215
+156            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" /> <!-- Mediation Debugger Activities -->
+156-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:25:216-274
+157        <activity
+157-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:27:5-274
+158            android:name="com.applovin.mediation.MaxDebuggerActivity"
+158-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:27:15-72
+159            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+159-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:27:73-199
+160            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+160-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:27:200-271
+161        <activity
+161-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:28:5-280
+162            android:name="com.applovin.mediation.MaxDebuggerDetailActivity"
+162-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:28:15-78
+163            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+163-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:28:79-205
+164            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+164-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:28:206-277
+165        <activity
+165-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:29:5-281
+166            android:name="com.applovin.mediation.MaxDebuggerMultiAdActivity"
+166-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:29:15-79
+167            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+167-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:29:80-206
+168            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+168-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:29:207-278
+169        <activity
+169-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:30:5-285
+170            android:name="com.applovin.mediation.MaxDebuggerAdUnitsListActivity"
+170-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:30:15-83
+171            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+171-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:30:84-210
+172            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+172-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:30:211-282
+173        <activity
+173-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:31:5-294
+174            android:name="com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity"
+174-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:31:15-92
+175            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+175-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:31:93-219
+176            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+176-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:31:220-291
+177        <activity
+177-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:32:5-286
+178            android:name="com.applovin.mediation.MaxDebuggerAdUnitDetailActivity"
+178-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:32:15-84
+179            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+179-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:32:85-211
+180            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+180-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:32:212-283
+181        <activity
+181-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:33:5-289
+182            android:name="com.applovin.mediation.MaxDebuggerCmpNetworksListActivity"
+182-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:33:15-87
+183            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+183-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:33:88-214
+184            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+184-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:33:215-286
+185        <activity
+185-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:34:5-296
+186            android:name="com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity"
+186-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:34:15-94
+187            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+187-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:34:95-221
+188            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+188-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:34:222-293
+189        <activity
+189-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:35:5-285
+190            android:name="com.applovin.mediation.MaxDebuggerTcfInfoListActivity"
+190-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:35:15-83
+191            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+191-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:35:84-210
+192            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+192-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:35:211-282
+193        <activity
+193-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:36:5-283
+194            android:name="com.applovin.mediation.MaxDebuggerTcfStringActivity"
+194-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:36:15-81
+195            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+195-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:36:82-208
+196            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+196-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:36:209-280
+197        <activity
+197-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:37:5-289
+198            android:name="com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity"
+198-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:37:15-87
+199            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+199-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:37:88-214
+200            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+200-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:37:215-286
+201        <activity
+201-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:38:5-289
+202            android:name="com.applovin.mediation.MaxDebuggerTestModeNetworkActivity"
+202-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:38:15-87
+203            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+203-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:38:88-214
+204            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+204-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:38:215-286
+205        <activity
+205-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:39:5-285
+206            android:name="com.applovin.mediation.MaxDebuggerUnifiedFlowActivity"
+206-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:39:15-83
+207            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+207-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:39:84-210
+208            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+208-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:39:211-282
+209        <activity
+209-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:40:5-291
+210            android:name="com.applovin.mediation.MaxDebuggerWaterfallSegmentsActivity"
+210-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:40:15-89
+211            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+211-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:40:90-216
+212            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+212-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:40:217-288
+213        <activity
+213-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:41:5-285
+214            android:name="com.applovin.creative.MaxCreativeDebuggerActivity"
+214-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:41:15-79
+215            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+215-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:41:80-206
+216            android:theme="@style/com.applovin.creative.CreativeDebuggerActivity.Theme" />
+216-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:41:207-282
+217        <activity
+217-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:42:5-296
+218            android:name="com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity"
+218-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:42:15-90
+219            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+219-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:42:91-217
+220            android:theme="@style/com.applovin.creative.CreativeDebuggerActivity.Theme" /> <!-- Services -->
+220-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:42:218-293
+221        <service
+221-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:44:5-139
+222            android:name="com.applovin.impl.adview.activity.FullscreenAdService"
+222-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:44:14-82
+223            android:exported="false"
+223-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:44:83-107
+224            android:stopWithTask="false" />
+224-->[:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:44:108-136
+225
+226        <meta-data
+226-->[:com.google.android.gms.play-services-basement-18.4.0:] C:\Users\Rahul\.gradle\caches\transforms-3\8c3c6a0d62da7e1fb56c7c2f2890bb61\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+227            android:name="com.google.android.gms.version"
+227-->[:com.google.android.gms.play-services-basement-18.4.0:] C:\Users\Rahul\.gradle\caches\transforms-3\8c3c6a0d62da7e1fb56c7c2f2890bb61\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+228            android:value="@integer/google_play_services_version" />
+228-->[:com.google.android.gms.play-services-basement-18.4.0:] C:\Users\Rahul\.gradle\caches\transforms-3\8c3c6a0d62da7e1fb56c7c2f2890bb61\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+229    </application>
+230
+231</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="applovin_agree_message">Please press \"Continue\" if you choose to start using our app.</string>
+    <string name="applovin_alt_privacy_policy_text"/>
+    <string name="applovin_continue_button_text">Continue</string>
+    <string name="applovin_pp_and_tos_title">To use %s you must agree to our Terms \u0026 Conditions and affirm you have reviewed our Privacy Policy</string>
+    <string name="applovin_pp_title">To use %s you must affirm that you have reviewed and acknowledged our Privacy Policy.</string>
+    <string name="applovin_privacy_policy_text">Privacy Policy</string>
+    <string name="applovin_terms_of_service_text">Terms \u0026 Conditions</string>
+    <string name="applovin_terms_of_use_text">Terms of Use</string>
+</resources>

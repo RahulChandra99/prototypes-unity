@@ -1,0 +1,2 @@
+com/ironsource/unity/BuildConfig.java
+ com.ironsource.unity.BuildConfig

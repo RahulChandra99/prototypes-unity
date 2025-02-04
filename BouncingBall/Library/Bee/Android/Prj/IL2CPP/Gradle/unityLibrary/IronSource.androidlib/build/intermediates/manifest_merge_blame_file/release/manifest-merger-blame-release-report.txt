@@ -1,0 +1,28 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ironsource.unity" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="1"
+6-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml
+7        android:targetSdkVersion="9" />
+7-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml:3:3-65
+9-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml:3:20-62
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml:4:3-77
+10-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml:4:20-74
+11
+12    <application>
+12-->D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\IronSource.androidlib\AndroidManifest.xml:5:3-11:17
+13
+14        <!-- AdMob -->
+15        <!-- As Requiered By Admob please add your App ID -->
+16        <!-- <meta-data -->
+17        <!-- android:name="com.google.android.gms.ads.APPLICATION_ID" -->
+18        <!-- android:value="YOUR_ADMOB_APP_ID"/> -->
+19    </application>
+20
+21</manifest>

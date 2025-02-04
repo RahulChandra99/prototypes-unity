@@ -1,0 +1,564 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+MERGED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-74:12
+MERGED from [:com.google.android.gms.play-services-base-17.6.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2a43a7db229fb22dc10f0f4b42ff6e08\transformed\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:17:1-29:12
+MERGED from [:androidx.lifecycle.lifecycle-livedata-2.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\e5941978af070df67b82caab582678f5\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.lifecycle.lifecycle-runtime-2.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\93795cb6975ecff29edb58ff97a87e08\transformed\androidx.lifecycle.lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.google.android.gms.play-services-tasks-17.2.1:] C:\Users\Rahul\.gradle\caches\transforms-3\295719eb5b67847ac9b577186cd96112\transformed\com.google.android.gms.play-services-tasks-17.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [:com.google.android.gms.play-services-appset-16.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\3d72e8e36f5fc406dd6253100cfd0dc0\transformed\jetified-play-services-appset-16.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:2:1-16:12
+MERGED from [:androidx.fragment.fragment-1.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\8f780b6c2a5798401c018378a4d1d0e4\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [:androidx.browser.browser-1.4.0:] C:\Users\Rahul\.gradle\caches\transforms-3\207aef4d473f8a8970d2f8ac46fdab1a\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [:androidx.loader.loader-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\a7e20b262dd26848f60097e923f1cdbd\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.versionedparcelable.versionedparcelable-1.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2e9288f06c541bb014b401251068c8e4\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:2:1-46:12
+MERGED from [:androidx.savedstate.savedstate-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\c9669c5919d1fb7380995c9c50b225af\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [:androidx.interpolator.interpolator-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f8d8d84912234a5133da1f54718c30b4\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.core.core-1.2.0:] C:\Users\Rahul\.gradle\caches\transforms-3\c0477e72a261519b5c339d3abedf4599\transformed\androidx.core.core-1.2.0\AndroidManifest.xml:17:1-26:12
+MERGED from [:com.ironsource.adapters.applovinadapter-4.3.48:] C:\Users\Rahul\.gradle\caches\transforms-3\83189be40c7e3d94d9bc97313c6c9d49\transformed\jetified-applovinadapter-4.3.48\AndroidManifest.xml:2:1-7:12
+MERGED from [:com.google.android.gms.play-services-ads-identifier-18.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\96595a4bca19e3305e912630947701a3\transformed\jetified-play-services-ads-identifier-18.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [:androidx.customview.customview-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\dd47b85253e9aee20ae7777af58dbc66\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.activity.activity-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\0af3754ffeb34635257af6b3c7b9e0ea\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [:androidx.lifecycle.lifecycle-livedata-core-2.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\fa093181d7ebb6451884506dcf233740\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.arch.core.core-runtime-2.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\9ffe4ded92df3e664d11613a4f37ed6c\transformed\androidx.arch.core.core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.google.android.gms.play-services-basement-18.4.0:] C:\Users\Rahul\.gradle\caches\transforms-3\8c3c6a0d62da7e1fb56c7c2f2890bb61\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [:androidx.lifecycle.lifecycle-viewmodel-2.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\493f41cc98209dc523110c1e100b76ec\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.viewpager.viewpager-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\4ef60489fa2554f6e9507c73450a1267\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:unityLibrary:IronSource.androidlib] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\IronSource.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+	package
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:70-129
+		INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+		INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:130-176
+	android:versionCode
+		INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+		INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:177-217
+supports-screens
+ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+	android:largeScreens
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+	android:smallScreens
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+	android:normalScreens
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+	android:xlargeScreens
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+	android:anyDensity
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+application
+ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+MERGED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:5-72:19
+MERGED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:5-72:19
+MERGED from [:com.google.android.gms.play-services-base-17.6.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2a43a7db229fb22dc10f0f4b42ff6e08\transformed\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:22:5-27:19
+MERGED from [:com.google.android.gms.play-services-base-17.6.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2a43a7db229fb22dc10f0f4b42ff6e08\transformed\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:22:5-27:19
+MERGED from [:com.google.android.gms.play-services-tasks-17.2.1:] C:\Users\Rahul\.gradle\caches\transforms-3\295719eb5b67847ac9b577186cd96112\transformed\com.google.android.gms.play-services-tasks-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [:com.google.android.gms.play-services-tasks-17.2.1:] C:\Users\Rahul\.gradle\caches\transforms-3\295719eb5b67847ac9b577186cd96112\transformed\com.google.android.gms.play-services-tasks-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [:com.google.android.gms.play-services-appset-16.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\3d72e8e36f5fc406dd6253100cfd0dc0\transformed\jetified-play-services-appset-16.0.0\AndroidManifest.xml:7:5-20
+MERGED from [:com.google.android.gms.play-services-appset-16.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\3d72e8e36f5fc406dd6253100cfd0dc0\transformed\jetified-play-services-appset-16.0.0\AndroidManifest.xml:7:5-20
+MERGED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:7:3-15:17
+MERGED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:7:3-15:17
+MERGED from [:androidx.versionedparcelable.versionedparcelable-1.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2e9288f06c541bb014b401251068c8e4\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [:androidx.versionedparcelable.versionedparcelable-1.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2e9288f06c541bb014b401251068c8e4\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:18:3-45:17
+MERGED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:18:3-45:17
+MERGED from [:androidx.core.core-1.2.0:] C:\Users\Rahul\.gradle\caches\transforms-3\c0477e72a261519b5c339d3abedf4599\transformed\androidx.core.core-1.2.0\AndroidManifest.xml:24:5-89
+MERGED from [:androidx.core.core-1.2.0:] C:\Users\Rahul\.gradle\caches\transforms-3\c0477e72a261519b5c339d3abedf4599\transformed\androidx.core.core-1.2.0\AndroidManifest.xml:24:5-89
+MERGED from [:com.google.android.gms.play-services-ads-identifier-18.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\96595a4bca19e3305e912630947701a3\transformed\jetified-play-services-ads-identifier-18.1.0\AndroidManifest.xml:9:5-20
+MERGED from [:com.google.android.gms.play-services-ads-identifier-18.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\96595a4bca19e3305e912630947701a3\transformed\jetified-play-services-ads-identifier-18.1.0\AndroidManifest.xml:9:5-20
+MERGED from [:com.google.android.gms.play-services-basement-18.4.0:] C:\Users\Rahul\.gradle\caches\transforms-3\8c3c6a0d62da7e1fb56c7c2f2890bb61\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [:com.google.android.gms.play-services-basement-18.4.0:] C:\Users\Rahul\.gradle\caches\transforms-3\8c3c6a0d62da7e1fb56c7c2f2890bb61\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [:unityLibrary:IronSource.androidlib] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\IronSource.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-19:19
+MERGED from [:unityLibrary:IronSource.androidlib] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\IronSource.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-19:19
+	android:extractNativeLibs
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:18-50
+	android:appComponentFactory
+		ADDED from [:androidx.core.core-1.2.0:] C:\Users\Rahul\.gradle\caches\transforms-3\c0477e72a261519b5c339d3abedf4599\transformed\androidx.core.core-1.2.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+	android:icon
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+uses-sdk
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+MERGED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:8:5-10:41
+MERGED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:8:5-10:41
+MERGED from [:com.google.android.gms.play-services-base-17.6.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2a43a7db229fb22dc10f0f4b42ff6e08\transformed\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-base-17.6.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2a43a7db229fb22dc10f0f4b42ff6e08\transformed\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.lifecycle.lifecycle-livedata-2.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\e5941978af070df67b82caab582678f5\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.lifecycle.lifecycle-livedata-2.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\e5941978af070df67b82caab582678f5\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.lifecycle.lifecycle-runtime-2.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\93795cb6975ecff29edb58ff97a87e08\transformed\androidx.lifecycle.lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.lifecycle.lifecycle-runtime-2.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\93795cb6975ecff29edb58ff97a87e08\transformed\androidx.lifecycle.lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-tasks-17.2.1:] C:\Users\Rahul\.gradle\caches\transforms-3\295719eb5b67847ac9b577186cd96112\transformed\com.google.android.gms.play-services-tasks-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-tasks-17.2.1:] C:\Users\Rahul\.gradle\caches\transforms-3\295719eb5b67847ac9b577186cd96112\transformed\com.google.android.gms.play-services-tasks-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-appset-16.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\3d72e8e36f5fc406dd6253100cfd0dc0\transformed\jetified-play-services-appset-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-appset-16.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\3d72e8e36f5fc406dd6253100cfd0dc0\transformed\jetified-play-services-appset-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:3:3-42
+MERGED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:3:3-42
+MERGED from [:androidx.fragment.fragment-1.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\8f780b6c2a5798401c018378a4d1d0e4\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [:androidx.fragment.fragment-1.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\8f780b6c2a5798401c018378a4d1d0e4\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [:androidx.browser.browser-1.4.0:] C:\Users\Rahul\.gradle\caches\transforms-3\207aef4d473f8a8970d2f8ac46fdab1a\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [:androidx.browser.browser-1.4.0:] C:\Users\Rahul\.gradle\caches\transforms-3\207aef4d473f8a8970d2f8ac46fdab1a\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [:androidx.loader.loader-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\a7e20b262dd26848f60097e923f1cdbd\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.loader.loader-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\a7e20b262dd26848f60097e923f1cdbd\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.versionedparcelable.versionedparcelable-1.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2e9288f06c541bb014b401251068c8e4\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [:androidx.versionedparcelable.versionedparcelable-1.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2e9288f06c541bb014b401251068c8e4\transformed\androidx.versionedparcelable.versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:3:3-42
+MERGED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:3:3-42
+MERGED from [:androidx.savedstate.savedstate-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\c9669c5919d1fb7380995c9c50b225af\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [:androidx.savedstate.savedstate-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\c9669c5919d1fb7380995c9c50b225af\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [:androidx.interpolator.interpolator-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f8d8d84912234a5133da1f54718c30b4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.interpolator.interpolator-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f8d8d84912234a5133da1f54718c30b4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.core.core-1.2.0:] C:\Users\Rahul\.gradle\caches\transforms-3\c0477e72a261519b5c339d3abedf4599\transformed\androidx.core.core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [:androidx.core.core-1.2.0:] C:\Users\Rahul\.gradle\caches\transforms-3\c0477e72a261519b5c339d3abedf4599\transformed\androidx.core.core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [:com.ironsource.adapters.applovinadapter-4.3.48:] C:\Users\Rahul\.gradle\caches\transforms-3\83189be40c7e3d94d9bc97313c6c9d49\transformed\jetified-applovinadapter-4.3.48\AndroidManifest.xml:5:5-44
+MERGED from [:com.ironsource.adapters.applovinadapter-4.3.48:] C:\Users\Rahul\.gradle\caches\transforms-3\83189be40c7e3d94d9bc97313c6c9d49\transformed\jetified-applovinadapter-4.3.48\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-ads-identifier-18.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\96595a4bca19e3305e912630947701a3\transformed\jetified-play-services-ads-identifier-18.1.0\AndroidManifest.xml:4:5-44
+MERGED from [:com.google.android.gms.play-services-ads-identifier-18.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\96595a4bca19e3305e912630947701a3\transformed\jetified-play-services-ads-identifier-18.1.0\AndroidManifest.xml:4:5-44
+MERGED from [:androidx.customview.customview-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\dd47b85253e9aee20ae7777af58dbc66\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.customview.customview-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\dd47b85253e9aee20ae7777af58dbc66\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.activity.activity-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\0af3754ffeb34635257af6b3c7b9e0ea\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [:androidx.activity.activity-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\0af3754ffeb34635257af6b3c7b9e0ea\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [:androidx.lifecycle.lifecycle-livedata-core-2.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\fa093181d7ebb6451884506dcf233740\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.lifecycle.lifecycle-livedata-core-2.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\fa093181d7ebb6451884506dcf233740\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.arch.core.core-runtime-2.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\9ffe4ded92df3e664d11613a4f37ed6c\transformed\androidx.arch.core.core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.arch.core.core-runtime-2.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\9ffe4ded92df3e664d11613a4f37ed6c\transformed\androidx.arch.core.core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-basement-18.4.0:] C:\Users\Rahul\.gradle\caches\transforms-3\8c3c6a0d62da7e1fb56c7c2f2890bb61\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [:com.google.android.gms.play-services-basement-18.4.0:] C:\Users\Rahul\.gradle\caches\transforms-3\8c3c6a0d62da7e1fb56c7c2f2890bb61\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [:androidx.lifecycle.lifecycle-viewmodel-2.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\493f41cc98209dc523110c1e100b76ec\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.lifecycle.lifecycle-viewmodel-2.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\493f41cc98209dc523110c1e100b76ec\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.viewpager.viewpager-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\4ef60489fa2554f6e9507c73450a1267\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.viewpager.viewpager-1.0.0:] C:\Users\Rahul\.gradle\caches\transforms-3\4ef60489fa2554f6e9507c73450a1267\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:unityLibrary:IronSource.androidlib] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\IronSource.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:40
+MERGED from [:unityLibrary:IronSource.androidlib] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\IronSource.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:40
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+uses-feature#0x00030000
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+	android:glEsVersion
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+uses-feature#android.hardware.vulkan.version
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-55
+uses-permission#android.permission.INTERNET
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:5-67
+MERGED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:4:3-65
+MERGED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:4:3-65
+MERGED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:12:3-65
+MERGED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:12:3-65
+MERGED from [:unityLibrary:IronSource.androidlib] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\IronSource.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-67
+MERGED from [:unityLibrary:IronSource.androidlib] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\IronSource.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-66
+	android:name
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:22-63
+uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:5-28:36
+	android:required
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-72
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:9-52:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-49
+	android:launchMode
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-44
+	android:hardwareAccelerated
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-48
+	android:exported
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-36
+	android:resizeableActivity
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-47
+	android:configChanges
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-194
+	android:theme
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-54
+	android:name
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-44:29
+action#android.intent.action.MAIN
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:27-74
+meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:13-48:40
+	android:value
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:17-37
+	android:name
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-57
+meta-data#android.notch_support
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:13-51:40
+	android:value
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:17-37
+	android:name
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:17-53
+meta-data#unity.splash-mode
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:9-56:33
+	android:value
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:13-30
+	android:name
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-45
+meta-data#unity.splash-enable
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:9-59:36
+	android:value
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:13-33
+	android:name
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-47
+meta-data#unity.launch-fullscreen
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:9-62:36
+	android:value
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:13-33
+	android:name
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-51
+meta-data#unity.allow-resizable-window
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:9-65:37
+	android:value
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-34
+	android:name
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-56
+meta-data#notch.config
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:9-68:50
+	android:value
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-47
+	android:name
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-40
+meta-data#unity.auto-report-fully-drawn
+ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:9-71:36
+	android:value
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:13-33
+	android:name
+		ADDED from [:unityLibrary] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-57
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [:com.google.android.gms.play-services-base-17.6.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2a43a7db229fb22dc10f0f4b42ff6e08\transformed\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [:com.google.android.gms.play-services-base-17.6.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2a43a7db229fb22dc10f0f4b42ff6e08\transformed\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [:com.google.android.gms.play-services-base-17.6.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2a43a7db229fb22dc10f0f4b42ff6e08\transformed\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [:com.google.android.gms.play-services-base-17.6.0:] C:\Users\Rahul\.gradle\caches\transforms-3\2a43a7db229fb22dc10f0f4b42ff6e08\transformed\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:5:3-77
+MERGED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:13:3-77
+MERGED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:13:3-77
+MERGED from [:unityLibrary:IronSource.androidlib] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\IronSource.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:10:5-79
+MERGED from [:unityLibrary:IronSource.androidlib] D:\GameDevelopment\Unity\casual-games-unity\BouncingBall\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\IronSource.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:5:20-74
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:6:3-86
+	android:name
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:6:20-83
+activity#com.ironsource.sdk.controller.ControllerActivity
+ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:8:5-163
+	android:hardwareAccelerated
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:8:126-160
+	android:configChanges
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:8:79-125
+	android:name
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:8:15-78
+activity#com.ironsource.sdk.controller.InterstitialActivity
+ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:9:5-214
+	android:hardwareAccelerated
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:9:128-162
+	android:configChanges
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:9:81-127
+	android:theme
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:9:163-211
+	android:name
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:9:15-80
+activity#com.ironsource.sdk.controller.OpenUrlActivity
+ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:10:5-209
+	android:hardwareAccelerated
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:10:123-157
+	android:configChanges
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:10:76-122
+	android:theme
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:10:158-206
+	android:name
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:10:15-75
+activity#com.ironsource.mediationsdk.testSuite.TestSuiteActivity
+ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:11:5-13:16
+	android:hardwareAccelerated
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:11:158-192
+	android:exported
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:11:133-157
+	android:configChanges
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:11:86-132
+	android:theme
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:11:193-240
+	android:name
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:11:15-85
+meta-data#android.webkit.WebView.EnableSafeBrowsing
+ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:12:7-98
+	android:value
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:12:75-95
+	android:name
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:12:18-74
+provider#com.ironsource.lifecycle.IronsourceLifecycleProvider
+ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:14:5-210
+	android:authorities
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:14:83-182
+	android:exported
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:14:183-207
+	android:name
+		ADDED from [:com.unity3d.ads-mediation.mediation-sdk-8.5.0:] C:\Users\Rahul\.gradle\caches\transforms-3\f714ef7e88f516f30dd8181ae035fa24\transformed\com.unity3d.ads-mediation.mediation-sdk-8.5.0\AndroidManifest.xml:14:15-82
+queries
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:4:3-11:13
+intent
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:5:5-7:14
+action#com.applovin.am.intent.action.APPHUB_SERVICE
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:6:7-77
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:6:15-74
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:14:3-77
+MERGED from [:com.google.android.gms.play-services-ads-identifier-18.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\96595a4bca19e3305e912630947701a3\transformed\jetified-play-services-ads-identifier-18.1.0\AndroidManifest.xml:7:5-79
+MERGED from [:com.google.android.gms.play-services-ads-identifier-18.1.0:] C:\Users\Rahul\.gradle\caches\transforms-3\96595a4bca19e3305e912630947701a3\transformed\jetified-play-services-ads-identifier-18.1.0\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:14:20-74
+uses-permission#com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:15:3-94
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:15:20-91
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:17:3-74
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:17:20-71
+provider#com.applovin.sdk.AppLovinInitProvider
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:19:5-212
+	android:authorities
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:19:68-160
+	android:exported
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:19:161-185
+	android:initOrder
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:19:186-209
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:19:15-67
+activity#com.applovin.adview.AppLovinFullscreenActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:21:5-391
+	android:screenOrientation
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:21:295-329
+	android:launchMode
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:21:264-294
+	android:hardwareAccelerated
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:21:229-263
+	android:exported
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:21:204-228
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:21:77-203
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:21:330-388
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:21:15-76
+activity#com.applovin.sdk.AppLovinWebViewActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:22:5-200
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:22:71-197
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:22:15-70
+activity#com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:24:5-275
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:24:87-213
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:24:214-272
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:24:15-86
+activity#com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:25:5-277
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:25:89-215
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:25:216-274
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:25:15-88
+activity#com.applovin.mediation.MaxDebuggerActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:27:5-274
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:27:73-199
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:27:200-271
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:27:15-72
+activity#com.applovin.mediation.MaxDebuggerDetailActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:28:5-280
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:28:79-205
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:28:206-277
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:28:15-78
+activity#com.applovin.mediation.MaxDebuggerMultiAdActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:29:5-281
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:29:80-206
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:29:207-278
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:29:15-79
+activity#com.applovin.mediation.MaxDebuggerAdUnitsListActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:30:5-285
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:30:84-210
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:30:211-282
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:30:15-83
+activity#com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:31:5-294
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:31:93-219
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:31:220-291
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:31:15-92
+activity#com.applovin.mediation.MaxDebuggerAdUnitDetailActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:32:5-286
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:32:85-211
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:32:212-283
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:32:15-84
+activity#com.applovin.mediation.MaxDebuggerCmpNetworksListActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:33:5-289
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:33:88-214
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:33:215-286
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:33:15-87
+activity#com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:34:5-296
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:34:95-221
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:34:222-293
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:34:15-94
+activity#com.applovin.mediation.MaxDebuggerTcfInfoListActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:35:5-285
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:35:84-210
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:35:211-282
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:35:15-83
+activity#com.applovin.mediation.MaxDebuggerTcfStringActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:36:5-283
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:36:82-208
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:36:209-280
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:36:15-81
+activity#com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:37:5-289
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:37:88-214
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:37:215-286
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:37:15-87
+activity#com.applovin.mediation.MaxDebuggerTestModeNetworkActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:38:5-289
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:38:88-214
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:38:215-286
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:38:15-87
+activity#com.applovin.mediation.MaxDebuggerUnifiedFlowActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:39:5-285
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:39:84-210
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:39:211-282
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:39:15-83
+activity#com.applovin.mediation.MaxDebuggerWaterfallSegmentsActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:40:5-291
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:40:90-216
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:40:217-288
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:40:15-89
+activity#com.applovin.creative.MaxCreativeDebuggerActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:41:5-285
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:41:80-206
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:41:207-282
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:41:15-79
+activity#com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:42:5-296
+	android:configChanges
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:42:91-217
+	android:theme
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:42:218-293
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:42:15-90
+service#com.applovin.impl.adview.activity.FullscreenAdService
+ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:44:5-139
+	android:exported
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:44:83-107
+	android:stopWithTask
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:44:108-136
+	android:name
+		ADDED from [:com.applovin.applovin-sdk-13.0.1:] C:\Users\Rahul\.gradle\caches\transforms-3\e2860664965b74bd616510eebad3fd61\transformed\com.applovin.applovin-sdk-13.0.1\AndroidManifest.xml:44:14-82
+meta-data#com.google.android.gms.version
+ADDED from [:com.google.android.gms.play-services-basement-18.4.0:] C:\Users\Rahul\.gradle\caches\transforms-3\8c3c6a0d62da7e1fb56c7c2f2890bb61\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [:com.google.android.gms.play-services-basement-18.4.0:] C:\Users\Rahul\.gradle\caches\transforms-3\8c3c6a0d62da7e1fb56c7c2f2890bb61\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [:com.google.android.gms.play-services-basement-18.4.0:] C:\Users\Rahul\.gradle\caches\transforms-3\8c3c6a0d62da7e1fb56c7c2f2890bb61\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
